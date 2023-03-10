@@ -1,5 +1,7 @@
 ## assembly
 
+### Potential outgroup: Berwaldia schaefernai
+
 ### contigs.cov50.500.GC33.noSMR.fasta
 
     ***** Results: *****
