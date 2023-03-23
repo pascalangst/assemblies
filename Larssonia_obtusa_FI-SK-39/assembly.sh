@@ -93,3 +93,46 @@ seqtk subseq contigs.cov50.500.GC33.fasta no-smr17.names > contigs.cov50.500.GC3
 
 # check for other contaminants
 ~/PhD/data/trimmed_reads/spring_2017/SK-44_spr2017.megahit_asm/spades/Misc/runTaxonomizedBLAST.pl -t 8 -query contigs.cov50.500.GC33.noSMR.fasta
+
+# checking kmer distribution:
+bwa-mem2 index contigs.cov50.500.GC33.noSMR.fasta
+bwa-mem2 mem -t 12 -M contigs.cov50.500.GC33.noSMR.fasta ../BSSE_QGF_228026_H7LVWDSX5_3_SK_39_ACACATTC_CTGTCGGT_S56_L003_R1_001_MM_1.fastq.gz ../BSSE_QGF_228026_H7LVWDSX5_3_SK_39_ACACATTC_CTGTCGGT_S56_L003_R2_001_MM_1.fastq.gz > contigs.cov50.500.GC33.noSMR.self.Illumina.sam
+samtools flagstat contigs.cov50.500.GC33.noSMR.self.Illumina.sam > contigs.cov50.500.GC33.noSMR.self.Illumina.sam.flagstat.log
+
+
+samtools view -Sb contigs.cov50.500.GC33.noSMR.self.Illumina.sam | samtools sort -o - | tee contigs.cov50.500.GC33.noSMR.self.Illumina.bam | bedtools genomecov -ibam - > contigs.cov50.500.GC33.noSMR.self.Illumina.bam.txt
+samtools depth -a contigs.cov50.500.GC33.noSMR.self.Illumina.bam |  awk '{sum+=$3} END { print "Average of  = ",sum/NR}';
+
+
+# checking kmer distribution
+# make a fastq file out of a BAM
+samtools view -b -F 4 contigs.cov50.500.GC33.noSMR.self.Illumina.bam > contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.bam
+bedtools bamtofastq -i contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.bam -fq contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.fq
+
+# create input for the kmer histograms
+kmercountexact.sh in=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.fq khist=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.hist.txt peaks=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.peaks.txt t=12
+
+
+picard AddOrReplaceReadGroups \
+    I=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.bam \
+    O=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.rg.bam \
+    RGPL=Illumina \
+    RGLB=Lane1 \
+    RGSM=Larssonia \
+    RGPU=TTAGGC
+
+picard MarkDuplicates \
+    INPUT=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.rg.bam OUTPUT=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.md.bam METRICS_FILE=contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.rg.bam.txt -Xmx100G -XX:ParallelGCThreads=3
+    
+samtools index contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.md.bam
+
+picard CreateSequenceDictionary R=contigs.cov50.500.GC33.noSMR.fasta O=contigs.cov50.500.GC33.noSMR.dict
+samtools faidx contigs.cov50.500.GC33.noSMR.fasta
+
+
+gatk3 \
+    -T HaplotypeCaller \
+    -R contigs.cov50.500.GC33.noSMR.fasta \
+    -I contigs.cov50.500.GC33.noSMR.self.Illumina.mapped.md.bam \
+    -o contigs.cov50.500.GC33.noSMR.self.Illumina.g.vcf.gz \
+    --emitRefConfidence GVCF

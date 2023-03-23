@@ -49,6 +49,86 @@ purge_haplotigs  purge  -g curated.nomagna.fasta  -c coverage_stats.csv -t 10 -o
 
 
 
+# checking kmer distribution
+
+# long reads:
+minimap2 -ax map-ont -t 8 curated2.fasta BE-OM-3_depl_pass.fastq > curated2.self.ont.sam
+samtools flagstat curated2.self.ont.sam > curated2.self.ont.sam.flagstat.log
+samtools view -Sb curated2.self.ont.sam | samtools sort -o - | tee curated2.self.ont.bam | bedtools genomecov -ibam - > curated2.self.ont.bam.txt
+samtools depth -a curated2.self.ont.bam |  awk '{sum+=$3} END { print "Average of  = ",sum/NR}' > curated2.self.ont.bam.cov
+samtools view -b -F 4 curated2.self.ont.bam > curated2.self.ont.mapped.bam
+bedtools bamtofastq -i curated2.self.ont.mapped.bam -fq curated2.self.ont.mapped.fq
+
+# create input for the kmer histograms
+conda activate medaka
+jellyfish count -C -m 21 -s 1000000000 -t 10 curated2.self.ont.mapped.fq -o curated2.self.ont.mapped.jf
+jellyfish histo -t 10 curated2.self.ont.mapped.jf > curated2.self.ont.mapped.histo
+genomescope2 -i curated2.self.ont.mapped.histo -o . -p 2 -k 21 -o diplo
+genomescope2 -i curated2.self.ont.mapped.histo -o . -p 4 -k 21 -o tetra
+
+# short reads:
+bwa-mem2 index curated2.fasta
+bwa-mem2 mem -t 12 -M curated2.fasta ../BSSE_QGF_227942_HM7Y3DSX5_2_BE_OM_3_Micro_2_2b_AGCATGGA_AGCGCTAA_S16_L002_R1_001_MM_1.fastq.gz ../BSSE_QGF_227942_HM7Y3DSX5_2_BE_OM_3_Micro_2_2b_AGCATGGA_AGCGCTAA_S16_L002_R2_001_MM_1.fastq.gz > curated2.self.Illumina.sam
+samtools flagstat curated2.self.Illumina.sam > curated2.self.Illumina.sam.flagstat.log
+#190339675 + 0 in total (QC-passed reads + QC-failed reads)
+#345971 + 0 secondary
+#0 + 0 supplementary
+#0 + 0 duplicates
+#43191025 + 0 mapped (22.69% : N/A)
+#189993704 + 0 paired in sequencing
+#94996852 + 0 read1
+#94996852 + 0 read2
+#40780028 + 0 properly paired (21.46% : N/A)
+#42182262 + 0 with itself and mate mapped
+#662792 + 0 singletons (0.35% : N/A)
+#1232314 + 0 with mate mapped to a different chr
+#592052 + 0 with mate mapped to a different chr (mapQ>=5)
+
+samtools view -Sb curated2.self.Illumina.sam | samtools sort -o - | tee curated2.self.Illumina.bam | bedtools genomecov -ibam - > curated2.self.Illumina.bam.txt
+samtools depth -a curated2.self.Illumina.bam |  awk '{sum+=$3} END { print "Average of  = ",sum/NR}';
+#Average of = 619.332
+
+
+# checking kmer distribution
+# make a fastq file out of a BAM
+samtools view -b -F 4 curated2.self.Illumina.bam > curated2.self.Illumina.mapped.bam
+bedtools bamtofastq -i curated2.self.Illumina.mapped.bam -fq curated2.self.Illumina.mapped.fq
+
+# create input for the kmer histograms
+kmercountexact.sh in=curated2.self.Illumina.mapped.fq khist=curated2.self.Illumina.mapped.hist.txt peaks=curated2.self.Illumina.mapped.peaks.txt t=12
+
+
+
+
+
+
+
+picard AddOrReplaceReadGroups \
+    I=curated2.self.Illumina.mapped.bam \
+    O=curated2.self.Illumina.mapped.rg.bam \
+    RGPL=Illumina \
+    RGLB=Lane1 \
+    RGSM=BE-OM-3 \
+    RGPU=TTAGGC
+
+picard MarkDuplicates \
+    INPUT=curated2.self.Illumina.mapped.rg.bam OUTPUT=curated2.self.Illumina.mapped.md.bam METRICS_FILE=curated2.self.Illumina.mapped.rg.bam.txt -Xmx100G -XX:ParallelGCThreads=3
+    
+samtools index curated2.self.Illumina.mapped.md.bam
+
+picard CreateSequenceDictionary R=curated2.fasta O=curated2.dict
+samtools faidx curated2.fasta
+
+
+gatk3 \
+    -T HaplotypeCaller \
+    -R curated2.fasta \
+    -I curated2.self.Illumina.mapped.md.bam \
+    -o curated2.self.Illumina.g.vcf.gz \
+    --emitRefConfidence GVCF
+    
+    
+    
 
 
 
