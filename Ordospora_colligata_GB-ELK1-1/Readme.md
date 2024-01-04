@@ -1,6 +1,6 @@
 ## assembly
 
-### name
+### Ordospora colligata
 
     ***** Results: *****
 
@@ -12,25 +12,34 @@
     6    Missing BUSCOs (M)               
     600    Total BUSCO groups searched
 
-Assembly                    GB_ELK1_1.busco.blast.self
-# contigs (>= 0 bp)         9                         
-# contigs (>= 1000 bp)      9                         
-# contigs (>= 5000 bp)      9                         
-# contigs (>= 10000 bp)     9                         
-# contigs (>= 25000 bp)     9                         
-# contigs (>= 50000 bp)     9                         
-Total length (>= 0 bp)      3229452                   
-Total length (>= 1000 bp)   3229452                   
-Total length (>= 5000 bp)   3229452                   
-Total length (>= 10000 bp)  3229452                   
-Total length (>= 25000 bp)  3229452                   
-Total length (>= 50000 bp)  3229452                   
-# contigs                   9                         
-Largest contig              404995                    
-Total length                3229452                   
-GC (%)                      37.49                     
-N50                         375813                    
-N75                         322839                    
-L50                         5                         
-L75                         7                         
-# N's per 100 kbp           0.00     
+    Assembly                    GB_ELK1_1.busco.blast.self
+    # contigs (>= 0 bp)         9                         
+    # contigs (>= 50000 bp)     9                         
+    Total length (>= 0 bp)      3229452                   
+    Total length (>= 1000 bp)   3229452                   
+    Total length (>= 5000 bp)   3229452                   
+    Total length (>= 10000 bp)  3229452                   
+    Total length (>= 25000 bp)  3229452                   
+    Total length (>= 50000 bp)  3229452                   
+    # contigs                   9                         
+    Largest contig              404995                    
+    Total length                3229452                   
+    GC (%)                      37.49                     
+    N50                         375813                    
+    N75                         322839                    
+    L50                         5                         
+    L75                         7                         
+    # N's per 100 kbp           0.00     
+
+
+## alignement to short read assembly (d-genies)
+
+![dotplot](map_GB-ELK1-1.busco.blast.self_to_GCF_000803265.1_ASM80326v1_genomic.png)
+
+## alignement to E. cuniculi (d-genies)
+
+![dotplot](map_GB-ELK1-1.busco.blast.self_to_GCA_027571585.1_ASM2757158v1_genomic.png)
+
+## methylation pattern (pb-CpG-tools)
+
+![methylation](igv-app.svg)
