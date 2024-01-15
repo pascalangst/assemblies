@@ -43,3 +43,23 @@
 ## methylation pattern (pb-CpG-tools)
 
 ![methylation](igv-app.svg)
+
+## methylation pattern (ccsmeth)
+
+-> drop in AT and increased methylation where ribosomal subunit genes
+
+![methylation](analysis/graphs/ptg000003l.png)  
+![methylation](analysis/graphs/ptg000004l.png)  
+![methylation](analysis/graphs/ptg000006l.png)  
+![methylation](analysis/graphs/ptg000012l.png)  
+![methylation](analysis/graphs/ptg000015l.png)  
+![methylation](analysis/graphs/ptg000017l.png)  
+![methylation](analysis/graphs/ptg000022l.png)  
+![methylation](analysis/graphs/ptg000025l.png)  
+![methylation](analysis/graphs/ptg000033l.png)  
+
+
+
+
+
+
