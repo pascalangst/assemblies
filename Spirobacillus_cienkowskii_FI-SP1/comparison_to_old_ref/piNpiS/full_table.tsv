@@ -1,0 +1,223 @@
+# BUSCO version is: 5.5.0 
+# The lineage dataset is: proteobacteria_odb10 (Creation date: 2021-02-23, number of genomes: 2337, number of BUSCOs: 219)
+# Busco id	Status	Sequence	Score	Length	OrthoDB url	Description
+2756at1224	Complete	Spiro2_09775	2093.2	1359	https://www.orthodb.org/v10?query=2756at1224	DNA-directed RNA polymerase subunit beta'
+3077at1224	Complete	Spiro2_09780	2043.5	1347	https://www.orthodb.org/v10?query=3077at1224	DNA-directed RNA polymerase subunit beta
+10088at1224	Missing
+13856at1224	Missing
+21720at1224	Complete	Spiro2_00190	759.4	613	https://www.orthodb.org/v10?query=21720at1224	glutamine--fructose-6-phosphate aminotransferase
+22904at1224	Complete	Spiro2_10330	179.6	411	https://www.orthodb.org/v10?query=22904at1224	phenylalanine--tRNA ligase subunit beta
+26806at1224	Complete	Spiro2_08375	867.2	663	https://www.orthodb.org/v10?query=26806at1224	Protein translocase subunit SecA
+28111at1224	Complete	Spiro2_04230	373.4	453	https://www.orthodb.org/v10?query=28111at1224	DNA mismatch repair protein MutS
+34956at1224	Complete	Spiro2_03670	532.1	461	https://www.orthodb.org/v10?query=34956at1224	threonine--tRNA ligase
+39905at1224	Complete	Spiro2_00065	331.3	249	https://www.orthodb.org/v10?query=39905at1224	acetyl-CoA carboxylase carboxyltransferase subunit alpha
+44708at1224	Complete	Spiro2_05600	684.4	484	https://www.orthodb.org/v10?query=44708at1224	excinuclease ABC subunit B
+47742at1224	Complete	Spiro2_01080	701.7	554	https://www.orthodb.org/v10?query=47742at1224	polyribonucleotide nucleotidyltransferase
+53783at1224	Missing
+71864at1224	Complete	Spiro2_07515	525.5	412	https://www.orthodb.org/v10?query=71864at1224	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG
+72371at1224	Missing
+72514at1224	Complete	Spiro2_06405	598.3	474	https://www.orthodb.org/v10?query=72514at1224	elongation factor 4
+77335at1224	Complete	Spiro2_09820	168.8	264	https://www.orthodb.org/v10?query=77335at1224	excinuclease ABC subunit C
+81573at1224	Missing
+92045at1224	Missing
+103748at1224	Complete	Spiro2_00670	178.8	302	https://www.orthodb.org/v10?query=103748at1224	glycine--tRNA ligase subunit beta
+106986at1224	Complete	Spiro2_00250	629.9	384	https://www.orthodb.org/v10?query=106986at1224	ATP synthase subunit beta
+114631at1224	Complete	Spiro2_06475	620.3	570	https://www.orthodb.org/v10?query=114631at1224	30S ribosomal protein S1
+123705at1224	Missing
+138731at1224	Missing
+140067at1224	Complete	Spiro2_11800	245.6	553	https://www.orthodb.org/v10?query=140067at1224	outer membrane protein assembly factor BamA
+147492at1224	Complete	Spiro2_06860	564.6	413	https://www.orthodb.org/v10?query=147492at1224	CTP synthase
+147507at1224	Complete	Spiro2_02535	401.7	372	https://www.orthodb.org/v10?query=147507at1224	aspartate--tRNA ligase
+150670at1224	Complete	Spiro2_05580	467.3	312	https://www.orthodb.org/v10?query=150670at1224	ATP-dependent Clp protease ATP-binding subunit ClpX
+157276at1224	Complete	Spiro2_11990	464.6	389	https://www.orthodb.org/v10?query=157276at1224	GMP synthase 
+162923at1224	Complete	Spiro2_00655	298.1	250	https://www.orthodb.org/v10?query=162923at1224	methionine adenosyltransferase
+163936at1224	Complete	Spiro2_05380	139.0	286	https://www.orthodb.org/v10?query=163936at1224	arginine--tRNA ligase
+174514at1224	Complete	Spiro2_09590	527.8	315	https://www.orthodb.org/v10?query=174514at1224	transcription termination factor Rho
+176522at1224	Complete	Spiro2_11555	284.4	290	https://www.orthodb.org/v10?query=176522at1224	proline--tRNA ligase
+176828at1224	Complete	Spiro2_07865	165.0	231	https://www.orthodb.org/v10?query=176828at1224	argininosuccinate synthase
+184570at1224	Missing
+201453at1224	Complete	Spiro2_12485	179.7	269	https://www.orthodb.org/v10?query=201453at1224	cysteine--tRNA ligase
+214334at1224	Complete	Spiro2_12050	301.2	370	https://www.orthodb.org/v10?query=214334at1224	serine--tRNA ligase
+226666at1224	Complete	Spiro2_01890	227.0	221	https://www.orthodb.org/v10?query=226666at1224	GTPase Obg
+236393at1224	Complete	Spiro2_04330	248.6	320	https://www.orthodb.org/v10?query=236393at1224	single-stranded-DNA-specific exonuclease RecJ
+251427at1224	Complete	Spiro2_01520	150.9	193	https://www.orthodb.org/v10?query=251427at1224	tRNA N6-adenosine threonylcarbamoyltransferase
+259523at1224	Complete	Spiro2_08010	127.8	269	https://www.orthodb.org/v10?query=259523at1224	histidine--tRNA ligase
+267573at1224	Complete	Spiro2_02725	324.6	370	https://www.orthodb.org/v10?query=267573at1224	signal recognition particle protein
+269968at1224	Complete	Spiro2_07990	267.8	296	https://www.orthodb.org/v10?query=269968at1224	adenylosuccinate synthase
+277787at1224	Missing
+285976at1224	Complete	Spiro2_01115	51.1	160	https://www.orthodb.org/v10?query=285976at1224	organic solvent tolerance protein
+292399at1224	Missing
+295248at1224	Duplicated	Spiro2_03415	280.2	250	https://www.orthodb.org/v10?query=295248at1224	Queuine tRNA-ribosyltransferase
+295248at1224	Duplicated	Spiro2_12465	259.9	254	https://www.orthodb.org/v10?query=295248at1224	Queuine tRNA-ribosyltransferase
+298178at1224	Missing
+301769at1224	Complete	Spiro2_05385	278.7	298	https://www.orthodb.org/v10?query=301769at1224	DNA repair protein RadA
+302375at1224	Complete	Spiro2_11055	222.2	279	https://www.orthodb.org/v10?query=302375at1224	tyrosine--tRNA ligase
+308338at1224	Complete	Spiro2_12735	252.9	273	https://www.orthodb.org/v10?query=308338at1224	Chromosomal replication initiator protein DnaA
+319551at1224	Complete	Spiro2_11690	72.1	74	https://www.orthodb.org/v10?query=319551at1224	tRNA pseudouridine synthase B
+322787at1224	Complete	Spiro2_00665	291.9	214	https://www.orthodb.org/v10?query=322787at1224	glycine--tRNA ligase subunit alpha
+325769at1224	Complete	Spiro2_06900	322.9	248	https://www.orthodb.org/v10?query=325769at1224	Ribose-phosphate pyrophosphokinase
+326501at1224	Complete	Spiro2_08115	239.4	257	https://www.orthodb.org/v10?query=326501at1224	uroporphyrinogen decarboxylase
+329892at1224	Complete	Spiro2_10955	443.7	321	https://www.orthodb.org/v10?query=329892at1224	Enolase
+334124at1224	Complete	Spiro2_06200	353.0	246	https://www.orthodb.org/v10?query=334124at1224	Protein RecA
+336512at1224	Missing
+344903at1224	Complete	Spiro2_09670	292.8	304	https://www.orthodb.org/v10?query=344903at1224	Protein translocase subunit SecY
+345609at1224	Complete	Spiro2_08020	247.8	374	https://www.orthodb.org/v10?query=345609at1224	Zinc metalloprotease
+345998at1224	Complete	Spiro2_00275	141.2	257	https://www.orthodb.org/v10?query=345998at1224	cell division protein FtsA
+346313at1224	Fragmented	Spiro2_12220	166.1	268	https://www.orthodb.org/v10?query=346313at1224	DNA repair protein RecN
+349465at1224	Complete	Spiro2_05820	336.0	300	https://www.orthodb.org/v10?query=349465at1224	chorismate synthase
+350328at1224	Complete	Spiro2_03410	175.5	219	https://www.orthodb.org/v10?query=350328at1224	S-adenosylmethionine
+352459at1224	Complete	Spiro2_01870	65.1	120	https://www.orthodb.org/v10?query=352459at1224	DNA polymerase III subunit delta'
+356659at1224	Complete	Spiro2_09640	301.5	257	https://www.orthodb.org/v10?query=356659at1224	DNA-directed RNA polymerase subunit alpha
+363379at1224	Complete	Spiro2_05555	258.6	280	https://www.orthodb.org/v10?query=363379at1224	DNA mismatch repair protein MutL
+363445at1224	Complete	Spiro2_00270	203.7	212	https://www.orthodb.org/v10?query=363445at1224	cell division protein FtsZ
+363947at1224	Missing
+369164at1224	Fragmented	Spiro2_06965	69.7	99	https://www.orthodb.org/v10?query=369164at1224	diaminopimelate epimerase
+379874at1224	Missing
+400609at1224	Complete	Spiro2_08105	251.4	285	https://www.orthodb.org/v10?query=400609at1224	phosphoglycerate kinase
+406557at1224	Complete	Spiro2_00370	214.7	225	https://www.orthodb.org/v10?query=406557at1224	GTPase Era
+406611at1224	Complete	Spiro2_04670	289.3	269	https://www.orthodb.org/v10?query=406611at1224	phosphoribosylformylglycinamidine cyclo-ligase
+412887at1224	Complete	Spiro2_11710	396.4	456	https://www.orthodb.org/v10?query=412887at1224	Transcription termination/antitermination protein NusA
+421725at1224	Complete	Spiro2_09010	206.4	321	https://www.orthodb.org/v10?query=421725at1224	anthranilate phosphoribosyltransferase
+422803at1224	Complete	Spiro2_05605	64.1	129	https://www.orthodb.org/v10?query=422803at1224	tRNA pseudouridine synthase A
+429578at1224	Complete	Spiro2_00300	309.9	276	https://www.orthodb.org/v10?query=429578at1224	Phospho-N-acetylmuramoyl-pentapeptide-transferase
+433527at1224	Complete	Spiro2_01805	208.4	285	https://www.orthodb.org/v10?query=433527at1224	UDP-N-acetylglucosamine 1-carboxyvinyltransferase
+435648at1224	Complete	Spiro2_10470	105.6	116	https://www.orthodb.org/v10?query=435648at1224	Ribosomal protein L11 methyltransferase
+440184at1224	Missing
+446404at1224	Complete	Spiro2_11085	393.8	423	https://www.orthodb.org/v10?query=446404at1224	Bifunctional purine biosynthesis protein PurH
+447883at1224	Complete	Spiro2_04955	109.3	304	https://www.orthodb.org/v10?query=447883at1224	trigger factor
+450632at1224	Complete	Spiro2_09045	198.6	241	https://www.orthodb.org/v10?query=450632at1224	prolipoprotein diacylglyceryl transferase
+473349at1224	Complete	Spiro2_10325	179.9	185	https://www.orthodb.org/v10?query=473349at1224	phenylalanine--tRNA ligase subunit alpha
+477831at1224	Complete	Spiro2_07550	94.6	129	https://www.orthodb.org/v10?query=477831at1224	Thymidylate kinase
+478361at1224	Complete	Spiro2_09020	346.2	318	https://www.orthodb.org/v10?query=478361at1224	phosphoglucosamine mutase
+478930at1224	Missing
+497269at1224	Complete	Spiro2_09750	284.4	211	https://www.orthodb.org/v10?query=497269at1224	Ribosomal protein L2
+499862at1224	Complete	Spiro2_01015	366.1	272	https://www.orthodb.org/v10?query=499862at1224	Ribosome-binding ATPase YchF
+500526at1224	Complete	Spiro2_03665	252.9	184	https://www.orthodb.org/v10?query=500526at1224	30S ribosomal protein S2
+502049at1224	Complete	Spiro2_12640	152.7	171	https://www.orthodb.org/v10?query=502049at1224	ribulose-phosphate 3-epimerase
+506038at1224	Complete	Spiro2_07610	252.3	250	https://www.orthodb.org/v10?query=506038at1224	Porphobilinogen deaminase
+506794at1224	Fragmented	Spiro2_00185	49.5	72	https://www.orthodb.org/v10?query=506794at1224	bifunctional N-acetylglucosamine-1-phosphate uridyltransferase/glucosamine-1-phosphate acetyltransferase
+510970at1224	Complete	Spiro2_05550	57.4	138	https://www.orthodb.org/v10?query=510970at1224	tRNA dimethylallyltransferase
+511160at1224	Complete	Spiro2_00295	137.9	245	https://www.orthodb.org/v10?query=511160at1224	UDP-N-acetylmuramoylalanine-D-glutamate ligase
+524853at1224	Complete	Spiro2_01990	90.6	224	https://www.orthodb.org/v10?query=524853at1224	phosphopantothenoylcysteine decarboxylase
+524915at1224	Complete	Spiro2_07460	176.3	210	https://www.orthodb.org/v10?query=524915at1224	Membrane protein insertase YidC
+536007at1224	Missing
+540244at1224	Missing
+543192at1224	Complete	Spiro2_00380	239.2	267	https://www.orthodb.org/v10?query=543192at1224	tRNA 2-thiouridine(34) synthase MnmA
+544446at1224	Missing
+555495at1224	Complete	Spiro2_05570	323.7	260	https://www.orthodb.org/v10?query=555495at1224	delta-aminolevulinic acid dehydratase
+559404at1224	Complete	Spiro2_02545	18.3	61	https://www.orthodb.org/v10?query=559404at1224	Ribosome maturation factor RimM
+560525at1224	Complete	Spiro2_11540	126.7	177	https://www.orthodb.org/v10?query=560525at1224	UDP-N-acetylglucosamine--N-acetylmuramyl- (pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase
+563626at1224	Complete	Spiro2_09735	268.6	190	https://www.orthodb.org/v10?query=563626at1224	K Homology domain
+567624at1224	Complete	Spiro2_10000	89.0	150	https://www.orthodb.org/v10?query=567624at1224	4-hydroxy-tetrahydrodipicolinate reductase
+571330at1224	Complete	Spiro2_00320	109.2	181	https://www.orthodb.org/v10?query=571330at1224	16S rRNA (cytosine(1402)-N(4))-methyltransferase
+576122at1224	Complete	Spiro2_11300	87.0	128	https://www.orthodb.org/v10?query=576122at1224	16S rRNA (adenine(1518)-N(6)/adenine(1519)-N(6))- dimethyltransferase
+579902at1224	Complete	Spiro2_00360	85.7	148	https://www.orthodb.org/v10?query=579902at1224	dephospho-CoA kinase
+579905at1224	Missing
+587966at1224	Complete	Spiro2_09765	81.1	136	https://www.orthodb.org/v10?query=587966at1224	50S ribosomal protein L3
+589173at1224	Missing
+599463at1224	Missing
+605784at1224	Complete	Spiro2_04975	125.9	150	https://www.orthodb.org/v10?query=605784at1224	30S ribosomal protein S4
+606282at1224	Complete	Spiro2_03660	237.3	256	https://www.orthodb.org/v10?query=606282at1224	Elongation factor Ts
+614001at1224	Complete	Spiro2_03540	37.6	95	https://www.orthodb.org/v10?query=614001at1224	UDP-N-acetylenolpyruvoylglucosamine reductase
+614757at1224	Complete	Spiro2_11860	273.1	302	https://www.orthodb.org/v10?query=614757at1224	Endolytic murein transglycosylase
+620128at1224	Complete	Spiro2_09710	211.8	141	https://www.orthodb.org/v10?query=620128at1224	Ribosomal protein L5
+628496at1224	Complete	Spiro2_08100	137.4	154	https://www.orthodb.org/v10?query=628496at1224	Triosephosphate isomerase
+628542at1224	Missing
+628684at1224	Complete	Spiro2_01020	162.7	140	https://www.orthodb.org/v10?query=628684at1224	endonuclease III
+633621at1224	Complete	Spiro2_09760	73.3	130	https://www.orthodb.org/v10?query=633621at1224	50S ribosomal protein L4
+635726at1224	Missing
+636949at1224	Missing
+642741at1224	Complete	Spiro2_09695	119.9	121	https://www.orthodb.org/v10?query=642741at1224	50S ribosomal protein L6
+652032at1224	Fragmented	Spiro2_02925	152.6	143	https://www.orthodb.org/v10?query=652032at1224	glycerol-3-phosphate dehydrogenase
+656078at1224	Missing
+669170at1224	Complete	Spiro2_04130	135.9	146	https://www.orthodb.org/v10?query=669170at1224	ribosome recycling factor
+670780at1224	Complete	Spiro2_09475	43.4	90	https://www.orthodb.org/v10?query=670780at1224	pantetheine-phosphate adenylyltransferase
+670797at1224	Fragmented	Spiro2_08185	21.6	66	https://www.orthodb.org/v10?query=670797at1224	NAD kinase
+671931at1224	Complete	Spiro2_08850	41.0	102	https://www.orthodb.org/v10?query=671931at1224	adenylate kinase
+671974at1224	Complete	Spiro2_09685	154.0	121	https://www.orthodb.org/v10?query=671974at1224	Ribosomal protein S5
+685037at1224	Complete	Spiro2_00060	109.3	130	https://www.orthodb.org/v10?query=685037at1224	cytidylate kinase
+689540at1224	Fragmented	Spiro2_07850	32.6	69	https://www.orthodb.org/v10?query=689540at1224	orotate phosphoribosyltransferase
+692474at1224	Missing
+693695at1224	Missing
+696522at1224	Complete	Spiro2_06760	78.1	105	https://www.orthodb.org/v10?query=696522at1224	septum formation inhibitor Maf
+698120at1224	Complete	Spiro2_05360	139.4	122	https://www.orthodb.org/v10?query=698120at1224	YihA family ribosome biogenesis GTP-binding protein
+701752at1224	Missing
+703836at1224	Complete	Spiro2_08480	159.1	120	https://www.orthodb.org/v10?query=703836at1224	30S ribosomal protein S7
+704709at1224	Complete	Spiro2_12445	139.7	108	https://www.orthodb.org/v10?query=704709at1224	Nucleoside diphosphate kinase
+706628at1224	Complete	Spiro2_08475	165.3	92	https://www.orthodb.org/v10?query=706628at1224	30S ribosomal protein S12
+716517at1224	Complete	Spiro2_03245	129.5	108	https://www.orthodb.org/v10?query=716517at1224	transcription elongation factor GreA
+719701at1224	Complete	Spiro2_06385	128.3	170	https://www.orthodb.org/v10?query=719701at1224	Holliday junction DNA helicase RuvA
+722946at1224	Fragmented	Spiro2_11190	81.7	142	https://www.orthodb.org/v10?query=722946at1224	Outer membrane protein assembly factor BamD
+730183at1224	Complete	Spiro2_02050	146.3	116	https://www.orthodb.org/v10?query=730183at1224	50S ribosomal protein L13
+730379at1224	Fragmented	Spiro2_00915	46.5	109	https://www.orthodb.org/v10?query=730379at1224	tRNA(Ile)-lysidine synthase
+731943at1224	Fragmented	Spiro2_00035	58.6	116	https://www.orthodb.org/v10?query=731943at1224	non-canonical purine NTP pyrophosphatase
+742173at1224	Complete	Spiro2_08015	154.1	131	https://www.orthodb.org/v10?query=742173at1224	di-trans,poly-cis-decaprenylcistransferase
+743334at1224	Complete	Spiro2_00675	171.0	231	https://www.orthodb.org/v10?query=743334at1224	Riboflavin biosynthesis protein
+743373at1224	Complete	Spiro2_05595	83.5	111	https://www.orthodb.org/v10?query=743373at1224	ferrochelatase
+744994at1224	Complete	Spiro2_12045	90.7	121	https://www.orthodb.org/v10?query=744994at1224	Protein GrpE
+750432at1224	Complete	Spiro2_08150	55.1	94	https://www.orthodb.org/v10?query=750432at1224	crossover junction endodeoxyribonuclease RuvC
+752444at1224	Complete	Spiro2_07645	78.0	154	https://www.orthodb.org/v10?query=752444at1224	Sec-independent protein translocase protein TatC
+755515at1224	Missing
+759549at1224	Complete	Spiro2_09795	216.1	164	https://www.orthodb.org/v10?query=759549at1224	Ribosomal protein L1
+764357at1224	Missing
+765015at1224	Complete	Spiro2_09635	88.3	95	https://www.orthodb.org/v10?query=765015at1224	50S ribosomal protein L17
+771126at1224	Complete	Spiro2_09675	102.6	84	https://www.orthodb.org/v10?query=771126at1224	50S ribosomal protein L15
+771267at1224	Complete	Spiro2_11940	76.8	85	https://www.orthodb.org/v10?query=771267at1224	50S ribosomal protein L19
+772243at1224	Complete	Spiro2_09790	63.6	132	https://www.orthodb.org/v10?query=772243at1224	50S ribosomal protein L10
+772977at1224	Complete	Spiro2_09800	147.4	118	https://www.orthodb.org/v10?query=772977at1224	50S ribosomal protein L11
+773453at1224	Complete	Spiro2_00375	72.8	143	https://www.orthodb.org/v10?query=773453at1224	ribonuclease III
+774110at1224	Complete	Spiro2_02540	119.4	150	https://www.orthodb.org/v10?query=774110at1224	tRNA (guanine(37)-N(1))-methyltransferase
+774596at1224	Fragmented	Spiro2_00010	24.4	67	https://www.orthodb.org/v10?query=774596at1224	Beta sliding clamp
+774709at1224	Complete	Spiro2_03270	43.9	93	https://www.orthodb.org/v10?query=774709at1224	ribonuclease HII
+775850at1224	Complete	Spiro2_09700	79.9	83	https://www.orthodb.org/v10?query=775850at1224	30S ribosomal protein S8
+777509at1224	Complete	Spiro2_09645	124.0	93	https://www.orthodb.org/v10?query=777509at1224	30S ribosomal protein S11
+780266at1224	Complete	Spiro2_09650	118.5	115	https://www.orthodb.org/v10?query=780266at1224	30S ribosomal protein S13
+792886at1224	Complete	Spiro2_02420	82.3	79	https://www.orthodb.org/v10?query=792886at1224	methyltransferase
+794472at1224	Complete	Spiro2_00880	125.4	122	https://www.orthodb.org/v10?query=794472at1224	SsrA-binding protein
+797316at1224	Complete	Spiro2_03195	139.4	115	https://www.orthodb.org/v10?query=797316at1224	translation initiation factor IF-3
+802697at1224	Complete	Spiro2_09740	45.4	87	https://www.orthodb.org/v10?query=802697at1224	50S ribosomal protein L22
+803050at1224	Complete	Spiro2_08745	124.3	135	https://www.orthodb.org/v10?query=803050at1224	Ribosomal protein L9
+804650at1224	Complete	Spiro2_08735	76.7	112	https://www.orthodb.org/v10?query=804650at1224	30S ribosomal protein S6
+808783at1224	Complete	Spiro2_02055	116.8	103	https://www.orthodb.org/v10?query=808783at1224	30S ribosomal protein S9
+808784at1224	Complete	Spiro2_09730	150.6	111	https://www.orthodb.org/v10?query=808784at1224	50S ribosomal protein L16
+814083at1224	Missing
+814581at1224	Complete	Spiro2_09715	117.4	99	https://www.orthodb.org/v10?query=814581at1224	50S ribosomal protein L14
+817380at1224	Complete	Spiro2_04695	149.0	111	https://www.orthodb.org/v10?query=817380at1224	5-(carboxyamino)imidazole ribonucleotide mutase
+817659at1224	Fragmented	Spiro2_00235	40.9	61	https://www.orthodb.org/v10?query=817659at1224	ATP synthase subunit delta
+820715at1224	Missing
+822488at1224	Complete	Spiro2_06765	62.7	101	https://www.orthodb.org/v10?query=822488at1224	Pyridoxal phosphate homeostasis protein
+828555at1224	Missing
+829726at1224	Complete	Spiro2_00935	83.7	156	https://www.orthodb.org/v10?query=829726at1224	dihydropteroate synthase
+831102at1224	Complete	Spiro2_01900	60.7	49	https://www.orthodb.org/v10?query=831102at1224	23S rRNA (pseudouridine(1915)-N(3))-methyltransferase RlmH
+836705at1224	Complete	Spiro2_11950	124.0	98	https://www.orthodb.org/v10?query=836705at1224	50S ribosomal protein L20
+841019at1224	Complete	Spiro2_02865	142.1	124	https://www.orthodb.org/v10?query=841019at1224	Peptidyl-tRNA hydrolase
+844678at1224	Fragmented	Spiro2_00585	66.4	86	https://www.orthodb.org/v10?query=844678at1224	Transcription antitermination protein NusB
+846180at1224	Complete	Spiro2_05135	68.3	408	https://www.orthodb.org/v10?query=846180at1224	lipid II flippase MurJ
+846311at1224	Complete	Spiro2_01785	65.6	68	https://www.orthodb.org/v10?query=846311at1224	Endoribonuclease YbeY
+849873at1224	Missing
+852686at1224	Missing
+854258at1224	Complete	Spiro2_00690	88.6	99	https://www.orthodb.org/v10?query=854258at1224	Ribonuclease H
+858606at1224	Missing
+860316at1224	Complete	Spiro2_11695	81.4	99	https://www.orthodb.org/v10?query=860316at1224	ribosome-binding factor A
+861083at1224	Complete	Spiro2_10510	56.0	71	https://www.orthodb.org/v10?query=861083at1224	30S ribosomal protein S20
+867071at1224	Complete	Spiro2_10505	93.3	71	https://www.orthodb.org/v10?query=867071at1224	30S ribosomal protein S16
+870213at1224	Complete	Spiro2_12170	61.9	159	https://www.orthodb.org/v10?query=870213at1224	5-formyltetrahydrofolate cyclo-ligase
+872684at1224	Complete	Spiro2_09755	61.8	75	https://www.orthodb.org/v10?query=872684at1224	50S ribosomal protein L23
+872700at1224	Missing
+877057at1224	Complete	Spiro2_04535	80.6	110	https://www.orthodb.org/v10?query=877057at1224	Octanoyltransferase
+878123at1224	Complete	Spiro2_09745	104.8	64	https://www.orthodb.org/v10?query=878123at1224	30S ribosomal protein S19
+880707at1224	Complete	Spiro2_11575	73.9	49	https://www.orthodb.org/v10?query=880707at1224	DNA-directed RNA polymerase subunit omega
+883490at1224	Missing
+885305at1224	Fragmented	Spiro2_09705	64.7	50	https://www.orthodb.org/v10?query=885305at1224	30S ribosomal protein S14
+885410at1224	Complete	Spiro2_09690	99.7	90	https://www.orthodb.org/v10?query=885410at1224	50S ribosomal protein L18
+886369at1224	Complete	Spiro2_04225	84.6	58	https://www.orthodb.org/v10?query=886369at1224	30S ribosomal protein S18
+896607at1224	Complete	Spiro2_09850	109.3	69	https://www.orthodb.org/v10?query=896607at1224	30S ribosomal protein S15
+901450at1224	Complete	Spiro2_04315	61.1	48	https://www.orthodb.org/v10?query=901450at1224	preprotein translocase subunit YajC
+906088at1224	Complete	Spiro2_09770	123.0	89	https://www.orthodb.org/v10?query=906088at1224	30S ribosomal protein S10
+907369at1224	Fragmented	Spiro2_03395	44.8	32	https://www.orthodb.org/v10?query=907369at1224	50S ribosomal protein L32
+909221at1224	Complete	Spiro2_01885	124.2	66	https://www.orthodb.org/v10?query=909221at1224	50S ribosomal protein L27
+918188at1224	Missing
+920310at1224	Missing
+921582at1224	Complete	Spiro2_05680	65.3	51	https://www.orthodb.org/v10?query=921582at1224	50S ribosomal protein L28
+927902at1224	Complete	Spiro2_09785	79.2	82	https://www.orthodb.org/v10?query=927902at1224	50S ribosomal protein L7/L12
+931135at1224	Fragmented	Spiro2_09720	31.1	44	https://www.orthodb.org/v10?query=931135at1224	30S ribosomal protein S17

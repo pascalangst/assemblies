@@ -24,4 +24,4 @@ potential outgroup with good genome: Silvanigrella aquatica
     2806830    Total length
     0.000%    Percent gaps
 
-![circos](Spirobacillus_cienkowskii_FI-SP1.png)
+![circos](Spirobacillus_cienkowskii_FI-SP1_redo.png)
