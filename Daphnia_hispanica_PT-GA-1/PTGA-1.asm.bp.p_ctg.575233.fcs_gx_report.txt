@@ -1,0 +1,62 @@
+##[["FCS genome report", 2, 1], {"git-rev": "v0.5.0+branch--HEAD", "run-date": "Mon Mar 18 15:02:06 2024", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.245488, "asserted-div": "anml:crustaceans", "inferred-primary-divs": ["anml:crustaceans", "anml:insects"], "corrected-primary-divs": ["anml:crustaceans", "anml:insects"]}}]
+#seq_id	start_pos	end_pos	seq_len	action	div	agg_cont_cov	top_tax_name
+ptg000046l	1	88201	88201	EXCLUDE	prok:b-proteobacteria	95	Hydrogenophaga palleronii
+ptg000048l	1	65476	65476	REVIEW	prok:b-proteobacteria	37	Limnohabitans parvus
+ptg000115l	1	232044	232044	EXCLUDE	prok:b-proteobacteria	89	Hydrogenophaga aromaticivorans
+ptg000116l	1	51690	51690	EXCLUDE	prok:b-proteobacteria	91	Limnohabitans parvus
+ptg000117l	1	37321	37321	EXCLUDE	prok:b-proteobacteria	94	Hydrogenophaga aromaticivorans
+ptg000128l	1	106141	106141	EXCLUDE	prok:b-proteobacteria	91	Hydrogenophaga aromaticivorans
+ptg000131l	1	20380	20380	EXCLUDE	prok:b-proteobacteria	100	Hydrogenophaga aromaticivorans
+ptg000132l	1	90345	90345	EXCLUDE	prok:b-proteobacteria	94	Hydrogenophaga taeniospiralis
+ptg000133l	1	44641	44641	EXCLUDE	prok:b-proteobacteria	69	Limnohabitans sp.
+ptg000134l	1	120824	120824	EXCLUDE	prok:b-proteobacteria	82	Limnohabitans planktonicus
+ptg000135l	1	99508	99508	EXCLUDE	prok:b-proteobacteria	77	Hydrogenophaga taeniospiralis
+ptg000141l	1	94185	94185	EXCLUDE	prok:CFB group bacteria	93	Flavobacterium celericrescens
+ptg000142l	1	66226	66226	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium celericrescens
+ptg000149l	1	63047	63047	EXCLUDE	prok:b-proteobacteria	98	Hydrogenophaga pseudoflava
+ptg000150l	1	27158	27158	EXCLUDE	prok:b-proteobacteria	100	Hydrogenophaga aromaticivorans
+ptg000151l	1	73805	73805	EXCLUDE	prok:b-proteobacteria	87	Hydrogenophaga taeniospiralis
+ptg000152l	1	44029	44029	EXCLUDE	prok:b-proteobacteria	79	Hydrogenophaga taeniospiralis
+ptg000155l	1	75628	75628	EXCLUDE	prok:CFB group bacteria	92	Flavobacterium celericrescens
+ptg000157l	1	101998	101998	EXCLUDE	prok:b-proteobacteria	77	Limnohabitans sp. Rim8
+ptg000158l	1	106601	106601	REVIEW	prok:b-proteobacteria	52	Hydrogenophaga palleronii
+ptg000160l	1	46011	46011	EXCLUDE	prok:b-proteobacteria	87	Hydrogenophaga flava
+ptg000161l	1	65013	65013	EXCLUDE	prok:CFB group bacteria	98	Flavobacterium cheniae
+ptg000162l	1	27475	27475	EXCLUDE	prok:b-proteobacteria	64	Hydrogenophaga taeniospiralis
+ptg000163l	1	59130	59130	EXCLUDE	prok:CFB group bacteria	90	Flavobacterium celericrescens
+ptg000164l	1	116611	116611	EXCLUDE	prok:CFB group bacteria	94	Flavobacterium sasangense
+ptg000165l	1	74420	74420	EXCLUDE	prok:b-proteobacteria	92	Limnohabitans sp. Rim8
+ptg000169l	1	160161	160161	EXCLUDE	prok:CFB group bacteria	98	Flavobacterium celericrescens
+ptg000170l	1	42509	42509	EXCLUDE	prok:b-proteobacteria	81	Hydrogenophaga crassostreae
+ptg000171l	1	23840	23840	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium aquaticum
+ptg000174l	1	78569	78569	EXCLUDE	prok:CFB group bacteria	82	Flavobacterium cheniae
+ptg000175l	1	27529	27529	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium sasangense
+ptg000176l	1	25200	25200	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium proteolyticum
+ptg000177l	1	30043	30043	EXCLUDE	prok:CFB group bacteria	76	Flavobacterium sp. UBA7663
+ptg000180l	1	51260	51260	EXCLUDE	prok:CFB group bacteria	97	Flavobacterium celericrescens
+ptg000181l	1	25192	25192	EXCLUDE	prok:CFB group bacteria	97	Flavobacterium celericrescens
+ptg000183l	1	36408	36408	EXCLUDE	prok:b-proteobacteria	96	Hydrogenophaga taeniospiralis
+ptg000186l	1	73999	73999	EXCLUDE	prok:CFB group bacteria	96	Flavobacterium celericrescens
+ptg000195l	1	134067	134067	EXCLUDE	prok:b-proteobacteria	82	Hydrogenophaga taeniospiralis
+ptg000215l	1	29056	29056	EXCLUDE	prok:b-proteobacteria	75	Hydrogenophaga taeniospiralis
+ptg000216l	1	51541	51541	EXCLUDE	prok:b-proteobacteria	97	Hydrogenophaga aromaticivorans
+ptg000220l	1	71919	71919	EXCLUDE	prok:CFB group bacteria	87	Flavobacterium cyclinae
+ptg000223l	1	87587	87587	EXCLUDE	prok:CFB group bacteria	82	Flavobacterium celericrescens
+ptg000239l	1	36163	36163	EXCLUDE	prok:CFB group bacteria	86	Flavobacterium celericrescens
+ptg000240l	1	34026	34026	EXCLUDE	prok:CFB group bacteria	87	Flavobacterium sp. UBA7663
+ptg000241l	1	29485	29485	EXCLUDE	prok:b-proteobacteria	94	Hydrogenophaga flava
+ptg000242l	1	55185	55185	EXCLUDE	prok:b-proteobacteria	96	Hydrogenophaga taeniospiralis
+ptg000243l	1	77197	77197	EXCLUDE	prok:CFB group bacteria	72	Flavobacterium celericrescens
+ptg000247l	1	33803	33803	EXCLUDE	prok:b-proteobacteria	90	Limnohabitans planktonicus
+ptg000250l	1	44634	44634	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium celericrescens
+ptg000251l	1	51240	51240	EXCLUDE	prok:CFB group bacteria	97	Flavobacterium celericrescens
+ptg000252l	1	32933	32933	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium celericrescens
+ptg000253l	1	16403	16403	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium sp. UBA7663
+ptg000255l	1	20081	20081	EXCLUDE	prok:CFB group bacteria	87	Flavobacterium sp. UBA7663
+ptg000282l	1	35188	35188	EXCLUDE	prok:b-proteobacteria	95	Hydrogenophaga aromaticivorans
+ptg000283l	1	40325	40325	REVIEW	prok:b-proteobacteria	40	Hydrogenophaga aromaticivorans
+ptg000285l	1	24480	24480	EXCLUDE	prok:b-proteobacteria	95	Hydrogenophaga pseudoflava
+ptg000286l	1	27322	27322	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium proteolyticum
+ptg000287l	1	33504	33504	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium celericrescens
+ptg000292l	1	27819	27819	EXCLUDE	prok:b-proteobacteria	97	Hydrogenophaga taeniospiralis
+ptg000293l	1	30380	30380	EXCLUDE	prok:b-proteobacteria	85	Rhodoferax lacus

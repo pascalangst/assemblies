@@ -1,0 +1,19 @@
+##[["FCS genome report", 2, 1], {"git-rev": "v0.5.0+branch--HEAD", "run-date": "Mon Mar 18 09:33:02 2024", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.633218, "asserted-div": "anml:crustaceans", "inferred-primary-divs": ["anml:crustaceans", "anml:insects"], "corrected-primary-divs": ["anml:crustaceans", "anml:insects"]}}]
+#seq_id	start_pos	end_pos	seq_len	action	div	agg_cont_cov	top_tax_name
+ptg000028l	1	53427	53427	EXCLUDE	prok:b-proteobacteria	96	Hydromonas sp.
+ptg000031l	1	63241	63241	EXCLUDE	prok:b-proteobacteria	93	Hydromonas sp.
+ptg000041l	1	57852	57852	EXCLUDE	prok:b-proteobacteria	100	Hydromonas sp.
+ptg000042l	1	49469	49469	EXCLUDE	prok:b-proteobacteria	95	Hydromonas sp.
+ptg000043l	1	32306	32306	EXCLUDE	prok:b-proteobacteria	95	Hydromonas sp.
+ptg000044l	1	34743	34743	EXCLUDE	prok:b-proteobacteria	89	Hydromonas sp.
+ptg000049l	1	97972	97972	EXCLUDE	prok:b-proteobacteria	93	Hydromonas sp.
+ptg000063l	1	24454	24454	EXCLUDE	prok:b-proteobacteria	100	Hydromonas sp.
+ptg000064l	1	69868	69868	EXCLUDE	prok:b-proteobacteria	97	Hydromonas sp.
+ptg000065l	1	58778	58778	EXCLUDE	prok:b-proteobacteria	100	Hydromonas sp.
+ptg000067l	1	42106	42106	EXCLUDE	prok:a-proteobacteria	84	Tabrizicola oligotrophica
+ptg000068l	1	28307	28307	EXCLUDE	prok:b-proteobacteria	100	Hydromonas sp.
+ptg000072l	1	46752	46752	EXCLUDE	prok:b-proteobacteria	91	Hydromonas sp.
+ptg000073l	1	30561	30561	EXCLUDE	prok:CFB group bacteria	96	Flavobacterium sp. UBA7663
+ptg000086l	1	44791	44791	EXCLUDE	prok:b-proteobacteria	100	Hydromonas sp.
+ptg000088l	1	21367	21367	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium sp. UBA6195
+ptg000089l	1	25421	25421	EXCLUDE	prok:b-proteobacteria	85	Hydromonas sp.
