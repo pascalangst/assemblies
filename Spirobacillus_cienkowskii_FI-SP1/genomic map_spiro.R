@@ -21,15 +21,25 @@ spiro_prot_minus=spiro_prot_minus %>% mutate( ystart= 1, yend=1.9) ### create th
 spiro_size=2806830 
 
 ### there is probably an other way to read the color 
-spiro_prot_plus=mutate(spiro_prot_plus ,col= case_when(color == "color=178,223,138" ~ "#B2DF8A", 
+spiro_prot_plus=mutate(spiro_prot_plus ,col= case_when(color == "color=178,223,138" ~ "#049101", 
                                                        color == "color=204,204,204" ~ "#cccccc",
-                                                       color == "color=251,128,114" ~ "#FB8072",
-                                                       color == "color=253,180,98" ~ "#FDB462"))
-spiro_prot_minus=mutate(spiro_prot_minus ,col= case_when(color == "color=178,223,138" ~ "#B2DF8A", 
-                                                       color == "color=204,204,204" ~ "#cccccc",
-                                                       color == "color=251,128,114" ~ "#FB8072",
-                                                       color == "color=190,186,218" ~ "#BEBADA",
-                                                       color == "color=253,180,98" ~ "#FDB462"))
+                                                       color == "color=251,128,114" ~ "#0C45FA",
+                                                       color == "color=253,180,98"  ~ "#733700"),
+                       ### if you want to artificially increase the size of the gene: here doesn't work your genome is too dense 
+                       add= case_when(color == "color=178,223,138" ~ 3000, 
+                                      color == "color=204,204,204" ~ 400,
+                                      color == "color=251,128,114" ~ 1000,
+                                      color == "color=253,180,98"  ~ 3000))
+spiro_prot_minus=mutate(spiro_prot_minus ,col= case_when(color == "color=178,223,138" ~ "#049101", 
+                                                         color == "color=204,204,204" ~ "#cccccc",
+                                                         color == "color=251,128,114" ~ "#0C45FA",
+                                                         color == "color=253,180,98"  ~ "#733700"),
+                        add= case_when(color == "color=178,223,138" ~ 3000, 
+                                       color == "color=204,204,204" ~ 400,
+                                       color == "color=251,128,114" ~ 1000,
+                                       color == "color=253,180,98"  ~ 3000))
+
+
 
 
 ### GC content ###
@@ -60,10 +70,6 @@ for (i in 1:28){
 
 a
 brk <- a*10^6
-### if you want to artificially increase the size of the gene: here doesn't work your genome is too dense 
-add=400
-
-
 
 
 pdf("try_6.pdf",width=10,height=10)
@@ -85,41 +91,41 @@ circos.track(ylim = c(1, 3),
              bg.border = NA, track.height = 0.175, panel.fun = function(x, y){circos.axis(h="top",major.at=brk,labels=round(brk/10^6,1),labels.cex=0.9,lwd=0.7,labels.facing="clockwise")})
 #circos.lines(c(0,1767095),c(1,1))
 for (i in 1:nrow(spiro_prot_plus)){
-  circos.rect(spiro_prot_plus$xstart[i]-add, spiro_prot_plus$ystart[i],
-              spiro_prot_plus$xend[i]+add, spiro_prot_plus$yend[i], 
+  circos.rect(spiro_prot_plus$xstart[i]-spiro_prot_plus$add[i], spiro_prot_plus$ystart[i],
+              spiro_prot_plus$xend[i]+spiro_prot_plus$add[i], spiro_prot_plus$yend[i], 
               col = spiro_prot_plus$col[i], border = spiro_prot_plus$col[i],lwd=0.01)
 }
 for (i in 1:nrow(spiro_prot_minus)){
-  circos.rect(spiro_prot_minus$xstart[i]-add, spiro_prot_minus$ystart[i],
-              spiro_prot_minus$xend[i]+add, spiro_prot_minus$yend[i], 
+  circos.rect(spiro_prot_minus$xstart[i]-spiro_prot_minus$add[i], spiro_prot_minus$ystart[i],
+              spiro_prot_minus$xend[i]+spiro_prot_minus$add[i], spiro_prot_minus$yend[i], 
               col =  spiro_prot_minus$col[i], border =  spiro_prot_minus$col[i],lwd=0.01)
 }
 circos.text(0, 2, "A", cex=0.9,font = 2)
 #GC content
 circos.genomicTrack(data=spiro_GC_content,ylim=c(-0.205,0.20),bg.border = NA, track.height = 0.15,panel.fun=function(region,value,...) {
-  circos.genomicLines(region,value,type="l",border=c("#33A02C","#E31A1C"),col=c("#33A02C","#E31A1C")
+  circos.genomicLines(region,value,type="l",border=c("#cccccc","#3f4a3c"),col=c("#cccccc","#3f4a3c")
                       , lwd=0.3,baseline=c(0,0), area=TRUE, )
   circos.text(0, 0.12, "B", cex=0.9,font = 2)
 })
 
 # GC skew 
 circos.genomicTrack(data=spiro_GC_skew,ylim=c(-0.26,0.35),bg.border = NA, track.height = 0.15,panel.fun=function(region,value,...) {
-  circos.genomicLines(region,value,type="l",border=c("#FDBF6F","#1F78B4"),col=c("#FDBF6F","#1F78B4"), lwd=0.3, baseline=c(0,0), area=TRUE )
+  circos.genomicLines(region,value,type="l",border=c("#049101","#930198"),col=c("#049101","#930198"), lwd=0.3, baseline=c(0,0), area=TRUE )
   circos.text(0, 0.35, "C", cex=0.9,font = 2)
 })
 
 lgd_points_A_1= Legend(labels=c("CDS", "rRNA"),labels_gp=gpar(fontsize = fs),
-                       legend_gp =gpar(fill = c("#cccccc","#fb8072")), title_position = "lefttop", 
+                       legend_gp =gpar(fill = c("#cccccc","#0C45FA")), title_position = "lefttop", 
                        title = "A",title_gp = gpar(fontsize = fs, fontface = "bold"),grid_height = unit(4, "mm"), grid_width = unit(4.5, "mm"))
 lgd_points_A_2= Legend(labels=c("tRNA/tmRNA", "ncRNA"),labels_gp=gpar(fontsize = fs),
-                       legend_gp =gpar(fill = c("#b2df8a","#fdb462")), title_position = "lefttop", 
+                       legend_gp =gpar(fill = c("#049101","#733700")), title_position = "lefttop", 
                        grid_height = unit(4, "mm"), grid_width = unit(4.5, "mm"))
 
 lgd_points_C = Legend(labels=c("GC content above average", "GC content below average"),labels_gp=gpar(fontsize = fs), title_position = "lefttop",  #type = "lines",
-                      legend_gp =gpar(fill=c("#33A02C","#E31A1C")),
+                      legend_gp =gpar(fill=c("#cccccc","#3f4a3c")),
                       title = "B",title_gp = gpar(fontsize =fs, fontface = "bold"),grid_height = unit(4, "mm"), grid_width = unit(4.5, "mm"))
 lgd_points_D = Legend(labels=c("+ GC skew", "\u2212 GC skew"),labels_gp=gpar(fontsize = fs),title_position = "lefttop", #type = "lines",
-                      legend_gp =gpar(fill=c("#FDBF6F","#1F78B4")),
+                      legend_gp =gpar(fill=c("#049101","#930198")),
                       title = "C",title_gp = gpar(fontsize = fs, fontface = "bold"),grid_height = unit(4, "mm"), grid_width = unit(4.5, "mm"))
 
 pd_1 = packLegend(lgd_points_A_1,lgd_points_A_2 , direction="horizontal", gap = unit(1, "mm"))

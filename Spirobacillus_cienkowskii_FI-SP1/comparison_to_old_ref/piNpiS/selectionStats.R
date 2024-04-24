@@ -1,6 +1,6 @@
 library(ggplot2)
 
-selectionStats_Spiro <- read.delim("~/Downloads/selectionStats_Spiro.txt")
+selectionStats_Spiro <- read.delim("~/OneDrive - Universität Basel/assemblies/Spirobacillus_cienkowskii_FI-SP1/comparison_to_old_ref/piNpiS/selectionStats_Spiro.txt")
 selectionStats_Spiro$Alignment <- gsub(".aligned.fas.oneline", "", selectionStats_Spiro$Alignment)
 
 selectionStats_Spiro$pin <- selectionStats_Spiro$PiN / selectionStats_Spiro$NumN
@@ -13,7 +13,7 @@ hist(selectionStats_Spiro$pin, breaks = 20)
 hist(selectionStats_Spiro$pis, breaks = 20)
 hist(selectionStats_Spiro$pi_ratio, breaks = 20)
 
-buscos <- read.delim("~/Downloads/full_table.tsv", header=FALSE, comment.char="#")
+buscos <- read.delim("~/OneDrive - Universität Basel/assemblies/Spirobacillus_cienkowskii_FI-SP1/comparison_to_old_ref/piNpiS/full_table.tsv", header=FALSE, comment.char="#")
 
 selectionStats_Spiro$type <- NA
 selectionStats_Spiro[selectionStats_Spiro$Alignment %in% buscos$V3, ]$type <- "BUSCO"
