@@ -1,0 +1,397 @@
+# Code for odp (oxford dot plot)
+
+# Extract single copy BUSCOs from BUSCO output
+
+# e.g., Oc4
+perl -0777 -pe ' use File::Basename; $x=basename($ARGV); $x=~s/\.faa//g; s/\>/>${x} / ' ../hifi/GB-LK1-1/BUSCO5.busco.blast.self.output/run_microsporidia_odb10/busco_sequences/single_copy_busco_sequences/*faa > Oc/Oc.pep
+
+python BUSCOfull_table2chrom.py ../hifi/GB-LK1-1/BUSCO5.busco.blast.self.output/run_microsporidia_odb10/full_table.tsv > Oc/Oc.chrom # python script below
+
+# e.g., G.i.
+perl -0777 -pe ' use File::Basename; $x=basename($ARGV); $x=~s/\.faa//g; s/\>/>${x} / ' ~/Gi_seq_second/BUSCO5.IL-YERU-16.masek.out/run_microsporidia_odb10/busco_sequences/single_copy_busco_sequences/*faa > ~/assemblies/odb/Gi/Gi.pep
+
+python BUSCOfull_table2chrom.py ~/Gi_seq_second/BUSCO5.IL-YERU-16.masek.out/run_microsporidia_odb10/full_table.tsv | sed 's/:[^\t]*//' > Gi/Gi.chrom 
+
+# if ancestral gene linkage groups should be inferred, run this and remove other databases
+snakemake --cores 12 -p --snakefile odp/scripts/odp_nway_rbh
+snakemake --cores 12 -p --snakefile odp/scripts/odp_rbh_to_alignments
+
+# run odp
+snakemake --cores 12 -p --snakefile odp/scripts/odp # config file below
+
+# after, run odp ribbon plot
+cd ribbon_plot_Md_Ht_Gd_BdHIFI_Oc_Gi/
+snakemake --cores 12 --snakefile ../odp/scripts/odp_rbh_to_ribbon # config file below
+
+
+
+
+
+
+
+
+
+
+###########################################################################################################
+# 
+# This is an example config file for odp/scripts/odp
+#
+# # To use this software first copy this config file to your analysis directory
+# cp odp/example_configs/CONFIG_odp.yaml ./config.yaml
+# # Then modify the config file to include your own data
+# vim config.yaml
+# # Then run the pipeline
+# snakemake -r -p --snakefile odp/scripts/odp
+
+
+ignore_autobreaks: True       # Skip steps to find breaks in synteny blocks
+diamond_or_blastp: "diamond"  # "diamond" or "blastp"
+duplicate_proteins: "fail"    # currently only "fail" or "best". Fail doesn't allow duplicate names or seqs
+plot_LGs: True                # Plot the ALGs based on the installed databases
+plot_sp_sp: True              # Plot the synteny between two species, if False just generates .rbh files
+
+species:
+  Ocolligata:
+    proteins: Oc/Oc.pep
+    chrom: Oc/Oc.chrom
+    genome: Oc/GB-ELK1-1.busco.blast.self.fa
+    minscafsize: 10000  # Only plots scaffolds that are 1 Mbp or longer
+  Gdaphniae:
+    proteins: Gd/Gd.pep
+    chrom: Gd/Gd.chrom
+    genome: Gd/curated.fasta
+    minscafsize: 100
+  Gintestinalis:
+    proteins: Gi/Gi.pep
+    chrom: Gi/Gi.chrom
+    genome: Gi/IL-YERU-16.mask.fa
+    minscafsize: 10000  # Only plots scaffolds that are 8 Mbp or larger
+  Alocustae:
+    proteins: Al/Al.pep
+    chrom: Al/Al.chrom
+    genome: Al/GCA_007674295.1_ASM767429v1_genomic.fna
+    minscafsize: 10
+  Htvaerminnensis:
+    proteins: Ht/Ht.pep
+    chrom: Ht/Ht.chrom
+    genome: Ht/GCA_022605425.2_FIOER33_v3_genomic.fna
+    minscafsize: 10
+  Mdaphniae:
+    proteins: Md/Md.pep
+    chrom: Md/Md.chrom
+    genome: Md/contigs.SP.masurca.mask.fa
+    minscafsize: 10
+  Bdaphniae:
+    proteins: Bd/Bd.pep
+    chrom: Bd/Bd.chrom
+    genome: Bd/curated2.fasta
+    minscafsize: 10
+  BdaphniaeHIFI:
+    proteins: Bd/hifi/Bd.pep
+    chrom: Bd/hifi/Bd.chrom
+    genome: Bd/hifi/curated.red.fasta
+    minscafsize: 10
+
+###########################################################################################################
+#
+# Example config.yaml file for: odp_rbh_to_ribbon
+# Author: dts
+# github account: @conchoecia
+# link to github repo: https://github.com/conchoecia/odp
+# date: 2022-2023
+# license: GNU GPL https://github.com/conchoecia/odp/blob/main/LICENSE
+#
+# Goal: This script creates ribbon plots of genome synteny.
+#
+# First select which plotting order is desired for the chromosomes
+#  chr_sort_order < custom | optimal-top | optimal-size | optimal-random >
+#    custom         - use the custom sorting order for EVERY species in chromorder
+#    optimal-top    - use the custom order for the topmost species, then optimizes everything else
+#    optimal-size   - sort the top species' chromosomes by number of genes, optimize everything else
+#    optimal-chr-or - use `chromorder` when possible, optimize everything else
+#    optimal-random - randomly sort the chromosomes of the top species, optimize everything else
+chr_sort_order: optimal-chr-or
+
+# - If you only want to plot the significant relationships, set to False
+#   - the significant lines will be 0.8
+# - If you want to plot everything, set to True
+#   - the significant lines will be 0.8, the faint lines will be 0.15
+plot_all: True
+
+# - First type in the list of species to plot
+# - In this example we plot the relationships between
+#   three species with the codes "EMU", "RES", and "HCA".
+#   These three species must also be present in the "species"
+#   entry of the config file below.
+species_order:
+  - Mdaphniae
+  - Htvaerminnensis
+  - Gdaphniae
+  - BdaphniaeHIFI
+  - Ocolligata
+  - Gintestinalis
+
+# - If there are any organisms for which you would like to specify the
+#   chromosome order, then this is the place to do it. The species name
+#   here must match the species name in the "species" part of the config
+#   file.
+# - Only the chromosomes here will be plotted for this species. This is an
+#   easy way to just plot a subset of chromosomes that you are interested in.
+#chromorder:
+#  EMU:
+#    - EMU1
+#    - EMU6
+#    - EMU5
+#    - EMU4
+#    - EMU2
+#    - EMU3
+
+# NOTE : YOU CAN ONLY SPECIFY ONE OF THE FOLLOWING:
+#        COMMENT OUT THE ONE YOU DO NOT USE
+#  - rbh_files_in_order
+#  - rbh_directory
+
+# - This is the list of RBH files output from odp2 or another source.
+# - Each RBH file contains the orthologs between species that should be
+#   plotted.
+# - The number of files will always be the number of species minus one.
+# - Currently, only relationships that are significant with Fisher's exact
+#   test will be plotted here.
+#rbh_files_in_order:
+#  - ../odp/step1-rbh-filtered/Gintestinalis_Ocolligata_reciprocal_best_hits.D.FET.filt.rbh
+
+# If your rbh files were generated with odp, you can just supply the
+#  path to the
+rbh_directory: ../odp/step2-figures/synteny_coloredby_BCnS_LGs/
+
+# - All of the species that are in "species_order" above should be here
+# - This information is important for calculating some stats that are used
+#   for plotting.
+# - The necessary fields are:
+#   - proteins
+#   - chrom
+#   - genome
+# - If you specify "minscafsize", then only scaffolds >= this size are
+#   included in the ribbon plot.
+species:
+  Ocolligata:
+    genus:    "Ordospora"
+    species:  "coligata"
+    proteins: "../Oc/Oc.pep"
+    chrom:    "../Oc/Oc.chrom"
+    genome:   "../Oc/GB-ELK1-1.busco.blast.self.fa"
+    minscafsize: 5000
+
+  Gintestinalis:
+    # as you can see in this example, it doesn't matter if the file
+    # prefixes match the species name (RES) specified above
+    proteins:    "../Gi/Gi.pep"
+    chrom:       "../Gi/Gi.chrom"
+    genome:      "../Gi/IL-YERU-16.mask.fa"
+    genus:       "Glugoides"
+    species:     "intestinalis"
+    minscafsize: 4000
+
+  Alocustae:
+    proteins: "../Al/Al.pep"
+    chrom: "../Al/Al.chrom"
+    genome: "../Al/GCA_007674295.1_ASM767429v1_genomic.fna"
+    genus: "Antonospora"
+    species: "locustae"
+    minscafsize: 10
+
+  Htvaerminnensis:
+    proteins: "../Ht/Ht.pep"
+    chrom: "../Ht/Ht.chrom"
+    genome: "../Ht/GCA_022605425.2_FIOER33_v3_genomic.fna"
+    genus: "Hamiltosporidium"
+    species: "tvaerminnensis"
+    minscafsize: 10
+
+  Gdaphniae:
+    proteins: "../Gd/Gd.pep"
+    chrom: "../Gd/Gd.chrom"
+    genome: "../Gd/curated.fasta"
+    genus: "Gurleya"
+    species: "daphniae"
+    minscafsize: 100
+
+  Mdaphniae:
+    proteins: "../Md/Md.pep"
+    chrom: "../Md/Md.chrom"
+    genome: "../Md/contigs.SP.masurca.mask.fa"
+    genus: "Mitosporidium"
+    species: "daphniae"
+    minscafsize: 10
+
+  Bdaphniae:
+    proteins: "../Bd/Bd.pep"
+    chrom: "../Bd/Bd.chrom"
+    genome: "../Bd/curated2.fasta"
+    genus: "Binucleata"
+    species: "Daphniae"
+    minscafsize: 10
+
+  BdaphniaeHIFI:
+    proteins: "../Bd/hifi/Bd.pep"
+    chrom: "../Bd/hifi/Bd.chrom"
+    genome: "../Bd/hifi/curated.red.fasta"
+    genus: "Binucleata"
+    species: "Daphniae"
+    minscafsize: 10
+    
+
+
+###########################################################################################################  
+# This is the example config file for odp_nway_rbh
+# #  - it is basically the sample config file as for odp
+# #
+# # For each run you can only pick n-way comparisons.
+# # In this example file, we can only specify 3-species
+# #  comparisons because we specified the option nways: 3
+# # You can pick as many species as you want as long as n >= 2
+# #
+# # The field num_permutations is the number of times the genomes
+# #  are shuffled to calculate the false discovery rate. Keep it to at least
+# #  1000000 permutations, but it is likely that doing many more than that
+# #  isn't useful.
+#
+#
+# the number of species you want to be included in each analysis
+nways: 3
+# How you want to identify the orthologs [diamond|blastp]
+search_method: diamond
+
+duplicate_proteins: "fail"
+
+# What analyses you want to produce. Saves on some compute.
+#  Must match headers of `xaxisspecies`. Order doesn't matter.
+analyses:
+  - ["Ocolligata", "Gdaphniae", "Gintestinalis"]
+  - ["Ocolligata", "Gdaphniae", "Htvaerminnensis"]
+  - ["Ocolligata", "Gintestinalis", "Htvaerminnensis"]
+  - ["Gdaphniae","Gintestinalis","Htvaerminnensis"]
+  
+
+num_permutations: 1000000
+
+#ignore_autobreaks: True       # Skip steps to find breaks in synteny blocks
+#diamond_or_blastp: "diamond"  # "diamond" or "blastp"
+#duplicate_proteins: "fail"    # currently only "fail" or "best". Fail doesn't allow duplicate names or seqs
+#plot_LGs: True                # Plot the ALGs based on the installed databases
+#plot_sp_sp: True              # Plot the synteny between two species, if False just generates .rbh files
+
+species:
+  Ocolligata:
+    proteins: ../Oc/Oc.pep
+    chrom: ../Oc/Oc.chrom
+    genome: ../Oc/GB-ELK1-1.busco.blast.self.fa
+    minscafsize: 10000  # Only plots scaffolds that are 1 Mbp or longer
+  Gdaphniae:
+    proteins: ../Gd/Gd.pep
+    chrom: ../Gd/Gd.chrom
+    genome: ../Gd/curated.fasta
+    minscafsize: 100
+  Gintestinalis:
+    proteins: ../Gi/Gi.pep
+    chrom: ../Gi/Gi.chrom
+    genome: ../Gi/IL-YERU-16.mask.fa
+    minscafsize: 10000  # Only plots scaffolds that are 8 Mbp or larger
+  Htvaerminnensis:
+    proteins: ../Ht/Ht.pep
+    chrom: ../Ht/Ht.chrom
+    genome: ../Ht/GCA_022605425.2_FIOER33_v3_genomic.fna
+    minscafsize: 10
+    
+
+
+    
+    
+    
+###########################################################################################################   
+# This is the example config file for odp_rbh_to_alignments
+# #
+# # The goal of this program is to create protein alignments of the
+# #  orthologs, and to set up a database to use for the rest of odp.
+# #
+# # The .rbh file should contain the `group` and the `color` columns for
+# #  each of the rows. This creates groups and colors for each inferred ALG.
+# #
+# # The .rbh file you should use for this is most likely the output of
+# #  the program odp_nway_rbh, and the file
+# #  odp_nway_rbh/step3-unwrap/{analysis}.filt.unwrapped.rbh
+# #
+# # The rbh file mentioned above ^ will contain only the significantly large
+# #  ALGs that are annotated with an abstract group name and color
+#
+rbh_file: odp_nway_rbh/step3-unwrap/Gdaphniae_Htvaerminnensis_Ocolligata.filt.unwrapped.rbh 
+duplicate_proteins: "fail"
+
+species:
+  Ocolligata:
+    proteins: ../Oc/Oc.pep
+    chrom: ../Oc/Oc.chrom
+    genome: ../Oc/GB-ELK1-1.busco.blast.self.fa
+    minscafsize: 10000  # Only plots scaffolds that are 1 Mbp or longer
+  Gdaphniae:
+    proteins: ../Gd/Gd.pep
+    chrom: ../Gd/Gd.chrom
+    genome: ../Gd/curated.fasta
+    minscafsize: 100
+  Gintestinalis:
+    proteins: ../Gi/Gi.pep
+    chrom: ../Gi/Gi.chrom
+    genome: ../Gi/IL-YERU-16.mask.fa
+    minscafsize: 10000  # Only plots scaffolds that are 8 Mbp or larger
+  Htvaerminnensis:
+    proteins: ../Ht/Ht.pep
+    chrom: ../Ht/Ht.chrom
+    genome: ../Ht/GCA_022605425.2_FIOER33_v3_genomic.fna
+    minscafsize: 10
+
+
+
+
+########################################################################################################### 
+#   
+#../BUSCOfull_table2chrom.py 
+#!/usr/bin/env python3
+import csv
+import gzip
+import sys
+
+prots = {}
+
+gzipped = False
+for thisend in [".gz", ".gzip", ".GZ", ".GZIP", ".gzipped", ".GZIPPED"]:
+    if sys.argv[1].endswith(thisend):
+        gzipped = True
+
+if gzipped:
+    handle = gzip.open(sys.argv[1],'rt')
+else:
+    handle = open(sys.argv[1], "r")
+
+for line in handle:
+    line = line.strip()
+    splitd=line.split("\t")
+    if line and len(splitd) > 8 and splitd[1] == "Complete":
+        pid = splitd[0]
+        scaf = splitd[2]
+        strand = splitd[5]
+        start = int(splitd[3])
+        stop = int(splitd[4])
+        if pid not in prots:
+            prots[pid] = {"scaf": scaf, "strand": strand,
+                          "start": start, "stop": stop}
+        else:
+            if start < prots[pid]["start"]:
+                prots[pid]["start"] = start
+            if stop > prots[pid]["stop"]:
+                prots[pid]["stop"] = stop
+handle.close()
+
+for pid in prots:
+    print("{}\t{}\t{}\t{}\t{}".format(
+        pid, prots[pid]["scaf"],
+        prots[pid]["strand"], prots[pid]["start"], prots[pid]["stop"]))
