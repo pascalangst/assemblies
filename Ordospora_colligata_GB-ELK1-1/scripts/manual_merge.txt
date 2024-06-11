@@ -1,0 +1,11 @@
+# <= ptg000033l from no-host assembly; >= ptg000077l from all assembly with tweak2 for Oc4
+
+ptg000077l (not ptg00003l)
+ptg000006l 31063 + ptg000085l
+ptg000004l
+ptg000015l
+ptg000022l + ptg000224l (last 14073)
+ptg000237l
+ptg000263l
+ptg000349l
+ptg000350l
