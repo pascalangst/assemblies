@@ -1,0 +1,13 @@
+contig_01 -> ptg000004l of no-host, full chr.
+contig_02 -> ptg000197l of all, full chr.
+contig_03 -> ptg000008l of no-host and identical to ptg000051l of all, no telomeres
+contig_04 -> ptg000015l of no-host, full chr.
+contig_05 -> ptg000067l of all, 1 telomere
+contig_06 -> ptg000016l of no-host and identical to ptg000103l of all, full chr.
+contig_07 -> ptg000005l of no-host and identical to ptg000034l of all, 1 telomere
+contig_08 -> ptg000036l of no-host, full chr. (ptg000249l of all has an identical end to another contig)
+contig_09 -> ptg000007l of no-host and identical to ptg000048l of all, 1 telomere
+contig_10 -> ptg000077l of all and almost identical to ptg000013l of no-host, full chr. 
+contig_11 -> ptg000051l of no-host, 1 telomere 
+contig_12 -> ptg000167l of all and almost identical to ptg000025l of no-host, full chr.
+contig_13 -> ptg000018l of all, full chr.
