@@ -124,3 +124,6 @@ gatk3 \
     -I curated.self.Illumina.mapped.md.bam \
     -o curated.self.Illumina.g.vcf.gz \
     --emitRefConfidence GVCF
+
+# ctg000290_np1212_pilon is odd in GC, has no BUSCO genes, and has similarities to Euglena
+# -> remove from assembly

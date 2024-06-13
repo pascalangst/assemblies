@@ -12,28 +12,28 @@
     44    Missing BUSCOs (M)               
     600    Total BUSCO groups searched     
 
-    Assembly                    curated 
-    # contigs (>= 0 bp)         21      
-    # contigs (>= 1000 bp)      21      
-    # contigs (>= 5000 bp)      21      
-    # contigs (>= 10000 bp)     21      
-    # contigs (>= 25000 bp)     21      
-    # contigs (>= 50000 bp)     21      
-    Total length (>= 0 bp)      16478344
-    Total length (>= 1000 bp)   16478344
-    Total length (>= 5000 bp)   16478344
-    Total length (>= 10000 bp)  16478344
-    Total length (>= 25000 bp)  16478344
-    Total length (>= 50000 bp)  16478344
-    # contigs                   21      
-    Largest contig              1930326 
-    Total length                16478344
-    GC (%)                      22.18   
-    N50                         989478  
-    N75                         772343  
-    L50                         7       
-    L75                         11      
-    # N's per 100 kbp           0.00 
+	Assembly                    curated_without_ctg000290_np1212_pilon
+	# contigs (>= 0 bp)         20                                    
+	# contigs (>= 1000 bp)      20                                    
+	# contigs (>= 5000 bp)      20                                    
+	# contigs (>= 10000 bp)     20                                    
+	# contigs (>= 25000 bp)     20                                    
+	# contigs (>= 50000 bp)     20                                    
+	Total length (>= 0 bp)      16375077                              
+	Total length (>= 1000 bp)   16375077                              
+	Total length (>= 5000 bp)   16375077                              
+	Total length (>= 10000 bp)  16375077                              
+	Total length (>= 25000 bp)  16375077                              
+	Total length (>= 50000 bp)  16375077                              
+	# contigs                   20                                    
+	Largest contig              1930326                               
+	Total length                16375077                              
+	GC (%)                      21.98                                 
+	N50                         989478                                
+	N75                         772343                                
+	L50                         7                                     
+	L75                         11                                    
+ 
   
 
 ### mapping stats for new reference
