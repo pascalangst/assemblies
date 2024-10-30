@@ -12,7 +12,7 @@ perl -0777 -pe ' use File::Basename; $x=basename($ARGV); $x=~s/\.faa//g; s/\>/>$
 
 python BUSCOfull_table2chrom.py ~/Gi_seq_second/BUSCO5.IL-YERU-16.masek.out/run_microsporidia_odb10/full_table.tsv | sed 's/:[^\t]*//' > Gi/Gi.chrom 
 
-# if ancestral gene linkage groups should be inferred, run this and remove other databases
+# if ancestral gene linkage groups should be inferred, run this, copy output to the odp/LG_db folder, and remove other databases
 snakemake --cores 12 -p --snakefile odp/scripts/odp_nway_rbh
 snakemake --cores 12 -p --snakefile odp/scripts/odp_rbh_to_alignments
 
