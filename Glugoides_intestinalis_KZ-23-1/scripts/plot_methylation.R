@@ -1,5 +1,6 @@
 library(ggplot2)
 library(ggpubr)
+library(gsubfn)
 
 modified_bases.5mC.bed <- read.delim("analysis/KZ-23-1.manual-merge.modified_bases.5mC.bed", header=FALSE)
 
@@ -28,4 +29,27 @@ for (i in unique(modified_bases.5mC.bed$V1)){
   print(arrange)
   ggsave(paste0(i, ".png"), arrange, height = 7.5, width = 7)
 }
+
+
+
+
+dict <- list("contig_01" = "scf1", 
+             "contig_02" = "scf2", 
+             "contig_03" = "scf3",
+             "contig_04" = "scf4", 
+             "contig_05" = "scf5", 
+             "contig_06" = "scf6", 
+             "contig_07" = "scf7", 
+             "contig_08" = "scf9", 
+             "contig_09" = "scf10", 
+             "contig_10" = "scf11", 
+             "contig_11" = "scf12", 
+             "contig_12" = "scf13", 
+             "contig_13" = "scf8") 
+
+modified_bases.5mC.bed.meth <- modified_bases.5mC.bed[modified_bases.5mC.bed$V5 > 3 & modified_bases.5mC.bed$V11 > 50,]
+
+homer.peak.file <- data.frame("Peak.ID"=rownames(modified_bases.5mC.bed.meth), "chromosome"=gsubfn("\\S+", dict, modified_bases.5mC.bed.meth$V1), "start"=modified_bases.5mC.bed.meth$V2, "end"=modified_bases.5mC.bed.meth$V3, "strand"=modified_bases.5mC.bed.meth$V6)
+
+write.table(homer.peak.file, file="KZ-23-1.homer_50.peaks", sep = "\t", quote = F, row.names = F, col.names = F)
 

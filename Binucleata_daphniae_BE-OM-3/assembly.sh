@@ -245,3 +245,87 @@ jellyfish count -C -m 21 -s 1000000000 -t 10 curated.nomagna.self.ont.mapped.fq 
 jellyfish histo -t 10 curated.nomagna.self.ont.mapped.jf > curated.nomagna.self.ont.mapped.histo
 genomescope2 -i curated.nomagna.self.ont.mapped.histo -o . -p 2 -k 21 -o diplo
 genomescope2 -i curated.nomagna.self.ont.mapped.histo -o . -p 4 -k 21 -o tetra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# HiFi data:
+
+(remove non-focal sequence
+purge duplicates
+scaffold (?)) ; conda activate ragtag; ragtag.py scaffold -o ragtag ~/BE-OM-3_Bd-2-2_depl/BE-OM-3_depl_pass.fastq BE-OM3-3.asm.bp.p_ctg.fa
+
+
+
+
+
+
+
+
+
+module load hifiasm/0.16.0-GCCcore-7.3.0
+hifiasm -o BE-OM3-3.asm -t8 BEOM3_Circular_Consensus_Sequencing_Reads/m64156_230918_182424.bc2001--bc2001.hifi_reads.fastq.gz
+
+blastn -db /scicore/data/managed/BLAST_FASTA/latest/nt \
+       -query BE-OM3-3.asm.bp.p_ctg.fa \
+       -outfmt "6 qseqid staxids bitscore std" \
+       -max_target_seqs 10 \
+       -max_hsps 1 \
+       -evalue 1e-25 \
+       -out blast.FULL.out \
+       -num_threads 64
+
+
+
+source /scicore/home/ebertd/angpas00/.bashrc
+conda activate pod5
+hifiasm_meta -o no-host_meta/BE-OM3-3.no-host.meta.asm -t8 BE-OM-3_Xinb3.hifi.unmapped.fastq.gz
+
+
+
+
+
+./minimap2 -t 4 -ax map-hifi BE-OM3-3.asm.bp.p_ctg.fa BEOM3_Circular_Consensus_Sequencing_Reads/m64156_230918_182424.bc2001--bc2001.hifi_reads.fastq.gz > BE-OM3-3.asm.bp.p_ctg.hifi.sam
+
+samtools view -Sb -@ 2 BE-OM3-3.asm.bp.p_ctg.hifi.sam | samtools sort -@ 2 -T xyz -o BE-OM3-3.hifiasm.p_ctg.bam
+rm BE-OM3-3.asm.bp.p_ctg.hifi.sam
+samtools index -b BE-OM3-3.hifiasm.p_ctg.bam
+
+blobtools nodesdb --nodes ~/bioinformatics/taxdump/nodes.dmp --names ~/bioinformatics/taxdump/names.dmp
+
+blobtools create -i BE-OM3-3.asm.bp.p_ctg.fa -b BE-OM3-3.hifiasm.p_ctg.bam \
+ -t blast.FULL.out -o BE-OM3-3.hifiasm.p_ctg.blobtools
+
+blobtools view -i BE-OM3-3.hifiasm.p_ctg.blobtools.blobDB.json
+blobtools plot -i BE-OM3-3.hifiasm.p_ctg.blobtools.blobDB.json
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bwa-mem2 mem -t 12 BE-OM3-3.no-host.busco.cov.GC.fa ~/sequencing/trimmed_reads/BE-OM-3_Micro_2_2b.pe.fq.gz  > BE-OM3-3.no-host.Micro_2_2.sam
+samtools view -Sb -@ 4 BE-OM3-3.no-host.Micro_2_2.sam | samtools sort -@ 4 -o BE-OM3-3.no-host.Micro_2_2.bam
+
+bedtools genomecov -ibam BE-OM3-3.no-host.Micro_2_2.bam > BE-OM3-3.no-host.Micro_2_2.bam.txt
