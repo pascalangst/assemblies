@@ -1,0 +1,83 @@
+pilercr v1.06
+By Robert C. Edgar
+
+/tmp/tmp55tajx5y/contigs.fna: 2 putative CRISPR arrays found.
+
+
+
+DETAIL REPORT
+
+
+
+Array 1
+>contig_1
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                                  Spacer
+==========  ======  ======  ======  ==========    ====================================    ======
+   1880133      36   100.0      31  ACCCAATTTG    ....................................    TCAGAAACTATCGAATGATTTACAATCACCC
+   1880200      36   100.0      30  ACAATCACCC    ....................................    TGCCATTATCAACTCTTCGACCGCTATCTG
+   1880266      36   100.0      30  CCGCTATCTG    ....................................    AATTTTTAGTGAAAGCAGGAAGTGGACTTG
+   1880332      36   100.0      30  AGTGGACTTG    ....................................    TTTTAGACCAATCTGCTTGTCCTTTTTTTT
+   1880398      36   100.0      30  CCTTTTTTTT    ....................................    TAAGCGCGTGATGCGTCTCTATCAACTTTA
+   1880464      36   100.0      30  ATCAACTTTA    ....................................    ACCAACTGTTAAGCTTCCTTTCTGTAGTTC
+   1880530      36   100.0      30  TCTGTAGTTC    ....................................    TGTTGCTGTTTGATTAAAATCGCCTGTATC
+   1880596      36   100.0          CGCCTGTATC    ....................................    AGACCCGTCA
+==========  ======  ======  ======  ==========    ====================================
+         8      36              30                GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT
+
+
+Array 2
+>contig_1
+
+       Pos  Repeat     %id  Spacer  Left flank    Repeat                          Spacer
+==========  ======  ======  ======  ==========    ============================    ======
+   2332314      28   100.0      32  ACGTTTTCTG    ............................    TATTCTTTATTATTTAGACTACTATATGAAGA
+   2332374      28   100.0      32  TATATGAAGA    ............................    TGATGTTTGTTTGTGCTTTAGAAAGTTTTGTA
+   2332434      28   100.0      33  AAGTTTTGTA    ............................    GTCGTTTTAAATACTGCATTAATTAAATTTGAG
+   2332495      28   100.0      32  TAAATTTGAG    ............................    AAATGCAGGTATGTCAAAGCAATTGAACCAAA
+   2332555      28   100.0      33  TTGAACCAAA    ............................    GGCAAATCACCAACACCTTGTTTTAACCATTGG
+   2332616      28   100.0      32  TAACCATTGG    ............................    CAGCAACTTACCGTGGCGCATCATTTACAAAT
+   2332676      28   100.0      32  ATTTACAAAT    ............................    AGCTAGTCTATTTATTTTCCGCTGTAATAAGT
+   2332736      28   100.0      32  TGTAATAAGT    ............................    TGTTATATTATTTGTTATGCCTTTGTTTTATT
+   2332796      28   100.0      32  TTGTTTTATT    ............................    ATTGCTCAGATGTAACATATACTATACAAAAC
+   2332856      28   100.0      32  TATACAAAAC    ............................    TATTGCAAACACCACGAGCAATTATACGTTTA
+   2332916      28   100.0      33  TATACGTTTA    ............................    GTGGTTGTTTTTTGAACTCTATTTGTATTAAAT
+   2332977      28   100.0      33  TGTATTAAAT    ............................    AATATCAACGCTGCAACATATCCTCTTTGGAAA
+   2333038      28   100.0      33  TCTTTGGAAA    ............................    TTCTTTATGCTTTTGGAGAAGAAAATTTTGATA
+   2333099      28   100.0      33  AATTTTGATA    ............................    TTATAAAACATTATACACAAGTGGAGTATTAGG
+   2333160      28   100.0      33  GAGTATTAGG    ............................    GAAATTATCCGCTCGGCATTATTGACGGGTTAT
+   2333221      28   100.0      32  GACGGGTTAT    ............................    GTGATGTTTTCTTTTCATCAGGCTCTGGATCT
+   2333281      28   100.0      32  CTCTGGATCT    ............................    GTTTAATCAACTATTATTTATCGCAACAGTTG
+   2333341      28   100.0      32  GCAACAGTTG    ............................    GCGTAAGCAATGAGGCTGCCATAAATGCACCA
+   2333401      28   100.0      33  AAATGCACCA    ............................    CGCTATTCTTTTTCTTTGTATTGACTTAAAAAT
+   2333462      28   100.0      32  ACTTAAAAAT    ............................    ACCCCTTTACAAACGGAGTTTAAATAAGGGGT
+   2333522      28   100.0      32  AATAAGGGGT    ............................    AAAGACGATGTGGAGCAGGCTCTTTCTGAATT
+   2333582      28   100.0      33  TTTCTGAATT    ............................    TTATAAAACATTATACACAAGTGGAGTATTAGG
+   2333643      28   100.0      32  GAGTATTAGG    ............................    ATATCATGTGTCAGACAAAATTTTAGCCACAA
+   2333703      28   100.0          TTAGCCACAA    ............................    GCTCTAATTT
+==========  ======  ======  ======  ==========    ============================
+        24      28              32                TTTCTCAGCCACCTATGCGGTGGTTAAT
+
+
+SUMMARY BY SIMILARITY
+
+
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer  +  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  =  =========
+    1          contig_1     1880133         499         8      36      30  +  GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT
+
+    2          contig_1     2332314        1417        24      28      32  +  TTTCTCAGCCACCTATGCGGTGGTTAAT
+
+
+
+SUMMARY BY POSITION
+
+
+
+>contig_1
+
+Array          Sequence    Position      Length  # Copies  Repeat  Spacer    Distance  Consensus
+=====  ================  ==========  ==========  ========  ======  ======  ==========  =========
+    1          contig_1     1880133         499         8      36      30              GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT
+    2          contig_1     2332314        1417        24      28      32      451652  TTTCTCAGCCACCTATGCGGTGGTTAAT

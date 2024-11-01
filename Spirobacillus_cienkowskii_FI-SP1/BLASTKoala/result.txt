@@ -1,0 +1,1078 @@
+# gene name           KO     thrshld  score   E-value KO definition
+#-------------------- ------ ------- ------ --------- ---------------------
+* Spiro2_00010        K02338   53.57  172.4   2.7e-51 DNA polymerase III subunit beta [EC:2.7.7.7]
+* Spiro2_00015        K02470  979.23 1050.1         0 DNA gyrase subunit B [EC:5.6.2.2]
+* Spiro2_00020        K02469 1064.07 1282.8         0 DNA gyrase subunit A [EC:5.6.2.2]
+* Spiro2_00030        K00616  137.07  201.5   4.6e-60 transaldolase [EC:2.2.1.2]
+* Spiro2_00035        K01519   52.80   97.3   1.7e-28 XTP/dITP diphosphohydrolase [EC:3.6.1.66]
+* Spiro2_00040        K03641  131.70  239.5   1.2e-71 TolB protein
+* Spiro2_00050        K03559   27.47  125.0   4.7e-37 biopolymer transport protein ExbD
+* Spiro2_00055        K03561   54.67  163.1   2.1e-48 biopolymer transport protein ExbB
+* Spiro2_00060        K00945   75.67  261.0   2.4e-78 CMP/dCMP kinase [EC:2.7.4.25]
+* Spiro2_00065        K01962  422.77  535.3    4e-161 acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]
+* Spiro2_00075        K02527  159.43  184.4   4.4e-55 3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]
+* Spiro2_00090        K05527   71.63  104.1   1.1e-30 BolA family transcriptional regulator, general stress-responsive regulator
+* Spiro2_00130        K00798   39.60  216.3   5.9e-65 cob(I)alamin adenosyltransferase [EC:2.5.1.17]
+* Spiro2_00135        K23536  198.73  330.5   1.5e-99 general nucleoside transport system permease protein
+* Spiro2_00140        K23535  205.70  347.1  1.6e-104 general nucleoside transport system permease protein
+* Spiro2_00145        K23537  595.23  718.8  1.1e-216 general nucleoside transport system ATP-binding protein
+* Spiro2_00150        K07335  105.90  320.6   2.8e-96 basic membrane protein A and related proteins
+* Spiro2_00165        K07335  105.90  312.9   6.1e-94 basic membrane protein A and related proteins
+* Spiro2_00180        K11991  170.17  238.7   1.8e-71 tRNA(adenine34) deaminase [EC:3.5.4.33]
+* Spiro2_00190        K00820  181.60  788.1  1.2e-237 glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+* Spiro2_00205        K01734   70.27  218.9   1.2e-65 methylglyoxal synthase [EC:4.2.3.3]
+* Spiro2_00210        K07180  282.87  464.8  6.1e-140 serine protein kinase
+* Spiro2_00215        K07175  265.97  602.7  1.2e-181 PhoH-like ATPase
+* Spiro2_00220        K03497   54.23  228.4     3e-68 ParB family transcriptional regulator, chromosome partitioning protein
+* Spiro2_00230        K02109   43.70   50.4   3.5e-14 F-type H+-transporting ATPase subunit b
+* Spiro2_00235        K02113  111.10  114.9   6.3e-34 F-type H+-transporting ATPase subunit delta
+* Spiro2_00240        K02111  427.73  907.4  1.2e-273 F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]
+* Spiro2_00245        K02115  247.10  310.1   2.7e-93 F-type H+-transporting ATPase subunit gamma
+* Spiro2_00250        K02112  496.07  854.7  4.2e-258 F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]
+* Spiro2_00255        K02114   94.87  128.2     5e-38 F-type H+-transporting ATPase subunit epsilon
+* Spiro2_00270        K03531  234.53  567.6  6.4e-171 cell division protein FtsZ
+* Spiro2_00275        K03590  121.30  343.5  3.1e-103 cell division protein FtsA
+* Spiro2_00285        K01924  375.47  566.3  1.1e-170 UDP-N-acetylmuramate--alanine ligase [EC:6.3.2.8]
+* Spiro2_00290        K03588  363.47  366.7  3.1e-110 cell division protein FtsW
+* Spiro2_00300        K01000  181.27  401.5  5.1e-121 phospho-N-acetylmuramoyl-pentapeptide-transferase [EC:2.7.8.13]
+* Spiro2_00305        K01928  405.50  462.9  2.1e-139 UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase [EC:6.3.2.13]
+* Spiro2_00310        K03587  455.93  543.0  1.1e-163 cell division protein FtsI (penicillin-binding protein 3) [EC:3.4.16.4]
+* Spiro2_00335        K07102  150.80  229.4   1.4e-68 N-acetylmuramate 1-kinase [EC:2.7.1.221]
+* Spiro2_00340        K03701  392.60  661.6  2.8e-199 excinuclease ABC subunit A
+* Spiro2_00360        K00859   58.73  193.3   1.1e-57 dephospho-CoA kinase [EC:2.7.1.24]
+* Spiro2_00370        K03595  149.20  331.7   1.3e-99 GTPase
+* Spiro2_00375        K03685  164.73  172.4   2.2e-51 ribonuclease III [EC:3.1.26.3]
+* Spiro2_00380        K00566  417.27  477.7  4.6e-144 tRNA-uridine 2-sulfurtransferase [EC:2.8.1.13]
+* Spiro2_00400        K02342  103.33  178.0   3.8e-53 DNA polymerase III subunit epsilon [EC:2.7.7.7]
+* Spiro2_00400        K09951   58.87   65.0   1.2e-18 CRISPR-associated protein Cas2
+* Spiro2_00435        K00031  126.60  189.8   1.2e-56 isocitrate dehydrogenase [EC:1.1.1.42]
+* Spiro2_00440        K01167   42.20   52.8   8.3e-15 ribonuclease T1 [EC:4.6.1.24]
+* Spiro2_00455        K06940   30.77   43.7   3.9e-12 uncharacterized protein
+* Spiro2_00500        K13598  295.90  486.7  1.9e-146 two-component system, NtrC family, nitrogen regulation sensor histidine kinase NtrY [EC:2.7.13.3]
+* Spiro2_00505        K13599  485.23  578.1  1.6e-174 two-component system, NtrC family, nitrogen regulation response regulator NtrX
+* Spiro2_00505        K02481  549.37  570.0  8.1e-172 two-component system, NtrC family, response regulator
+* Spiro2_00565        K11741  109.40  129.2   2.6e-38 quaternary ammonium compound-resistance protein SugE
+* Spiro2_00575        K00249  380.33  446.0  2.9e-134 acyl-CoA dehydrogenase [EC:1.3.8.7]
+* Spiro2_00580        K00794   50.47  204.3   2.9e-61 6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78]
+* Spiro2_00585        K03625   91.33  126.2   2.4e-37 transcription antitermination protein NusB
+* Spiro2_00625        K02259   61.70  124.6   6.8e-37 heme a synthase [EC:1.17.99.9]
+* Spiro2_00655        K00789   17.90  593.2  6.2e-179 S-adenosylmethionine synthetase [EC:2.5.1.6]
+* Spiro2_00675        K11753  130.67  344.5  1.4e-103 riboflavin kinase / FMN adenylyltransferase [EC:2.7.1.26 2.7.7.2]
+* Spiro2_00690        K03469   83.17  187.1   8.6e-56 ribonuclease HI [EC:3.1.26.4]
+* Spiro2_00730        K03406   58.43  193.5   9.8e-58 methyl-accepting chemotaxis protein
+* Spiro2_00735        K03406   58.43  221.5   3.4e-66 methyl-accepting chemotaxis protein
+* Spiro2_00750        K02030   87.27  123.2   1.8e-36 polar amino acid transport system substrate-binding protein
+* Spiro2_00755        K03406   58.43  139.3   2.6e-41 methyl-accepting chemotaxis protein
+* Spiro2_00760        K03406   58.43  136.9   1.4e-40 methyl-accepting chemotaxis protein
+* Spiro2_00770        K00029  316.30  337.0  3.1e-101 malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
+* Spiro2_00785        K21064  178.87  198.5     2e-59 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+* Spiro2_00790        K01869  382.57 1158.7         0 leucyl-tRNA synthetase [EC:6.1.1.4]
+* Spiro2_00805        K03466   58.27  581.8  2.9e-175 DNA segregation ATPase FtsK/SpoIIIE, S-DNA-T family
+* Spiro2_00810        K15539   58.07   79.0   6.6e-23 cytoskeleton protein RodZ
+* Spiro2_00815        K01972  105.50  484.2    1e-145 DNA ligase (NAD+) [EC:6.5.1.2]
+* Spiro2_00835        K00507   72.37  281.7     2e-84 stearoyl-CoA desaturase (Delta-9 desaturase) [EC:1.14.19.1]
+* Spiro2_00855        K07056   97.00  281.5   1.6e-84 16S rRNA (cytidine1402-2'-O)-methyltransferase [EC:2.1.1.198]
+* Spiro2_00870        K03657  358.03  580.1  1.3e-174 ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+* Spiro2_00875        K02654  118.70  218.3   2.4e-65 leader peptidase (prepilin peptidase) / N-methyltransferase [EC:3.4.23.43 2.1.1.-]
+* Spiro2_00880        K03664   47.80  222.7   6.9e-67 SsrA-binding protein
+* Spiro2_00915        K04075  112.80  164.7   5.3e-49 tRNA(Ile)-lysidine synthase [EC:6.3.4.19]
+* Spiro2_00935        K00796  249.77  250.2   4.5e-75 dihydropteroate synthase [EC:2.5.1.15]
+* Spiro2_00945        K07496   25.43  226.9   8.2e-68 putative transposase
+* Spiro2_00950        K07491   16.23   44.7   2.1e-12 REP-associated tyrosine transposase
+* Spiro2_01005        K02314  107.20  490.3  1.3e-147 replicative DNA helicase [EC:5.6.2.3]
+* Spiro2_01015        K06942  319.10  375.2  1.1e-112 ribosome-binding ATPase
+* Spiro2_01020        K10773  133.37  231.2     4e-69 endonuclease III [EC:3.2.2.- 4.2.99.18]
+* Spiro2_01080        K00962  279.33  985.4  2.9e-297 polyribonucleotide nucleotidyltransferase [EC:2.7.7.8]
+* Spiro2_01085        K01462   59.80  166.0   1.8e-49 peptide deformylase [EC:3.5.1.88]
+* Spiro2_01115        K04744   95.87  176.8   1.2e-52 LPS-assembly protein
+* Spiro2_01125        K01963  318.33  404.8  5.6e-122 acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15]
+* Spiro2_01130        K09800  111.23  116.7   1.5e-34 translocation and assembly module TamB
+* Spiro2_01200        K10027  514.23  532.9  1.7e-160 phytoene desaturase [EC:1.3.99.26 1.3.99.28 1.3.99.29 1.3.99.31]
+* Spiro2_01215        K22132  165.33  282.3   1.3e-84 tRNA threonylcarbamoyladenosine dehydratase
+* Spiro2_01230        K03496  133.93  289.6   6.9e-87 chromosome partitioning protein
+* Spiro2_01275        K04095   43.93  130.7   1.2e-38 cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]
+* Spiro2_01340        K01153  177.30  799.8  7.9e-241 type I restriction enzyme, R subunit [EC:3.1.21.3]
+* Spiro2_01345        K01154   44.47  112.2   4.7e-33 type I restriction enzyme, S subunit [EC:3.1.21.3]
+* Spiro2_01350        K03427  113.43  475.7    4e-143 type I restriction enzyme M protein [EC:2.1.1.72]
+* Spiro2_01365        K02030   87.27  140.8   8.6e-42 polar amino acid transport system substrate-binding protein
+* Spiro2_01410        K03169  548.97  807.4  1.8e-243 DNA topoisomerase III [EC:5.6.2.1]
+* Spiro2_01420        K04095   43.93   91.0   1.4e-26 cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]
+* Spiro2_01440        K06199   26.73   79.0   5.3e-23 fluoride exporter
+* Spiro2_01445        K08304  173.03  364.7  1.2e-109 membrane-bound lytic murein transglycosylase A [EC:4.2.2.-]
+* Spiro2_01465        K00138  793.93 1024.1         0 aldehyde dehydrogenase [EC:1.2.1.-]
+* Spiro2_01530        K02557  140.90  208.9   1.6e-62 chemotaxis protein MotB
+* Spiro2_01535        K02556   86.23  232.9     9e-70 chemotaxis protein MotA
+* Spiro2_01545        K03269   65.57  128.9   2.8e-38 UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]
+* Spiro2_01555        K02199  122.20  136.8   1.3e-40 cytochrome c biogenesis protein CcmG, thiol:disulfide interchange protein DsbE
+* Spiro2_01560        K02197   39.50  122.3   2.8e-36 cytochrome c-type biogenesis protein CcmE
+* Spiro2_01570        K02195  111.17  225.7   9.7e-68 heme exporter protein C
+* Spiro2_01575        K02194   51.40   80.5   9.1e-24 heme exporter protein B
+* Spiro2_01590        K07259  102.27  289.3   1.1e-86 serine-type D-Ala-D-Ala carboxypeptidase/endopeptidase (penicillin-binding protein 4) [EC:3.4.16.4 3.4.21.-]
+* Spiro2_01595        K03386  223.80  335.6  5.3e-101 peroxiredoxin 2/4 [EC:1.11.1.24]
+* Spiro2_01600        K00995  102.20  102.2   6.1e-30 CDP-diacylglycerol---glycerol-3-phosphate 3-phosphatidyltransferase [EC:2.7.8.5]
+* Spiro2_01610        K04079   56.47  734.2  3.7e-221 molecular chaperone HtpG
+* Spiro2_01625        K06940   30.77   57.7   2.1e-16 uncharacterized protein
+* Spiro2_01650        K00459  123.00  232.3   2.1e-69 nitronate monooxygenase [EC:1.13.12.16]
+* Spiro2_01680        K07058   40.13  114.4   9.1e-34 membrane protein
+* Spiro2_01690        K02415   30.93   78.2     1e-22 flagellar protein FliL
+* Spiro2_01695        K02416   95.30  270.7   4.4e-81 flagellar motor switch protein FliM
+* Spiro2_01700        K02417   67.30  144.8   6.9e-43 flagellar motor switch protein FliN
+* Spiro2_01705        K02418   23.43   47.3   2.8e-13 flagellar protein FliO/FliZ
+* Spiro2_01710        K02419  287.50  378.3  7.3e-114 flagellar biosynthesis protein FliP
+* Spiro2_01715        K02420   87.37  113.2   7.3e-34 flagellar biosynthesis protein FliQ
+* Spiro2_01720        K02421  172.50  196.3   9.4e-59 flagellar biosynthesis protein FliR
+* Spiro2_01730        K02400  735.50  891.7  4.6e-269 flagellar biosynthesis protein FlhA
+* Spiro2_01735        K02404  167.07  309.1   6.8e-93 flagellar biosynthesis protein FlhF
+* Spiro2_01740        K04562  203.43  315.9   4.8e-95 flagellar biosynthesis protein FlhG
+* Spiro2_01745        K02405  182.90  310.5   3.9e-93 RNA polymerase sigma factor FliA
+* Spiro2_01750        K03413  139.13  160.5     8e-48 two-component system, chemotaxis family, chemotaxis protein CheY
+* Spiro2_01765        K16868   88.07   89.9   2.5e-26 tellurite methyltransferase [EC:2.1.1.265]
+* Spiro2_01780        K03699  305.27  428.5  7.5e-129 magnesium and cobalt exporter, CNNM family
+* Spiro2_01785        K07042   59.93  126.7   1.7e-37 probable rRNA maturation factor
+* Spiro2_01800        K03563   24.30   92.1   4.3e-27 carbon storage regulator
+* Spiro2_01805        K00790  172.07  499.0    2e-150 UDP-N-acetylglucosamine 1-carboxyvinyltransferase [EC:2.5.1.7]
+* Spiro2_01850        K03409   53.73  127.2   1.4e-37 chemotaxis protein CheX
+* Spiro2_01860        K08602  130.97  263.2   7.7e-79 oligoendopeptidase F [EC:3.4.24.-]
+* Spiro2_01870        K02343  235.90  442.0  5.5e-133 DNA polymerase III subunit gamma/tau [EC:2.7.7.7]
+* Spiro2_01880        K02888   29.77  108.5   6.2e-32 large subunit ribosomal protein L21
+* Spiro2_01885        K02899   42.63  155.7   2.8e-46 large subunit ribosomal protein L27
+* Spiro2_01890        K03979  148.03  444.0    1e-133 GTPase [EC:3.6.5.-]
+* Spiro2_01895        K09710  113.47  116.8   1.4e-34 ribosome-associated protein
+* Spiro2_01900        K00783   85.93  126.9   1.2e-37 23S rRNA (pseudouridine1915-N3)-methyltransferase [EC:2.1.1.177]
+* Spiro2_01910        K03642   41.70  154.5   6.6e-46 rare lipoprotein A
+* Spiro2_01920        K06861  260.27  406.5  1.4e-122 lipopolysaccharide export system ATP-binding protein [EC:7.5.2.5]
+* Spiro2_01925        K09774   59.27   60.5   2.8e-17 lipopolysaccharide export system protein LptA
+* Spiro2_01945        K01241   97.40  217.5   4.4e-65 AMP nucleosidase [EC:3.2.2.4]
+* Spiro2_01950        K10026   77.50  160.0   9.7e-48 7-carboxy-7-deazaguanine synthase [EC:4.3.99.3]
+* Spiro2_01955        K01737   29.93   52.5   7.6e-15 6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+* Spiro2_01960        K02406  135.40  343.1  3.5e-103 flagellin
+* Spiro2_01970        K22187  552.00  572.0  1.2e-172 alpha-ketoglutaric semialdehyde dehydrogenase [EC:1.2.1.-]
+* Spiro2_01980        K09859  140.37  279.9   5.5e-84 uncharacterized protein
+* Spiro2_01985        K00655  125.67  191.3   3.6e-57 1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51]
+* Spiro2_01995        K00797  103.50  311.0     2e-93 spermidine synthase [EC:2.5.1.16]
+* Spiro2_02040        K05896   38.20  186.0   1.4e-55 segregation and condensation protein A
+* Spiro2_02050        K02871   66.33  221.1   3.1e-66 large subunit ribosomal protein L13
+* Spiro2_02055        K02996  103.33  186.5   1.1e-55 small subunit ribosomal protein S9
+* Spiro2_02070        K25156  292.00  354.2  1.3e-106 viologen exporter family transport system ATP-binding protein
+* Spiro2_02080        K01255  415.97  460.4  1.6e-138 leucyl aminopeptidase [EC:3.4.11.1]
+* Spiro2_02090        K02030   87.27  133.1   1.9e-39 polar amino acid transport system substrate-binding protein
+* Spiro2_02095        K07019  351.47  364.9  1.1e-109 uncharacterized protein
+* Spiro2_02100        K07979  106.70  111.2   6.3e-33 GntR family transcriptional regulator
+* Spiro2_02165        K04043  791.40  909.4    3e-274 molecular chaperone DnaK
+* Spiro2_02170        K03975   64.70   86.4   3.3e-25 membrane-associated protein
+* Spiro2_02190        K03409   53.73   65.1   1.2e-18 chemotaxis protein CheX
+* Spiro2_02195        K02406  135.40  319.4   5.4e-96 flagellin
+* Spiro2_02200        K02371  373.07  406.2  1.7e-122 enoyl-[acyl-carrier protein] reductase II [EC:1.3.1.9]
+* Spiro2_02200        K00459  123.00  275.6   1.7e-82 nitronate monooxygenase [EC:1.13.12.16]
+* Spiro2_02220        K06024   48.03  194.6   2.6e-58 segregation and condensation protein B
+* Spiro2_02230        K00604  252.10  305.6   8.6e-92 methionyl-tRNA formyltransferase [EC:2.1.2.9]
+* Spiro2_02235        K00950   59.60   86.5   3.5e-25 2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3]
+* Spiro2_02240        K02914   23.67   73.4   1.9e-21 large subunit ribosomal protein L34
+* Spiro2_02245        K03218  216.30  231.9   1.5e-69 23S rRNA (guanosine2251-2'-O)-methyltransferase [EC:2.1.1.185]
+* Spiro2_02250        K05810   51.63  102.7   3.2e-30 purine-nucleoside/S-methyl-5'-thioadenosine phosphorylase / adenosine deaminase [EC:2.4.2.1 2.4.2.28 3.5.4.4]
+* Spiro2_02255        K03073   21.57   55.2   1.2e-15 preprotein translocase subunit SecE
+* Spiro2_02260        K02601  102.10  198.9   1.4e-59 transcription termination/antitermination protein NusG
+* Spiro2_02275        K00803  315.97  635.2  2.1e-191 alkyldihydroxyacetonephosphate synthase [EC:2.5.1.26]
+* Spiro2_02280        K07124  228.07  290.5   2.8e-87 uncharacterized protein
+* Spiro2_02300        K13356  150.30  289.9   6.9e-87 alcohol-forming fatty acyl-CoA reductase [EC:1.2.1.84]
+* Spiro2_02320        K01895  766.17  991.5  3.7e-299 acetyl-CoA synthetase [EC:6.2.1.1]
+* Spiro2_02330        K01914  217.03  453.6  5.1e-137 aspartate--ammonia ligase [EC:6.3.1.1]
+* Spiro2_02340        K00239  609.33  634.5  2.3e-191 succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]
+* Spiro2_02370        K07494   57.07   76.2   4.2e-22 putative transposase
+* Spiro2_02385        K03075   26.43   77.1   2.6e-22 preprotein translocase subunit SecG
+* Spiro2_02390        K00632  512.47  542.6  9.2e-164 acetyl-CoA acyltransferase [EC:2.3.1.16]
+* Spiro2_02390        K00626  353.63  459.4  3.1e-138 acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+* Spiro2_02395        K07516  371.87  788.5    1e-237 3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35]
+* Spiro2_02400        K07171   21.13   42.1   1.4e-11 mRNA interferase MazF [EC:3.1.-.-]
+* Spiro2_02405        K02337  977.13 1427.2         0 DNA polymerase III subunit alpha [EC:2.7.7.7]
+* Spiro2_02410        K09804   55.03   78.2   9.2e-23 uncharacterized protein
+* Spiro2_02420        K08316   90.60  211.5   2.8e-63 16S rRNA (guanine966-N2)-methyltransferase [EC:2.1.1.171]
+* Spiro2_02430        K07496   25.43   32.9   4.2e-09 putative transposase
+* Spiro2_02480        K05794  132.70  420.3  1.3e-126 tellurite resistance protein TerC
+* Spiro2_02505        K00989  196.83  400.9  8.8e-121 ribonuclease PH [EC:2.7.7.56]
+* Spiro2_02525        K03568  295.30  435.2  6.2e-131 TldD protein
+* Spiro2_02535        K01876  294.97  789.1  7.1e-238 aspartyl-tRNA synthetase [EC:6.1.1.12]
+* Spiro2_02540        K00554  120.87  322.7   5.2e-97 tRNA (guanine37-N1)-methyltransferase [EC:2.1.1.228]
+* Spiro2_02545        K02860   35.73  102.4   5.1e-30 16S rRNA processing protein RimM
+* Spiro2_02560        K00425   77.03  559.7  8.5e-169 cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+* Spiro2_02565        K00426   33.40  384.8  6.4e-116 cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+* Spiro2_02570        K15371  288.73  442.4    6e-133 glutamate dehydrogenase [EC:1.4.1.2]
+* Spiro2_02585        K00801  100.83  220.0   9.2e-66 farnesyl-diphosphate farnesyltransferase [EC:2.5.1.21]
+* Spiro2_02590        K07107   62.10   75.3     1e-21 acyl-CoA thioester hydrolase [EC:3.1.2.-]
+* Spiro2_02595        K01286  184.10  197.8   5.8e-59 D-alanyl-D-alanine carboxypeptidase [EC:3.4.16.4]
+* Spiro2_02605        K09022   95.90  199.8   8.2e-60 2-iminobutanoate/2-iminopropanoate deaminase [EC:3.5.99.10]
+* Spiro2_02610        K03272  388.03  522.5    2e-157 D-beta-D-heptose 7-phosphate kinase / D-beta-D-heptose 1-phosphate adenosyltransferase [EC:2.7.1.167 2.7.7.70]
+* Spiro2_02635        K09125   29.10  192.8   1.2e-57 queuosine precursor transporter
+* Spiro2_02640        K09125   29.10  144.5     6e-43 queuosine precursor transporter
+* Spiro2_02670        K06968  113.97  420.1  2.2e-126 23S rRNA (cytidine2498-2'-O)-methyltransferase [EC:2.1.1.186]
+* Spiro2_02700        K01620   99.73  215.3   2.4e-64 threonine aldolase [EC:4.1.2.48]
+* Spiro2_02705        K02030   87.27  108.7   4.6e-32 polar amino acid transport system substrate-binding protein
+* Spiro2_02720        K06168  441.33  569.6  8.1e-172 tRNA-2-methylthio-N6-dimethylallyladenosine synthase [EC:2.8.4.3]
+* Spiro2_02725        K03106  343.53  574.4  4.9e-173 signal recognition particle subunit SRP54 [EC:3.6.5.4]
+* Spiro2_02730        K00645  262.60  338.0  1.6e-101 [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
+* Spiro2_02735        K01265  133.77  372.1  5.7e-112 methionyl aminopeptidase [EC:3.4.11.18]
+* Spiro2_02745        K07552  309.93  324.2     2e-97 MFS transporter, DHA1 family, multidrug resistance protein
+* Spiro2_02755        K02391  221.97  247.1   3.7e-74 flagellar basal-body rod protein FlgF
+* Spiro2_02775        K01478  125.90  379.1  3.5e-114 arginine deiminase [EC:3.5.3.6]
+* Spiro2_02780        K08309  128.17  233.8   1.1e-69 soluble lytic murein transglycosylase [EC:4.2.2.-]
+* Spiro2_02800        K00029  316.30  652.9  9.2e-197 malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]
+* Spiro2_02805        K03648   67.03  350.4  2.4e-105 uracil-DNA glycosylase [EC:3.2.2.27]
+* Spiro2_02820        K00865   59.40  261.8   1.8e-78 glycerate 2-kinase [EC:2.7.1.165]
+* Spiro2_02825        K02078   40.47   82.2   7.4e-24 acyl carrier protein
+* Spiro2_02830        K01808  182.93  211.2   2.4e-63 ribose 5-phosphate isomerase B [EC:5.3.1.6]
+* Spiro2_02835        K00600   75.87  638.6  2.2e-192 glycine hydroxymethyltransferase [EC:2.1.2.1]
+* Spiro2_02850        K07738   43.87  203.1   5.3e-61 transcriptional repressor NrdR
+* Spiro2_02855        K00793   53.83  187.5   4.7e-56 riboflavin synthase [EC:2.5.1.9]
+* Spiro2_02865        K01056   57.13  209.6   8.7e-63 peptidyl-tRNA hydrolase, PTH1 family [EC:3.1.1.29]
+* Spiro2_02870        K02897   41.73  146.1   2.1e-43 large subunit ribosomal protein L25
+* Spiro2_02875        K03640  146.43  155.8   2.9e-46 peptidoglycan-associated lipoprotein
+* Spiro2_02920        K03723  530.50 1127.5         0 transcription-repair coupling factor (superfamily II helicase) [EC:5.6.2.4]
+* Spiro2_02925        K00057  281.67  380.2  2.2e-114 glycerol-3-phosphate dehydrogenase (NAD(P)+) [EC:1.1.1.94]
+* Spiro2_02930        K03924  112.03  382.9  3.3e-115 MoxR-like ATPase [EC:3.6.3.-]
+* Spiro2_02950        K18682  107.43  598.8  1.2e-180 ribonucrease Y [EC:3.1.-.-]
+* Spiro2_02955        K09769  123.47  303.1   3.1e-91 2',3'-cyclic-nucleotide 2'-phosphodiesterase [EC:3.1.4.16]
+* Spiro2_02965        K24105  155.90  159.0   2.1e-47 mutual gliding-motility protein MglA
+* Spiro2_02970        K01809   30.80   82.2   5.8e-24 mannose-6-phosphate isomerase [EC:5.3.1.8]
+* Spiro2_02980        K03786  187.17  199.0   1.5e-59 3-dehydroquinate dehydratase II [EC:4.2.1.10]
+* Spiro2_02990        K01520   50.97  136.6   1.3e-40 dUTP diphosphatase [EC:3.6.1.23]
+* Spiro2_03005        K00606   85.80  364.3  1.1e-109 3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11]
+* Spiro2_03010        K03799  134.20  246.1   7.4e-74 heat shock protein HtpX [EC:3.4.24.-]
+* Spiro2_03025        K03762  454.60  463.2  1.7e-139 MFS transporter, MHS family, proline/betaine transporter
+* Spiro2_03065        K23779   96.07  108.9   4.5e-32 XRE family transcriptional regulator, regulator of sulfur utilization
+* Spiro2_03075        K07315  144.10  196.9   7.3e-59 phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
+* Spiro2_03080        K08964  118.07  122.5     4e-36 methylthioribulose-1-phosphate dehydratase [EC:4.2.1.109]
+* Spiro2_03090        K08963  368.47  558.3  2.8e-168 methylthioribose-1-phosphate isomerase [EC:5.3.1.23]
+* Spiro2_03090        K00899  309.97  462.7  3.2e-139 5-methylthioribose kinase [EC:2.7.1.100]
+* Spiro2_03095        K00772  291.80  352.7  3.2e-106 5'-methylthioadenosine phosphorylase [EC:2.4.2.28]
+* Spiro2_03100        K00799   71.43   77.6   1.7e-22 glutathione S-transferase [EC:2.5.1.18]
+* Spiro2_03110        K02358  352.30  767.3  1.1e-231 elongation factor Tu
+* Spiro2_03130        K01061   92.70   93.2   3.2e-27 carboxymethylenebutenolidase [EC:3.1.1.45]
+* Spiro2_03135        K04760  191.43  222.9   4.5e-67 transcription elongation factor GreB
+* Spiro2_03160        K02035  245.87  284.1   3.5e-85 peptide/nickel transport system substrate-binding protein
+* Spiro2_03165        K13894  371.33  406.5  1.6e-122 microcin C transport system permease protein
+* Spiro2_03165        K02033  273.53  330.5   3.3e-99 peptide/nickel transport system permease protein
+* Spiro2_03170        K13895  339.87  368.2  4.8e-111 microcin C transport system permease protein
+* Spiro2_03170        K02034  160.37  274.2     3e-82 peptide/nickel transport system permease protein
+* Spiro2_03190        K01119  359.13  637.3  5.5e-192 2',3'-cyclic-nucleotide 2'-phosphodiesterase / 3'-nucleotidase [EC:3.1.4.16 3.1.3.6]
+* Spiro2_03195        K02520   39.13  235.1   1.8e-70 translation initiation factor IF-3
+* Spiro2_03245        K03624  155.23  204.4   2.7e-61 transcription elongation factor GreA
+* Spiro2_03255        K07106  207.00  369.5  5.1e-111 N-acetylmuramic acid 6-phosphate etherase [EC:4.2.1.126]
+* Spiro2_03270        K03470  126.23  188.6   2.2e-56 ribonuclease HII [EC:3.1.26.4]
+* Spiro2_03275        K03671  113.73  138.2   6.2e-41 thioredoxin
+* Spiro2_03280        K06958  146.10  340.3  1.9e-102 RNase adapter protein RapZ
+* Spiro2_03290        K03092   80.47  453.8  1.1e-136 RNA polymerase sigma-54 factor
+* Spiro2_03295        K02406  135.40  292.0   1.2e-87 flagellin
+* Spiro2_03300        K02406  135.40  311.3   1.6e-93 flagellin
+* Spiro2_03330        K00869  154.40  200.4   6.8e-60 mevalonate kinase [EC:2.7.1.36]
+* Spiro2_03335        K01597  223.20  259.9   9.1e-78 diphosphomevalonate decarboxylase [EC:4.1.1.33]
+* Spiro2_03345        K00054  322.33  577.3  1.1e-173 hydroxymethylglutaryl-CoA reductase [EC:1.1.1.88]
+* Spiro2_03380        K02030   87.27  132.7   2.4e-39 polar amino acid transport system substrate-binding protein
+* Spiro2_03395        K02911   22.53   68.0   1.5e-19 large subunit ribosomal protein L32
+* Spiro2_03405        K01775  118.73  314.3   2.2e-94 alanine racemase [EC:5.1.1.1]
+* Spiro2_03410        K07568  179.67  365.6  4.4e-110 S-adenosylmethionine:tRNA ribosyltransferase-isomerase [EC:2.4.99.17]
+* Spiro2_03415        K00773  527.70  561.7  1.9e-169 queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+* Spiro2_03445        K03413  139.13  143.4   1.4e-42 two-component system, chemotaxis family, chemotaxis protein CheY
+* Spiro2_03480        K00631  458.17  602.7    2e-181 glycerol-3-phosphate O-acyltransferase [EC:2.3.1.15]
+* Spiro2_03485        K01918   52.80  198.4   2.6e-59 pantoate--beta-alanine ligase [EC:6.3.2.1]
+* Spiro2_03490        K01918   52.80   74.3   1.3e-21 pantoate--beta-alanine ligase [EC:6.3.2.1]
+* Spiro2_03505        K03720   70.67   81.8     7e-24 TrpR family transcriptional regulator, trp operon repressor
+* Spiro2_03510        K00949   43.30   50.0   3.4e-14 thiamine pyrophosphokinase [EC:2.7.6.2]
+* Spiro2_03525        K06999   92.33  129.0   3.2e-38 phospholipase/carboxylesterase
+* Spiro2_03530        K03665  216.93  519.5    3e-156 GTPase
+* Spiro2_03540        K00075   65.60  270.5   3.8e-81 UDP-N-acetylmuramate dehydrogenase [EC:1.3.1.98]
+* Spiro2_03550        K03214  213.10  331.2  9.3e-100 RNA methyltransferase, TrmH family [EC:2.1.1.-]
+* Spiro2_03555        K09912  101.77  126.3   2.2e-37 uncharacterized protein
+* Spiro2_03575        K00575  185.83  264.1   4.5e-79 chemotaxis protein methyltransferase CheR [EC:2.1.1.80]
+* Spiro2_03585        K00981   51.23  181.1   5.4e-54 phosphatidate cytidylyltransferase [EC:2.7.7.41]
+* Spiro2_03635        K07491   16.23   70.5     3e-20 REP-associated tyrosine transposase
+* Spiro2_03640        K07496   25.43  256.8   7.5e-77 putative transposase
+* Spiro2_03660        K02357   71.90  353.3  4.7e-106 elongation factor Ts
+* Spiro2_03665        K02967  151.37  375.4  6.3e-113 small subunit ribosomal protein S2
+* Spiro2_03670        K01868  152.83  869.6  4.6e-262 threonyl-tRNA synthetase [EC:6.1.1.3]
+* Spiro2_03715        K03644  127.03  462.2  3.8e-139 lipoyl synthase [EC:2.8.1.8]
+* Spiro2_03720        K02039  125.00  145.6     3e-43 phosphate transport system protein
+* Spiro2_03735        K02387   71.80  109.1   3.3e-32 flagellar basal-body rod protein FlgB
+* Spiro2_03740        K02388   69.17  173.5   7.6e-52 flagellar basal-body rod protein FlgC
+* Spiro2_03745        K02408   32.53   91.2   1.5e-26 flagellar hook-basal body complex protein FliE
+* Spiro2_03750        K02409  128.67  430.6  1.5e-129 flagellar M-ring protein FliF
+* Spiro2_03760        K11901  135.40  169.0   1.6e-50 type VI secretion system protein ImpB
+* Spiro2_03765        K11900  524.77  619.5    1e-186 type VI secretion system protein ImpC
+* Spiro2_03780        K11896  192.37  203.6   7.2e-61 type VI secretion system protein ImpG
+* Spiro2_03790        K11902  123.03  162.8   2.7e-48 type VI secretion system protein ImpA
+* Spiro2_03800        K15268  159.60  309.6   3.4e-93 O-acetylserine/cysteine efflux transporter
+* Spiro2_03815        K11904   70.97  153.9   7.4e-46 type VI secretion system secreted protein VgrG
+* Spiro2_03825        K11892   86.80   94.3   1.5e-27 type VI secretion system protein ImpK
+* Spiro2_03830        K11893  123.13  190.6   5.3e-57 type VI secretion system protein ImpJ
+* Spiro2_03850        K00228   66.47  309.1   5.7e-93 coproporphyrinogen III oxidase [EC:1.3.3.3]
+* Spiro2_03855        K02198  475.50  580.7  6.1e-175 cytochrome c-type biogenesis protein CcmF
+* Spiro2_03855        K02200   20.53   45.1   1.8e-12 cytochrome c-type biogenesis protein CcmH
+* Spiro2_03870        K00820  181.60  237.1   5.2e-71 glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16]
+* Spiro2_03875        K04774  184.50  427.2  5.3e-129 serine protease SohB [EC:3.4.21.-]
+* Spiro2_03880        K04084  255.13  385.6  6.6e-116 thioredoxin:protein disulfide reductase [EC:1.8.4.16]
+* Spiro2_03880        K06196  130.30  151.5   4.2e-45 cytochrome c-type biogenesis protein
+* Spiro2_03885        K15633   75.63  563.0  8.1e-170 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]
+* Spiro2_03900        K06041  161.43  295.0   1.6e-88 arabinose-5-phosphate isomerase [EC:5.3.1.13]
+* Spiro2_03915        K01139  804.83  916.9  1.4e-276 GTP diphosphokinase / guanosine-3',5'-bis(diphosphate) 3'-diphosphatase [EC:2.7.6.5 3.1.7.2]
+* Spiro2_03950        K07484   19.23   23.8   3.5e-06 transposase
+* Spiro2_03980        K01006  366.27 1392.0         0 pyruvate, orthophosphate dikinase [EC:2.7.9.1]
+* Spiro2_03985        K02429  150.00  460.9  5.5e-139 MFS transporter, FHS family, L-fucose permease
+* Spiro2_03990        K04758   39.73   73.0   4.3e-21 ferrous iron transport protein A
+* Spiro2_03995        K04759  101.97  766.5  3.7e-231 ferrous iron transport protein B
+* Spiro2_04010        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_04040        K00891  130.63  150.0   1.8e-44 shikimate kinase [EC:2.7.1.71]
+* Spiro2_04045        K01674  243.70  260.9   3.4e-78 carbonic anhydrase [EC:4.2.1.1]
+* Spiro2_04050        K18676  184.00  300.7     2e-90 glucosamine kinase [EC:2.7.1.8]
+* Spiro2_04055        K01443  131.50  390.6  2.1e-117 N-acetylglucosamine-6-phosphate deacetylase [EC:3.5.1.25]
+* Spiro2_04070        K02435   25.23   55.9   6.3e-16 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit C [EC:6.3.5.6 6.3.5.7]
+* Spiro2_04075        K02433  446.30  547.5  8.2e-165 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit A [EC:6.3.5.6 6.3.5.7]
+* Spiro2_04075        K01426  294.17  328.4   1.4e-98 amidase [EC:3.5.1.4]
+* Spiro2_04080        K02434  423.77  642.2  1.4e-193 aspartyl-tRNA(Asn)/glutamyl-tRNA(Gln) amidotransferase subunit B [EC:6.3.5.6 6.3.5.7]
+* Spiro2_04105        K09768   56.23  205.7   9.3e-62 uncharacterized protein
+* Spiro2_04110        K06020  677.27  876.4  1.2e-264 energy-dependent translational throttle protein EttA
+* Spiro2_04115        K00721  175.23  255.9   8.3e-77 dolichol-phosphate mannosyltransferase [EC:2.4.1.83]
+* Spiro2_04120        K00278  540.07  759.6  4.8e-229 L-aspartate oxidase [EC:1.4.3.16]
+* Spiro2_04125        K07337   55.30  175.9   9.7e-53 penicillin-binding protein activator
+* Spiro2_04130        K02838   28.20  227.2   2.8e-68 ribosome recycling factor
+* Spiro2_04135        K09007  196.80  297.5   1.3e-89 GTP cyclohydrolase IB [EC:3.5.4.16]
+* Spiro2_04145        K07098   87.40  121.9   4.2e-36 uncharacterized protein
+* Spiro2_04150        K07098   87.40  110.4   1.3e-32 uncharacterized protein
+* Spiro2_04155        K02460   51.80  144.5   7.9e-43 general secretion pathway protein K
+* Spiro2_04160        K02459   62.17   77.7   1.6e-22 general secretion pathway protein J
+* Spiro2_04175        K02456   84.10   87.2   2.4e-25 general secretion pathway protein G
+* Spiro2_04190        K02453  321.33  433.4  2.9e-130 general secretion pathway protein D
+* Spiro2_04195        K02452   56.30   88.7   6.5e-26 general secretion pathway protein C
+* Spiro2_04200        K02452   56.30  112.3     4e-33 general secretion pathway protein C
+* Spiro2_04205        K07315  144.10  177.3   6.4e-53 phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
+* Spiro2_04210        K03406   58.43  130.8   9.8e-39 methyl-accepting chemotaxis protein
+* Spiro2_04230        K03555  679.87  919.7  4.4e-277 DNA mismatch repair protein MutS
+* Spiro2_04235        K06207  360.97  898.0  4.7e-271 GTP-binding protein
+* Spiro2_04250        K00161  430.93  440.7  1.1e-132 pyruvate dehydrogenase E1 component subunit alpha [EC:1.2.4.1]
+* Spiro2_04255        K00162  485.80  511.4  2.2e-154 pyruvate dehydrogenase E1 component subunit beta [EC:1.2.4.1]
+* Spiro2_04260        K00627  467.80  470.0  1.3e-141 pyruvate dehydrogenase E2 component (dihydrolipoyllysine-residue acetyltransferase) [EC:2.3.1.12]
+* Spiro2_04265        K06178  254.37  294.7   2.6e-88 23S rRNA pseudouridine2605 synthase [EC:5.4.99.22]
+* Spiro2_04275        K26392  251.63  263.2     7e-79 stomatin-like protein 2
+* Spiro2_04280        K00797  103.50  212.6   1.5e-63 spermidine synthase [EC:2.5.1.16]
+* Spiro2_04295        K03406   58.43  191.6   3.6e-57 methyl-accepting chemotaxis protein
+* Spiro2_04300        K03406   58.43  214.9   3.3e-64 methyl-accepting chemotaxis protein
+* Spiro2_04305        K03406   58.43  179.1   2.2e-53 methyl-accepting chemotaxis protein
+* Spiro2_04310        K09478  515.53  618.6  1.2e-186 short-chain 2-methylacyl-CoA dehydrogenase [EC:1.3.8.5]
+* Spiro2_04315        K03210   35.23   92.7   4.7e-27 preprotein translocase subunit YajC
+* Spiro2_04320        K03072  193.63  458.4    7e-138 preprotein translocase subunit SecD
+* Spiro2_04330        K07462   64.80  591.9  4.6e-178 single-stranded-DNA-specific exonuclease [EC:3.1.-.-]
+* Spiro2_04350        K00111  150.67  292.2   1.1e-87 glycerol-3-phosphate dehydrogenase [EC:1.1.5.3]
+* Spiro2_04355        K04487  280.90  374.9  7.8e-113 cysteine desulfurase [EC:2.8.1.7]
+* Spiro2_04365        K03424   93.63  137.5   9.8e-41 TatD DNase family protein [EC:3.1.21.-]
+* Spiro2_04375        K00797  103.50  106.6   2.1e-31 spermidine synthase [EC:2.5.1.16]
+* Spiro2_04380        K03797  130.13  277.2   3.9e-83 carboxyl-terminal processing protease [EC:3.4.21.102]
+* Spiro2_04385        K03711  145.33  154.3   6.8e-46 Fur family transcriptional regulator, ferric uptake regulator
+* Spiro2_04390        K00873   75.73  233.3     7e-70 pyruvate kinase [EC:2.7.1.40]
+* Spiro2_04395        K07029  137.77  173.9   6.8e-52 diacylglycerol kinase (ATP) [EC:2.7.1.107]
+* Spiro2_04405        K03406   58.43  140.2   1.3e-41 methyl-accepting chemotaxis protein
+* Spiro2_04410        K03406   58.43  114.0   1.2e-33 methyl-accepting chemotaxis protein
+* Spiro2_04435        K02231   44.07  166.9   8.4e-50 adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase [EC:2.7.1.156 2.7.7.62]
+* Spiro2_04440        K00683  107.77  160.2   1.1e-47 glutaminyl-peptide cyclotransferase [EC:2.3.2.5]
+* Spiro2_04445        K03787  156.93  233.5   6.2e-70 5'/3'-nucleotidase [EC:3.1.3.5 3.1.3.6]
+* Spiro2_04450        K01843  354.80  403.3    2e-121 lysine 2,3-aminomutase [EC:5.4.3.2]
+* Spiro2_04465        K02032  389.40  483.7  1.8e-145 peptide/nickel transport system ATP-binding protein
+* Spiro2_04470        K02031  426.77  473.4  2.1e-142 peptide/nickel transport system ATP-binding protein
+* Spiro2_04475        K15582  364.47  397.7  4.7e-120 oligopeptide transport system permease protein
+* Spiro2_04475        K02034  160.37  340.4  2.6e-102 peptide/nickel transport system permease protein
+* Spiro2_04480        K15581  360.40  403.6  1.2e-121 oligopeptide transport system permease protein
+* Spiro2_04480        K02033  273.53  352.3    8e-106 peptide/nickel transport system permease protein
+* Spiro2_04485        K15580  353.07  490.2  1.6e-147 oligopeptide transport system substrate-binding protein
+* Spiro2_04485        K02035  245.87  302.2   1.2e-90 peptide/nickel transport system substrate-binding protein
+* Spiro2_04495        K00548  258.67 1155.6         0 5-methyltetrahydrofolate--homocysteine methyltransferase [EC:2.1.1.13]
+* Spiro2_04505        K24042  362.50  696.2  4.1e-210 methionine synthase / methylenetetrahydrofolate reductase (NADH) [EC:2.1.1.13 1.5.1.54]
+* Spiro2_04520        K08309  128.17  230.1   1.3e-68 soluble lytic murein transglycosylase [EC:4.2.2.-]
+* Spiro2_04525        K02041  270.17  343.4    2e-103 phosphonate transport system ATP-binding protein [EC:7.3.2.2]
+* Spiro2_04530        K02042  124.50  277.0   4.3e-83 phosphonate transport system permease protein
+* Spiro2_04555        K04488  141.67  142.0   2.9e-42 nitrogen fixation protein NifU and related proteins
+* Spiro2_04560        K09013  160.00  349.8  1.4e-105 Fe-S cluster assembly ATP-binding protein
+* Spiro2_04565        K09014  372.87  811.5  7.5e-245 Fe-S cluster assembly protein SufB
+* Spiro2_04580        K09767   91.90  199.8   3.8e-60 cyclic-di-GMP-binding protein
+* Spiro2_04605        K08307  134.27  354.3    2e-106 membrane-bound lytic murein transglycosylase D [EC:4.2.2.-]
+* Spiro2_04630        K06921   89.67  216.2   1.7e-64 uncharacterized protein
+* Spiro2_04635        K05770   26.90   98.6   7.6e-29 translocator protein
+* Spiro2_04640        K07496   25.43  226.4   1.2e-67 putative transposase
+* Spiro2_04645        K09131   30.67   81.0   1.7e-23 uncharacterized protein
+* Spiro2_04660        K03446  350.63  531.6  2.6e-160 MFS transporter, DHA2 family, multidrug resistance protein
+* Spiro2_04670        K01933  184.77  420.0  2.5e-126 phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1]
+* Spiro2_04680        K01945  130.60  319.8   4.7e-96 phosphoribosylamine---glycine ligase [EC:6.3.4.13]
+* Spiro2_04680        K01923  172.83  276.5   5.7e-83 phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6]
+* Spiro2_04690        K01589  269.80  388.3    8e-117 5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18]
+* Spiro2_04695        K01588  114.47  246.9   4.2e-74 5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18]
+* Spiro2_04700        K00764  193.03  612.3  1.8e-184 amidophosphoribosyltransferase [EC:2.4.2.14]
+* Spiro2_04705        K23269  728.30  800.1  4.8e-241 phosphoribosylformylglycinamidine synthase subunit PurL [EC:6.3.5.3]
+* Spiro2_04710        K23265  211.23  215.5   1.4e-64 phosphoribosylformylglycinamidine synthase subunit PurQ / glutaminase [EC:6.3.5.3 3.5.1.2]
+* Spiro2_04715        K01756  305.37  383.5  3.8e-115 adenylosuccinate lyase [EC:4.3.2.2]
+* Spiro2_04725        K07498   48.93  110.8   1.3e-32 putative transposase
+* Spiro2_04745        K03465   63.00  181.2   4.4e-54 thymidylate synthase (FAD) [EC:2.1.1.148]
+* Spiro2_04750        K02406  135.40  333.1  3.9e-100 flagellin
+* Spiro2_04765        K02167  124.60  126.6   1.9e-37 TetR/AcrR family transcriptional regulator, transcriptional repressor of bet genes
+* Spiro2_04775        K03406   58.43  156.4   1.7e-46 methyl-accepting chemotaxis protein
+* Spiro2_04790        K00826  181.90  388.0  8.7e-117 branched-chain amino acid aminotransferase [EC:2.6.1.42]
+* Spiro2_04815        K06884   16.07   29.3   1.6e-07 uncharacterized protein
+* Spiro2_04885        K02030   87.27   98.0   8.3e-29 polar amino acid transport system substrate-binding protein
+* Spiro2_04890        K02410   67.63  333.7  2.9e-100 flagellar motor switch protein FliG
+* Spiro2_04905        K02413   34.00   56.9   3.6e-16 flagellar protein FliJ
+* Spiro2_04920        K07001   92.03  118.0   7.1e-35 NTE family protein
+* Spiro2_04935        K03554   90.40   94.6   8.4e-28 recombination associated protein RdgC
+* Spiro2_04940        K03564  159.63  194.6   4.2e-58 thioredoxin-dependent peroxiredoxin [EC:1.11.1.24]
+* Spiro2_04945        K20656  165.83  266.0   1.2e-79 plasmanylethanolamine desaturase [EC:1.14.19.77]
+* Spiro2_04950        K21929   36.33   41.4   1.9e-11 uracil-DNA glycosylase [EC:3.2.2.27]
+* Spiro2_04955        K03545   70.37  320.9   2.6e-96 trigger factor
+* Spiro2_04965        K01870  465.40 1034.1         0 isoleucyl-tRNA synthetase [EC:6.1.1.5]
+* Spiro2_04970        K03100  111.43  159.3   1.5e-47 signal peptidase I [EC:3.4.21.89]
+* Spiro2_04975        K02986   70.37  164.9   4.8e-49 small subunit ribosomal protein S4
+* Spiro2_05000        K02518   43.67   85.0   6.4e-25 translation initiation factor IF-1
+* Spiro2_05005        K07456  282.80  511.0  9.3e-154 DNA mismatch repair protein MutS2
+* Spiro2_05010        K06949   87.33  281.6   1.5e-84 ribosome biogenesis GTPase / thiamine phosphate phosphatase [EC:3.6.1.- 3.1.3.100]
+* Spiro2_05025        K09797   95.63  246.3   3.8e-74 uncharacterized protein
+* Spiro2_05030        K07146  190.23  399.3  2.9e-120 UPF0176 protein
+* Spiro2_05065        K01810  180.90  186.7   9.2e-56 glucose-6-phosphate isomerase [EC:5.3.1.9]
+* Spiro2_05070        K03778  350.93  508.1  2.1e-153 D-lactate dehydrogenase [EC:1.1.1.28]
+* Spiro2_05080        K07164   74.00  102.9   2.5e-30 uncharacterized protein
+* Spiro2_05085        K00058  329.00  430.9    1e-129 D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]
+* Spiro2_05120        K02551  335.13  355.4  1.1e-106 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase [EC:2.2.1.9]
+* Spiro2_05125        K01872  197.30  615.4  3.2e-185 alanyl-tRNA synthetase [EC:6.1.1.7]
+* Spiro2_05130        K01872  197.30  269.8   8.1e-81 alanyl-tRNA synthetase [EC:6.1.1.7]
+* Spiro2_05135        K03980  198.87  254.5   2.7e-76 putative peptidoglycan lipid II flippase
+* Spiro2_05150        K08968   93.63  156.9   9.9e-47 L-methionine (R)-S-oxide reductase [EC:1.8.4.14]
+* Spiro2_05160        K01669  356.37  459.5  3.3e-138 deoxyribodipyrimidine photo-lyase [EC:4.1.99.3]
+* Spiro2_05170        K04568  304.77  310.2   2.5e-93 elongation factor P--(R)-beta-lysine ligase [EC:6.3.1.-]
+* Spiro2_05185        K09950   53.70  110.8   1.2e-32 uncharacterized protein
+* Spiro2_05190        K03406   58.43  166.5   1.5e-49 methyl-accepting chemotaxis protein
+* Spiro2_05215        K00208  270.53  389.3  3.2e-117 enoyl-[acyl-carrier protein] reductase I [EC:1.3.1.9 1.3.1.10]
+* Spiro2_05225        K11720  216.73  237.7     3e-71 lipopolysaccharide export system permease protein
+* Spiro2_05235        K00134  407.63  511.2  3.2e-154 glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]
+* Spiro2_05240        K01921  143.50  188.3   3.2e-56 D-alanine-D-alanine ligase [EC:6.3.2.4]
+* Spiro2_05250        K03575  151.13  331.3   1.6e-99 A/G-specific adenine glycosylase [EC:3.2.2.31]
+* Spiro2_05265        K04564   55.77  125.5     4e-37 superoxide dismutase, Fe-Mn family [EC:1.15.1.1]
+* Spiro2_05280        K22083  263.07  274.9   1.8e-82 methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]
+* Spiro2_05305        K00263  470.77  493.0  1.3e-148 leucine dehydrogenase [EC:1.4.1.9]
+* Spiro2_05315        K00626  353.63  548.1  4.3e-165 acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+* Spiro2_05335        K03762  454.60  467.0  1.2e-140 MFS transporter, MHS family, proline/betaine transporter
+* Spiro2_05340        K15012  147.33  178.6   2.7e-53 two-component system, response regulator RegA
+* Spiro2_05345        K15011  199.83  233.7     5e-70 two-component system, sensor histidine kinase RegB [EC:2.7.13.3]
+* Spiro2_05355        K03216   96.17  211.7   9.7e-64 tRNA (cytidine/uridine-2'-O-)-methyltransferase [EC:2.1.1.207]
+* Spiro2_05360        K03978   95.40  219.4   1.4e-65 GTP-binding protein
+* Spiro2_05365        K00382  460.93  599.4  8.2e-181 dihydrolipoyl dehydrogenase [EC:1.8.1.4]
+* Spiro2_05375        K07335  105.90  286.6   5.7e-86 basic membrane protein A and related proteins
+* Spiro2_05380        K01887  104.27  454.5  1.3e-136 arginyl-tRNA synthetase [EC:6.1.1.19]
+* Spiro2_05385        K04485   93.87  607.9  2.5e-183 DNA repair protein RadA/Sms
+* Spiro2_05410        K02342  103.33  188.7   2.1e-56 DNA polymerase III subunit epsilon [EC:2.7.7.7]
+* Spiro2_05435        K02030   87.27  122.4   3.2e-36 polar amino acid transport system substrate-binding protein
+* Spiro2_05450        K02028  388.77  390.8  1.3e-117 polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+* Spiro2_05465        K06188  252.40  370.4    1e-111 aquaporin Z
+* Spiro2_05470        K01627  190.57  369.4  2.3e-111 2-dehydro-3-deoxyphosphooctonate aldolase (KDO 8-P synthase) [EC:2.5.1.55]
+* Spiro2_05510        K01754  262.40  375.2    9e-113 threonine dehydratase [EC:4.3.1.19]
+* Spiro2_05530        K05833  177.63  242.4   6.1e-73 putative tryptophan/tyrosine transport system ATP-binding protein
+* Spiro2_05540        K01989  119.63  247.2   2.9e-74 putative tryptophan/tyrosine transport system substrate-binding protein
+* Spiro2_05545        K01356  132.97  145.2   4.4e-43 repressor LexA [EC:3.4.21.88]
+* Spiro2_05550        K00791  181.77  270.5   4.5e-81 tRNA dimethylallyltransferase [EC:2.5.1.75]
+* Spiro2_05555        K03572  417.53  559.6  1.1e-168 DNA mismatch repair protein MutL
+* Spiro2_05570        K01698   98.03  526.4    2e-158 porphobilinogen synthase [EC:4.2.1.24]
+* Spiro2_05575        K01358   46.67  353.9  2.3e-106 ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+* Spiro2_05580        K03544  144.87  626.2  6.4e-189 ATP-dependent Clp protease ATP-binding subunit ClpX
+* Spiro2_05585        K01338  858.03  949.3  3.7e-286 ATP-dependent Lon protease [EC:3.4.21.53]
+* Spiro2_05590        K01167   42.20   63.8   3.6e-18 ribonuclease T1 [EC:4.6.1.24]
+* Spiro2_05595        K01772   60.87  317.7     2e-95 protoporphyrin/coproporphyrin ferrochelatase [EC:4.98.1.1 4.99.1.9]
+* Spiro2_05600        K03702  342.30 1096.6         0 excinuclease ABC subunit B
+* Spiro2_05610        K03412  201.00  401.2  1.1e-120 two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]
+* Spiro2_05635        K01893  361.67  672.3  8.4e-203 asparaginyl-tRNA synthetase [EC:6.1.1.22]
+* Spiro2_05645        K18138 1085.10 1254.3         0 multidrug efflux pump
+* Spiro2_05650        K03585  262.33  287.8   2.6e-86 membrane fusion protein, multidrug efflux system
+* Spiro2_05665        K02050  143.60  229.9   7.9e-69 NitT/TauT family transport system permease protein
+* Spiro2_05670        K05526  105.70  124.0   8.4e-37 succinylglutamate desuccinylase [EC:3.5.1.96]
+* Spiro2_05680        K02902   20.83   75.4   8.6e-22 large subunit ribosomal protein L28
+* Spiro2_05685        K01338  858.03  916.2  3.8e-276 ATP-dependent Lon protease [EC:3.4.21.53]
+* Spiro2_05690        K04487  280.90  378.8  4.9e-114 cysteine desulfurase [EC:2.8.1.7]
+* Spiro2_05710        K07124  228.07  316.6   3.3e-95 uncharacterized protein
+* Spiro2_05720        K10563  199.80  244.5   3.3e-73 formamidopyrimidine-DNA glycosylase [EC:3.2.2.23 4.2.99.18]
+* Spiro2_05725        K01809   30.80   35.2   1.1e-09 mannose-6-phosphate isomerase [EC:5.3.1.8]
+* Spiro2_05730        K07315  144.10  171.8   2.9e-51 phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
+* Spiro2_05735        K01586  271.60  331.9   1.3e-99 diaminopimelate decarboxylase [EC:4.1.1.20]
+* Spiro2_05780        K03885  201.33  443.7  1.5e-133 NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]
+* Spiro2_05785        K00857   77.97  196.5   1.3e-58 thymidine kinase [EC:2.7.1.21]
+* Spiro2_05790        K01626   47.00  369.9  5.4e-111 3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54]
+* Spiro2_05795        K06153   46.57  310.6   2.1e-93 undecaprenyl-diphosphatase [EC:3.6.1.27]
+* Spiro2_05800        K02836  369.23  504.2  5.8e-152 peptide chain release factor 2
+* Spiro2_05805        K00759   97.73  204.5   3.3e-61 adenine phosphoribosyltransferase [EC:2.4.2.7]
+* Spiro2_05810        K03442  239.23  315.0   9.3e-95 small conductance mechanosensitive channel
+* Spiro2_05815        K00800  134.50  344.4  1.9e-103 3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19]
+* Spiro2_05820        K01736  217.73  522.6  1.7e-157 chorismate synthase [EC:4.2.3.5]
+* Spiro2_05830        K04750   54.23   72.5   5.7e-21 PhnB protein
+* Spiro2_05840        K15777  168.13  300.3   3.8e-90 4,5-DOPA dioxygenase extradiol [EC:1.13.11.-]
+* Spiro2_05845        K06911   31.27  155.4   3.8e-46 quercetin 2,3-dioxygenase [EC:1.13.11.24]
+* Spiro2_05860        K03529  560.03  805.8  9.6e-243 chromosome segregation protein
+* Spiro2_05865        K01969  771.53  946.6  2.1e-285 3-methylcrotonyl-CoA carboxylase beta subunit [EC:6.4.1.4]
+* Spiro2_05875        K13766  268.43  272.7   4.5e-82 methylglutaconyl-CoA hydratase [EC:4.2.1.18]
+* Spiro2_05885        K00253  485.53  518.5  2.3e-156 isovaleryl-CoA dehydrogenase [EC:1.3.8.4]
+* Spiro2_05900        K07180  282.87  909.6  1.5e-274 serine protein kinase
+* Spiro2_05905        K09786  177.30  408.0  7.5e-123 uncharacterized protein
+* Spiro2_05910        K06415  259.63  605.6  1.8e-182 stage V sporulation protein R
+* Spiro2_05935        K07107   62.10   63.1   5.7e-18 acyl-CoA thioester hydrolase [EC:3.1.2.-]
+* Spiro2_05950        K03797  130.13  282.5   9.3e-85 carboxyl-terminal processing protease [EC:3.4.21.102]
+* Spiro2_05955        K21567  376.57  420.9  4.5e-127 ferredoxin/flavodoxin---NADP+ reductase [EC:1.18.1.2 1.19.1.1]
+* Spiro2_05970        K01673   18.77  202.0   2.5e-60 carbonic anhydrase [EC:4.2.1.1]
+* Spiro2_05975        K13993   75.00  130.8   8.9e-39 HSP20 family protein
+* Spiro2_05980        K09922   59.10  104.5   4.6e-31 uncharacterized protein
+* Spiro2_05990        K17686  811.83  974.6  8.6e-294 P-type Cu+ transporter [EC:7.2.2.8]
+* Spiro2_06000        K01881  177.33  347.9  1.5e-104 prolyl-tRNA synthetase [EC:6.1.1.15]
+* Spiro2_06010        K01265  133.77  223.7   6.4e-67 methionyl aminopeptidase [EC:3.4.11.18]
+* Spiro2_06080        K07459  137.83  319.5   7.5e-96 putative ATP-dependent endonuclease of the OLD family
+* Spiro2_06115        K03782  482.97 1435.4         0 catalase-peroxidase [EC:1.11.1.21]
+* Spiro2_06125        K03594   81.37  215.8   9.7e-65 bacterioferritin [EC:1.16.3.1]
+* Spiro2_06135        K00231  147.90  234.9     3e-70 protoporphyrinogen/coproporphyrinogen III oxidase [EC:1.3.3.4 1.3.3.15]
+* Spiro2_06145        K01358   46.67  250.9   4.2e-75 ATP-dependent Clp protease, protease subunit [EC:3.4.21.92]
+* Spiro2_06150        K01961  714.10  759.5  2.5e-229 acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
+* Spiro2_06155        K02160   91.40  167.6   3.7e-50 acetyl-CoA carboxylase biotin carboxyl carrier protein
+* Spiro2_06160        K02356   88.23  261.5   8.5e-79 elongation factor P
+* Spiro2_06170        K00526  219.33  409.0  4.2e-123 ribonucleoside-diphosphate reductase beta chain [EC:1.17.4.1]
+* Spiro2_06175        K00525  364.77  712.9  7.4e-215 ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1]
+* Spiro2_06190        K02355  535.93 1068.0         0 elongation factor G
+* Spiro2_06195        K01921  143.50  314.9   1.6e-94 D-alanine-D-alanine ligase [EC:6.3.2.4]
+* Spiro2_06200        K03553   96.20  610.0  5.1e-184 recombination protein RecA
+* Spiro2_06220        K02028  388.77  445.5  3.4e-134 polar amino acid transport system ATP-binding protein [EC:7.4.2.1]
+* Spiro2_06225        K02030   87.27  156.0   2.1e-46 polar amino acid transport system substrate-binding protein
+* Spiro2_06230        K02029  214.40  262.6   9.2e-79 polar amino acid transport system permease protein
+* Spiro2_06235        K02029  214.40  235.8   1.3e-70 polar amino acid transport system permease protein
+* Spiro2_06240        K00674  154.13  248.4   2.1e-74 2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase [EC:2.3.1.117]
+* Spiro2_06270        K02385   43.30   65.0   7.3e-19 flagellar protein FlbD
+* Spiro2_06275        K07040   23.73   61.7   1.1e-17 DUF177 domain-containing protein
+* Spiro2_06310        K04096   27.57  226.0   1.8e-67 DNA processing protein
+* Spiro2_06350        K02410   67.63  177.5   6.8e-53 flagellar motor switch protein FliG
+* Spiro2_06355        K02234  229.33  249.3   7.6e-75 cobalamin biosynthesis protein CobW
+* Spiro2_06385        K03550   47.90  203.5   5.5e-61 holliday junction DNA helicase RuvA [EC:5.6.2.4]
+* Spiro2_06390        K03551  179.33  495.3  2.8e-149 holliday junction DNA helicase RuvB [EC:5.6.2.4]
+* Spiro2_06395        K02030   87.27   96.5   2.4e-28 polar amino acid transport system substrate-binding protein
+* Spiro2_06405        K03596  928.83 1054.8         0 GTP-binding protein LepA
+* Spiro2_06420        K07494   57.07   76.2   4.2e-22 putative transposase
+* Spiro2_06430        K07494   57.07   76.2   4.2e-22 putative transposase
+* Spiro2_06440        K01425  100.83  387.8  1.3e-116 glutaminase [EC:3.5.1.2]
+* Spiro2_06445        K03406   58.43  178.6   3.2e-53 methyl-accepting chemotaxis protein
+* Spiro2_06455        K07098   87.40  272.5   8.1e-82 uncharacterized protein
+* Spiro2_06465        K03408  104.57  203.4   7.9e-61 purine-binding chemotaxis protein CheW
+* Spiro2_06475        K02945  144.83  450.1  1.6e-135 small subunit ribosomal protein S1
+* Spiro2_06480        K04773  184.53  243.7   6.1e-73 protease IV [EC:3.4.21.-]
+* Spiro2_06485        K02221   23.00   32.0     2e-08 YggT family protein
+* Spiro2_06495        K03415  173.67  285.6   8.9e-86 two-component system, chemotaxis family, chemotaxis protein CheV
+* Spiro2_06505        K02036  259.20  426.0  1.2e-128 phosphate transport system ATP-binding protein [EC:7.3.2.1]
+* Spiro2_06510        K02038  250.23  284.1   2.8e-85 phosphate transport system permease protein
+* Spiro2_06515        K02037  265.70  322.4   9.8e-97 phosphate transport system permease protein
+* Spiro2_06520        K02040   56.30  198.3   4.2e-59 phosphate transport system substrate-binding protein
+* Spiro2_06530        K02051  147.47  153.8   1.4e-45 NitT/TauT family transport system substrate-binding protein
+* Spiro2_06545        K01885  297.17  593.1  1.3e-178 glutamyl-tRNA synthetase [EC:6.1.1.17]
+* Spiro2_06550        K07263  253.47  468.4  6.5e-141 zinc protease [EC:3.4.24.-]
+* Spiro2_06570        K00856  118.37  140.5   8.1e-42 adenosine kinase [EC:2.7.1.20]
+* Spiro2_06590        K03676   75.33   94.9   6.8e-28 glutaredoxin 3
+* Spiro2_06600        K00615  226.40  643.3  9.2e-194 transketolase [EC:2.2.1.1]
+* Spiro2_06620        K06960   48.37  102.0   4.3e-30 uncharacterized protein
+* Spiro2_06630        K00453   86.60  114.8   7.6e-34 tryptophan 2,3-dioxygenase [EC:1.13.11.11]
+* Spiro2_06635        K00864  517.80  608.9  2.1e-183 glycerol kinase [EC:2.7.1.30]
+* Spiro2_06640        K01207  255.37  295.4   1.3e-88 beta-N-acetylhexosaminidase [EC:3.2.1.52]
+* Spiro2_06645        K03832   35.50   43.5   6.2e-12 periplasmic protein TonB
+* Spiro2_06650        K05540  282.07  348.4  8.3e-105 tRNA-dihydrouridine synthase B [EC:1.-.-.-]
+* Spiro2_06655        K06941   81.27  408.7  4.9e-123 23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]
+* Spiro2_06675        K01919  165.50  214.1   6.7e-64 glutamate--cysteine ligase [EC:6.3.2.2]
+* Spiro2_06680        K03559   27.47  120.3   1.4e-35 biopolymer transport protein ExbD
+* Spiro2_06685        K03561   54.67  151.4   7.7e-45 biopolymer transport protein ExbB
+* Spiro2_06690        K06888   60.30  194.5   4.7e-58 uncharacterized protein
+* Spiro2_06695        K09808  206.23  297.4   2.7e-89 lipoprotein-releasing system permease protein
+* Spiro2_06695        K02004   43.17   67.2   1.2e-19 putative ABC transport system permease protein
+* Spiro2_06700        K03695 1084.80 1176.7         0 ATP-dependent Clp protease ATP-binding subunit ClpB
+* Spiro2_06720        K01779   95.97  135.6   3.6e-40 aspartate racemase [EC:5.1.1.13]
+* Spiro2_06750        K03408  104.57  107.1   1.6e-31 purine-binding chemotaxis protein CheW
+* Spiro2_06755        K03407  562.53  660.7  5.3e-199 two-component system, chemotaxis family, sensor kinase CheA [EC:2.7.13.3]
+* Spiro2_06760        K06287  202.73  238.8   1.5e-71 nucleoside triphosphate pyrophosphatase [EC:3.6.1.-]
+* Spiro2_06765        K06997   71.83  212.8   9.7e-64 PLP dependent protein
+* Spiro2_06780        K04066  129.50  601.9  3.5e-181 primosomal protein N' (replication factor Y) (superfamily II helicase) [EC:5.6.2.4]
+* Spiro2_06785        K18697  109.50  158.0   4.5e-47 phosphatidylglycerophosphatase C [EC:3.1.3.27]
+* Spiro2_06820        K11936  259.27  314.3   1.7e-94 poly-beta-1,6-N-acetyl-D-glucosamine synthase [EC:2.4.1.-]
+* Spiro2_06840        K01061   92.70  202.7   1.8e-60 carboxymethylenebutenolidase [EC:3.1.1.45]
+* Spiro2_06845        K07636  308.83  327.2   2.3e-98 two-component system, OmpR family, phosphate regulon sensor histidine kinase PhoR [EC:2.7.13.3]
+* Spiro2_06850        K07560   38.10  133.4   1.3e-39 D-aminoacyl-tRNA deacylase [EC:3.1.1.96]
+* Spiro2_06855        K01845  313.57  573.7    9e-173 glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8]
+* Spiro2_06860        K01937   98.03  796.8  2.4e-240 CTP synthase [EC:6.3.4.2]
+* Spiro2_06870        K01953  134.53  276.7   6.1e-83 asparagine synthase (glutamine-hydrolysing) [EC:6.3.5.4]
+* Spiro2_06880        K05595   72.17  201.3   2.7e-60 multiple antibiotic resistance protein
+* Spiro2_06885        K02030   87.27   91.0   1.1e-26 polar amino acid transport system substrate-binding protein
+* Spiro2_06890        K06941   81.27  471.9  3.5e-142 23S rRNA (adenine2503-C2)-methyltransferase [EC:2.1.1.192]
+* Spiro2_06900        K00948   66.17  475.3  3.1e-143 ribose-phosphate pyrophosphokinase [EC:2.7.6.1]
+* Spiro2_06905        K01299  207.83  597.8  2.7e-180 carboxypeptidase Taq [EC:3.4.17.19]
+* Spiro2_06915        K03101   31.43  137.5   7.2e-41 signal peptidase II [EC:3.4.23.36]
+* Spiro2_06925        K03412  201.00  346.5  4.3e-104 two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]
+* Spiro2_06930        K03415  173.67  327.2   2.2e-98 two-component system, chemotaxis family, chemotaxis protein CheV
+* Spiro2_06935        K03407  562.53  653.6  7.4e-197 two-component system, chemotaxis family, sensor kinase CheA [EC:2.7.13.3]
+* Spiro2_06945        K03408  104.57  124.6   7.4e-37 purine-binding chemotaxis protein CheW
+* Spiro2_06950        K03413  139.13  161.9   2.8e-48 two-component system, chemotaxis family, chemotaxis protein CheY
+* Spiro2_06955        K07574   36.73  102.5   3.7e-30 RNA-binding protein
+* Spiro2_06960        K01495   41.60  292.8   3.7e-88 GTP cyclohydrolase IA [EC:3.5.4.16]
+* Spiro2_06965        K01778   71.53  158.1     4e-47 diaminopimelate epimerase [EC:5.1.1.7]
+* Spiro2_06995        K01744  706.17  895.5  4.1e-270 aspartate ammonia-lyase [EC:4.3.1.1]
+* Spiro2_07005        K03569  113.77  555.6  1.2e-167 rod shape-determining protein MreB and related proteins
+* Spiro2_07015        K01447  104.60  141.2   6.7e-42 N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+* Spiro2_07025        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_07060        K07496   25.43  224.5   4.3e-67 putative transposase
+* Spiro2_07085        K25227  428.87  940.7  8.4e-284 linear primary-alkylsulfatase [EC:3.1.6.21]
+* Spiro2_07145        K04095   43.93   91.0   1.4e-26 cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]
+* Spiro2_07195        K07492   77.37  193.6   5.9e-58 putative transposase
+* Spiro2_07215        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_07265        K15125  285.90  789.3  1.4e-237 filamentous hemagglutinin
+* Spiro2_07410        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_07450        K03650  175.23  450.0  3.1e-135 tRNA modification GTPase [EC:3.6.-.-]
+* Spiro2_07455        K06346   69.53  137.8   7.4e-41 spoIIIJ-associated protein
+* Spiro2_07460        K03217  116.30  255.4   1.2e-76 YidC/Oxa1 family membrane protein insertase
+* Spiro2_07465        K03536   21.03   53.5   4.6e-15 ribonuclease P protein component [EC:3.1.26.5]
+* Spiro2_07490        K06204   37.50   94.8   1.2e-27 RNA polymerase-binding transcription factor
+* Spiro2_07495        K00140  494.57  578.0  4.9e-174 malonate-semialdehyde dehydrogenase (acetylating) / methylmalonate-semialdehyde dehydrogenase [EC:1.2.1.18 1.2.1.27]
+* Spiro2_07515        K03495  401.53 1002.6  2.9e-302 tRNA uridine 5-carboxymethylaminomethyl modification enzyme
+* Spiro2_07520        K02030   87.27  133.8   1.1e-39 polar amino acid transport system substrate-binding protein
+* Spiro2_07525        K01178  147.00  154.2   8.6e-46 glucoamylase [EC:3.2.1.3]
+* Spiro2_07530        K07405  326.00  528.1  4.4e-159 alpha-amylase [EC:3.2.1.1]
+* Spiro2_07540        K00688   75.07  313.9   3.3e-94 glycogen phosphorylase [EC:2.4.1.1]
+* Spiro2_07550        K00943   94.83  159.3     2e-47 dTMP kinase [EC:2.7.4.9]
+* Spiro2_07570        K20035  603.83  669.5  7.3e-202 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]
+* Spiro2_07580        K23980  378.33  477.2  6.5e-144 cysteinylglycine-S-conjugate dipeptidase [EC:3.4.13.23]
+* Spiro2_07595        K01424  104.60  286.9   5.5e-86 L-asparaginase [EC:3.5.1.1]
+* Spiro2_07600        K02492   69.63  294.5   2.2e-88 glutamyl-tRNA reductase [EC:1.2.1.70]
+* Spiro2_07610        K01749  130.00  305.0   1.9e-91 hydroxymethylbilane synthase [EC:2.5.1.61]
+* Spiro2_07630        K07390   83.00  132.4   3.3e-39 monothiol glutaredoxin
+* Spiro2_07635        K07071  111.30  397.8  1.7e-119 uncharacterized protein
+* Spiro2_07645        K03118   57.77  255.2   1.5e-76 sec-independent protein translocase protein TatC
+* Spiro2_07650        K02335  474.93  974.9  9.9e-294 DNA polymerase I [EC:2.7.7.7]
+* Spiro2_07655        K04567  309.17  585.0  2.7e-176 lysyl-tRNA synthetase, class II [EC:6.1.1.6]
+* Spiro2_07675        K02004   43.17   67.6   9.1e-20 putative ABC transport system permease protein
+* Spiro2_07705        K19802  297.70  392.2  4.4e-118 L-Ala-D/L-Glu epimerase / N-acetyl-D-glutamate racemase [EC:5.1.1.20 5.1.1.25]
+* Spiro2_07730        K03406   58.43   94.4     1e-27 methyl-accepting chemotaxis protein
+* Spiro2_07750        K17725  157.43  206.2   1.1e-61 sulfur dioxygenase [EC:1.13.11.18]
+* Spiro2_07765        K00588  113.50  168.0   3.7e-50 caffeoyl-CoA O-methyltransferase [EC:2.1.1.104]
+* Spiro2_07805        K02651   26.47   39.4     1e-10 pilus assembly protein Flp/PilA
+* Spiro2_07810        K02279   50.97   88.0   1.3e-25 pilus assembly protein CpaB
+* Spiro2_07815        K02283  329.87  496.0  2.1e-149 pilus assembly protein CpaF [EC:7.4.2.8]
+* Spiro2_07860        K01485  156.53  182.5   1.9e-54 cytosine/creatinine deaminase [EC:3.5.4.1 3.5.4.21]
+* Spiro2_07865        K01940  120.67  536.7    1e-161 argininosuccinate synthase [EC:6.3.4.5]
+* Spiro2_07875        K01447  104.60  107.9     9e-32 N-acetylmuramoyl-L-alanine amidase [EC:3.5.1.28]
+* Spiro2_07880        K01915   64.73  130.3   1.3e-38 glutamine synthetase [EC:6.3.1.2]
+* Spiro2_07895        K01611   21.37   35.0   1.3e-09 S-adenosylmethionine decarboxylase [EC:4.1.1.50]
+* Spiro2_07905        K01737   29.93  119.4   2.9e-35 6-pyruvoyltetrahydropterin/6-carboxytetrahydropterin synthase [EC:4.2.3.12 4.1.2.50]
+* Spiro2_07910        K03975   64.70  252.6   9.7e-76 membrane-associated protein
+* Spiro2_07960        K03748  126.03  198.3   2.6e-59 SanA protein
+* Spiro2_07990        K01939  144.77  459.9  1.4e-138 adenylosuccinate synthase [EC:6.3.4.4]
+* Spiro2_08000        K04047   79.70  177.2     8e-53 starvation-inducible DNA-binding protein
+* Spiro2_08010        K01892  270.87  368.5  9.1e-111 histidyl-tRNA synthetase [EC:6.1.1.21]
+* Spiro2_08015        K00806  337.37  361.2  8.6e-109 undecaprenyl diphosphate synthase [EC:2.5.1.31]
+* Spiro2_08020        K11749   86.27  233.9   5.1e-70 regulator of sigma E protease [EC:3.4.24.-]
+* Spiro2_08040        K17103  126.00  239.9   5.6e-72 CDP-diacylglycerol---serine O-phosphatidyltransferase [EC:2.7.8.8]
+* Spiro2_08045        K00133  216.70  370.8  2.2e-111 aspartate-semialdehyde dehydrogenase [EC:1.2.1.11]
+* Spiro2_08080        K09930   64.53  288.9   1.1e-86 uncharacterized protein
+* Spiro2_08090        K13522  167.17  268.9   9.6e-81 bifunctional NMN adenylyltransferase/nudix hydrolase [EC:2.7.7.1 3.6.1.-]
+* Spiro2_08095        K03773  281.40  291.8     1e-87 FKBP-type peptidyl-prolyl cis-trans isomerase FklB [EC:5.2.1.8]
+* Spiro2_08095        K01802   85.87  109.0   4.2e-32 peptidylprolyl isomerase [EC:5.2.1.8]
+* Spiro2_08100        K01803   26.00  286.6   4.9e-86 triosephosphate isomerase (TIM) [EC:5.3.1.1]
+* Spiro2_08105        K00927   93.63  528.9  1.9e-159 phosphoglycerate kinase [EC:2.7.2.3]
+* Spiro2_08110        K00971  254.40  419.0    6e-126 mannose-1-phosphate guanylyltransferase [EC:2.7.7.13]
+* Spiro2_08115        K01599  181.60  422.7  3.1e-127 uroporphyrinogen decarboxylase [EC:4.1.1.37]
+* Spiro2_08120        K08602  130.97  583.7  8.2e-176 oligoendopeptidase F [EC:3.4.24.-]
+* Spiro2_08125        K03783  169.37  285.4   1.5e-85 purine-nucleoside phosphorylase [EC:2.4.2.1]
+* Spiro2_08130        K00760   84.37  200.5   4.1e-60 hypoxanthine phosphoribosyltransferase [EC:2.4.2.8]
+* Spiro2_08150        K01159   31.13  140.4   1.4e-41 crossover junction endodeoxyribonuclease RuvC [EC:3.1.21.10]
+* Spiro2_08160        K05837  387.17  396.0  3.2e-119 rod shape determining protein RodA
+* Spiro2_08165        K05515  504.40  672.0  1.8e-202 penicillin-binding protein 2 [EC:3.4.16.4]
+* Spiro2_08175        K03570   63.03  217.1   4.3e-65 rod shape-determining protein MreC
+* Spiro2_08180        K03770  170.43  180.8   9.1e-54 peptidyl-prolyl cis-trans isomerase D [EC:5.2.1.8]
+* Spiro2_08185        K00858   40.47   81.6   7.3e-24 NAD+ kinase [EC:2.7.1.23]
+* Spiro2_08190        K00331  281.37  306.7   4.8e-92 NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]
+* Spiro2_08215        K01048  201.47  307.9   1.6e-92 lysophospholipase [EC:3.1.1.5]
+* Spiro2_08225        K11358  339.03  415.7    3e-125 aspartate aminotransferase [EC:2.6.1.1]
+* Spiro2_08230        K02406  135.40  334.5  1.5e-100 flagellin
+* Spiro2_08255        K00873   75.73  567.8  4.1e-171 pyruvate kinase [EC:2.7.1.40]
+* Spiro2_08260        K01867  146.83  271.7   2.3e-81 tryptophanyl-tRNA synthetase [EC:6.1.1.2]
+* Spiro2_08265        K04764  116.60  140.8   4.2e-42 integration host factor subunit alpha
+* Spiro2_08280        K01338  858.03 1054.2         0 ATP-dependent Lon protease [EC:3.4.21.53]
+* Spiro2_08285        K02482  281.63  281.9   1.4e-84 two-component system, NtrC family, sensor kinase [EC:2.7.13.3]
+* Spiro2_08295        K02913   21.77   46.3   5.8e-13 large subunit ribosomal protein L33
+* Spiro2_08315        K01255  415.97  437.4  1.5e-131 leucyl aminopeptidase [EC:3.4.11.1]
+* Spiro2_08320        K08307  134.27  147.2     1e-43 membrane-bound lytic murein transglycosylase D [EC:4.2.2.-]
+* Spiro2_08325        K02050  143.60  164.7   4.2e-49 NitT/TauT family transport system permease protein
+* Spiro2_08335        K07491   16.23   46.2   7.6e-13 REP-associated tyrosine transposase
+* Spiro2_08340        K07496   25.43  221.2   4.3e-66 putative transposase
+* Spiro2_08355        K09952  170.60  704.3  4.9e-212 CRISPR-associated endonuclease Csn1 [EC:3.1.-.-]
+* Spiro2_08365        K15342   70.57  167.7   5.7e-50 CRISP-associated protein Cas1
+* Spiro2_08375        K03070  284.90 1197.7         0 preprotein translocase subunit SecA [EC:7.4.2.8]
+* Spiro2_08390        K07391   79.33  344.2    2e-103 magnesium chelatase family protein
+* Spiro2_08405        K03688  418.50  477.5    9e-144 ubiquinone biosynthesis protein
+* Spiro2_08420        K02503   85.73  159.4   1.3e-47 histidine triad (HIT) family protein [EC:3.9.1.-]
+* Spiro2_08425        K07090   38.60  160.2     1e-47 uncharacterized protein
+* Spiro2_08435        K01619   42.73  253.9   3.9e-76 deoxyribose-phosphate aldolase [EC:4.1.2.4]
+* Spiro2_08460        K02390  171.07  382.3  3.8e-115 flagellar hook protein FlgE
+* Spiro2_08465        K02389   36.90  153.6   1.7e-45 flagellar basal-body rod modification protein FlgD
+* Spiro2_08475        K02950   76.53  232.5   5.4e-70 small subunit ribosomal protein S12
+* Spiro2_08480        K02992  101.53  219.5   5.4e-66 small subunit ribosomal protein S7
+* Spiro2_08485        K03311  218.23  281.0     2e-84 branched-chain amino acid:cation transporter, LIVCS family
+* Spiro2_08525        K03496  133.93  181.5   4.5e-54 chromosome partitioning protein
+* Spiro2_08550        K02406  135.40  342.0  7.5e-103 flagellin
+* Spiro2_08575        K01776  100.53  212.6   1.2e-63 glutamate racemase [EC:5.1.1.3]
+* Spiro2_08590        K02422   28.97  155.2   2.5e-46 flagellar secretion chaperone FliS
+* Spiro2_08595        K02407   62.70  280.9   3.5e-84 flagellar hook-associated protein 2
+* Spiro2_08605        K02805  382.47  513.2  6.3e-155 dTDP-4-amino-4,6-dideoxygalactose transaminase [EC:2.6.1.59]
+* Spiro2_08630        K00761  212.17  262.9   5.4e-79 uracil phosphoribosyltransferase [EC:2.4.2.9]
+* Spiro2_08635        K00876  136.37  214.0   4.9e-64 uridine kinase [EC:2.7.1.48]
+* Spiro2_08645        K02067   84.10  137.8   6.3e-41 phospholipid/cholesterol/gamma-HCH transport system substrate-binding protein
+* Spiro2_08650        K02065  290.27  333.0  2.9e-100 phospholipid/cholesterol/gamma-HCH transport system ATP-binding protein
+* Spiro2_08655        K02066   41.53  257.4   4.2e-77 phospholipid/cholesterol/gamma-HCH transport system permease protein
+* Spiro2_08660        K01551   75.50   83.3   2.4e-24 arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]
+* Spiro2_08665        K01551   75.50   96.7     2e-28 arsenite/tail-anchored protein-transporting ATPase [EC:7.3.2.7 7.3.-.-]
+* Spiro2_08675        K08264  318.93  362.8  3.5e-109 heterodisulfide reductase subunit D [EC:1.8.98.1]
+* Spiro2_08680        K03274  292.13  382.1  5.8e-115 ADP-L-glycero-D-manno-heptose 6-epimerase [EC:5.1.3.20]
+* Spiro2_08685        K04094  333.27  579.4  7.7e-175 methylenetetrahydrofolate--tRNA-(uracil-5-)-methyltransferase [EC:2.1.1.74]
+* Spiro2_08710        K07397   76.27   86.7   2.6e-25 putative redox protein
+* Spiro2_08715        K15383   51.60  108.2   6.3e-32 MtN3 and saliva related transmembrane protein
+* Spiro2_08720        K03581  248.73  421.1  1.2e-126 exodeoxyribonuclease V alpha subunit [EC:3.1.11.5]
+* Spiro2_08735        K02990   23.33  107.2   1.5e-31 small subunit ribosomal protein S6
+* Spiro2_08745        K02939   55.03  123.5   1.9e-36 large subunit ribosomal protein L9
+* Spiro2_08755        K07478  198.23  374.2  1.5e-112 putative ATPase
+* Spiro2_08760        K03820  125.90  126.9   1.4e-37 apolipoprotein N-acyltransferase [EC:2.3.1.269]
+* Spiro2_08785        K03110  291.30  447.4  7.5e-135 fused signal recognition particle receptor
+* Spiro2_08790        K03502  357.27  468.9  3.2e-141 DNA polymerase V
+* Spiro2_08795        K03503  123.80  204.9     2e-61 DNA polymerase V [EC:3.4.21.-]
+* Spiro2_08815        K13626   54.60  196.1   8.5e-59 flagellar assembly factor FliW
+* Spiro2_08825        K07799  437.50  443.1  2.2e-133 membrane fusion protein, multidrug efflux system
+* Spiro2_08825        K03585  262.33  269.3   1.1e-80 membrane fusion protein, multidrug efflux system
+* Spiro2_08830        K07788 1517.40 1534.7         0 multidrug efflux pump
+* Spiro2_08835        K07789 1470.00 1493.0         0 multidrug efflux pump
+* Spiro2_08855        K01714  258.20  279.0     1e-83 4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7]
+* Spiro2_08865        K00432   66.07  253.8     5e-76 glutathione peroxidase [EC:1.11.1.9]
+* Spiro2_08880        K01710  486.60  499.1  1.8e-150 dTDP-glucose 4,6-dehydratase [EC:4.2.1.46]
+* Spiro2_08885        K00973  241.53  457.4  9.1e-138 glucose-1-phosphate thymidylyltransferase [EC:2.7.7.24]
+* Spiro2_08890        K04078   25.80  146.7   1.1e-43 chaperonin GroES
+* Spiro2_08895        K04077  143.97  880.4    1e-265 chaperonin GroEL [EC:5.6.1.7]
+* Spiro2_08900        K06901   96.93  456.0  3.7e-137 adenine/guanine/hypoxanthine permease
+* Spiro2_08925        K01624   85.67  344.9  1.5e-103 fructose-bisphosphate aldolase, class II [EC:4.1.2.13]
+* Spiro2_08935        K18682  107.43  367.4  1.5e-110 ribonucrease Y [EC:3.1.-.-]
+* Spiro2_08940        K01092  206.07  248.2   1.8e-74 myo-inositol-1(or 4)-monophosphatase [EC:3.1.3.25]
+* Spiro2_08945        K05366  624.77  698.4  1.9e-210 penicillin-binding protein 1A [EC:2.4.1.129 3.4.16.4]
+* Spiro2_08965        K25156  292.00  312.1     8e-94 viologen exporter family transport system ATP-binding protein
+* Spiro2_09010        K00766  134.97  253.8   5.1e-76 anthranilate phosphoribosyltransferase [EC:2.4.2.18]
+* Spiro2_09020        K03431  447.67  621.2    3e-187 phosphoglucosamine mutase [EC:5.4.2.10]
+* Spiro2_09030        K18672   82.27  311.2   1.4e-93 diadenylate cyclase [EC:2.7.7.85]
+* Spiro2_09035        K03634   51.40  100.4   1.7e-29 outer membrane lipoprotein carrier protein
+* Spiro2_09045        K13292   44.50  258.7   1.2e-77 phosphatidylglycerol---prolipoprotein diacylglyceryl transferase [EC:2.5.1.145]
+* Spiro2_09060        K11527  630.87  675.6  1.6e-203 two-component system, sensor histidine kinase and response regulator [EC:2.7.13.3]
+* Spiro2_09070        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_09110        K00556  164.20  194.6   3.9e-58 tRNA (guanosine-2'-O-)-methyltransferase [EC:2.1.1.34]
+* Spiro2_09115        K01712  293.97  736.7  4.4e-222 urocanate hydratase [EC:4.2.1.49]
+* Spiro2_09120        K01468  207.33  378.9  7.8e-114 imidazolonepropionase [EC:3.5.2.7]
+* Spiro2_09140        K13378  588.93  689.4  4.5e-208 NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2]
+* Spiro2_09140        K00333  517.80  535.9    1e-161 NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]
+* Spiro2_09160        K00338  147.70  164.5   4.5e-49 NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]
+* Spiro2_09170        K25156  292.00  332.8  4.3e-100 viologen exporter family transport system ATP-binding protein
+* Spiro2_09175        K25155  109.63  113.9   1.2e-33 viologen exporter family transport system permease protein
+* Spiro2_09210        K02398   23.80   73.6   3.3e-21 negative regulator of flagellin synthesis FlgM
+* Spiro2_09220        K02396   90.63  403.7  3.4e-121 flagellar hook-associated protein 1
+* Spiro2_09225        K02397  148.93  182.0   2.5e-54 flagellar hook-associated protein 3 FlgL
+* Spiro2_09230        K03206  163.83  178.3   1.8e-53 azobenzene reductase [EC:1.7.1.6]
+* Spiro2_09260        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_09290        K01726  179.63  213.0   8.4e-64 gamma-carbonic anhydrase [EC:4.2.1.-]
+* Spiro2_09355        K03412  201.00  395.4  6.9e-119 two-component system, chemotaxis family, protein-glutamate methylesterase/glutaminase [EC:3.1.1.61 3.5.1.44]
+* Spiro2_09355        K00575  185.83  234.4   4.5e-70 chemotaxis protein methyltransferase CheR [EC:2.1.1.80]
+* Spiro2_09360        K03406   58.43  224.2   4.9e-67 methyl-accepting chemotaxis protein
+* Spiro2_09365        K03408  104.57  127.0   1.4e-37 purine-binding chemotaxis protein CheW
+* Spiro2_09375        K11942  961.07 1727.8         0 isobutyryl-CoA mutase [EC:5.4.99.13]
+* Spiro2_09390        K03587  455.93  520.7  6.8e-157 cell division protein FtsI (penicillin-binding protein 3) [EC:3.4.16.4]
+* Spiro2_09400        K00558  160.00  298.3   1.1e-89 DNA (cytosine-5)-methyltransferase 1 [EC:2.1.1.37]
+* Spiro2_09460        K01835  367.33  396.1  5.8e-119 phosphoglucomutase [EC:5.4.2.2]
+* Spiro2_09475        K00954   81.37  168.0     4e-50 pantetheine-phosphate adenylyltransferase [EC:2.7.7.3]
+* Spiro2_09480        K00252  504.23  638.5  2.7e-192 glutaryl-CoA dehydrogenase [EC:1.3.8.6]
+* Spiro2_09485        K03424   93.63  272.2   1.4e-81 TatD DNase family protein [EC:3.1.21.-]
+* Spiro2_09495        K03579  586.00  711.9  1.9e-214 ATP-dependent helicase HrpB [EC:3.6.4.13]
+* Spiro2_09515        K00626  353.63  388.0  1.3e-116 acetyl-CoA C-acetyltransferase [EC:2.3.1.9]
+* Spiro2_09520        K18189   99.20  190.7   4.4e-57 translational activator of cytochrome c oxidase 1
+* Spiro2_09540        K02558  379.27  562.0  1.9e-169 UDP-N-acetylmuramate: L-alanyl-gamma-D-glutamyl-meso-diaminopimelate ligase [EC:6.3.2.45]
+* Spiro2_09540        K01297   77.87  133.6   1.2e-39 muramoyltetrapeptide carboxypeptidase [EC:3.4.17.13]
+* Spiro2_09565        K02970   26.10   67.2   2.4e-19 small subunit ribosomal protein S21
+* Spiro2_09570        K02316  137.07  368.7  1.1e-110 DNA primase [EC:2.7.7.101]
+* Spiro2_09575        K03086  457.00  515.4  2.8e-155 RNA polymerase primary sigma factor
+* Spiro2_09585        K00819  497.77  690.2    5e-208 ornithine--oxo-acid transaminase [EC:2.6.1.13]
+* Spiro2_09590        K03628  199.13  773.4  1.9e-233 transcription termination factor Rho
+* Spiro2_09600        K07494   57.07   76.2   4.2e-22 putative transposase
+* Spiro2_09635        K02879   34.43  167.6   7.5e-50 large subunit ribosomal protein L17
+* Spiro2_09640        K03040   52.07  375.7  2.9e-113 DNA-directed RNA polymerase subunit alpha [EC:2.7.7.6]
+* Spiro2_09645        K02948   96.00  171.8   3.2e-51 small subunit ribosomal protein S11
+* Spiro2_09650        K02952  114.17  192.4   1.9e-57 small subunit ribosomal protein S13
+* Spiro2_09655        K02919   23.10   53.6   4.4e-15 large subunit ribosomal protein L36
+* Spiro2_09660        K02518   43.67   87.3   1.3e-25 translation initiation factor IF-1
+* Spiro2_09665        K00939  119.30  121.5   5.7e-36 adenylate kinase [EC:2.7.4.3]
+* Spiro2_09670        K03076  208.70  500.6  5.7e-151 preprotein translocase subunit SecY
+* Spiro2_09675        K02876   76.20  140.6   1.4e-41 large subunit ribosomal protein L15
+* Spiro2_09680        K02907   40.40   51.4   1.5e-14 large subunit ribosomal protein L30
+* Spiro2_09685        K02988  138.77  214.8   1.9e-64 small subunit ribosomal protein S5
+* Spiro2_09690        K02881   48.80  128.8   4.6e-38 large subunit ribosomal protein L18
+* Spiro2_09695        K02933  109.90  236.5   5.4e-71 large subunit ribosomal protein L6
+* Spiro2_09700        K02994   88.03  179.6   5.2e-54 small subunit ribosomal protein S8
+* Spiro2_09705        K02954   26.87   70.4   2.3e-20 small subunit ribosomal protein S14
+* Spiro2_09710        K02931  106.70  291.7   6.1e-88 large subunit ribosomal protein L5
+* Spiro2_09715        K02874   96.43  173.0   1.1e-51 large subunit ribosomal protein L14
+* Spiro2_09730        K02878   86.03  213.2   6.9e-64 large subunit ribosomal protein L16
+* Spiro2_09735        K02982  102.80  319.0   3.4e-96 small subunit ribosomal protein S3
+* Spiro2_09745        K02965  107.97  158.4   1.4e-47 small subunit ribosomal protein S19
+* Spiro2_09750        K02886  121.33  297.8   1.8e-89 large subunit ribosomal protein L2
+* Spiro2_09755        K02892   48.87   53.5   4.1e-15 large subunit ribosomal protein L23
+* Spiro2_09760        K02926   88.53  175.3   2.6e-52 large subunit ribosomal protein L4
+* Spiro2_09765        K02906  114.93  168.7     4e-50 large subunit ribosomal protein L3
+* Spiro2_09770        K02946   61.50  131.6   4.5e-39 small subunit ribosomal protein S10
+* Spiro2_09775        K03046  973.97 2130.7         0 DNA-directed RNA polymerase subunit beta' [EC:2.7.7.6]
+* Spiro2_09780        K03043  591.43 1696.6         0 DNA-directed RNA polymerase subunit beta [EC:2.7.7.6]
+* Spiro2_09785        K02935   24.17  156.0   1.9e-46 large subunit ribosomal protein L7/L12
+* Spiro2_09790        K02864   48.40  143.4   1.3e-42 large subunit ribosomal protein L10
+* Spiro2_09795        K02863   91.10  306.0   4.6e-92 large subunit ribosomal protein L1
+* Spiro2_09800        K02867   64.87  227.4     5e-68 large subunit ribosomal protein L11
+* Spiro2_09805        K03522  293.43  363.3  3.9e-109 electron transfer flavoprotein alpha subunit
+* Spiro2_09810        K03521   73.63  245.1   1.9e-73 electron transfer flavoprotein beta subunit
+* Spiro2_09820        K03703  241.43  590.6    7e-178 excinuclease ABC subunit C
+* Spiro2_09825        K01174   71.57  129.0   2.7e-38 micrococcal nuclease [EC:3.1.31.1]
+* Spiro2_09845        K11752  188.80  290.7     4e-87 diaminohydroxyphosphoribosylaminopyrimidine deaminase / 5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:3.5.4.26 1.1.1.193]
+* Spiro2_09850        K02956   24.17  123.3   2.5e-36 small subunit ribosomal protein S15
+* Spiro2_09860        K00979  163.00  280.7   2.7e-84 3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38]
+* Spiro2_09870        K03500  290.07  395.0  1.2e-118 16S rRNA (cytosine967-C5)-methyltransferase [EC:2.1.1.176]
+* Spiro2_09900        K00925  152.70  609.1  1.9e-183 acetate kinase [EC:2.7.2.1]
+* Spiro2_09905        K07152   53.70   85.8   5.7e-25 protein SCO1
+* Spiro2_09910        K02355  535.93  957.6  1.2e-288 elongation factor G
+* Spiro2_09920        K01610   89.93  793.1  2.9e-239 phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]
+* Spiro2_09935        K07494   57.07   76.2   4.2e-22 putative transposase
+* Spiro2_09955        K00425   77.03  531.0  4.2e-160 cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+* Spiro2_09960        K00426   33.40  151.7   3.6e-45 cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+* Spiro2_09970        K17218  239.70  279.8   7.1e-84 sulfide:quinone oxidoreductase [EC:1.8.5.4]
+* Spiro2_10035        K07315  144.10  203.5   7.4e-61 phosphoserine phosphatase RsbU/P [EC:3.1.3.3]
+* Spiro2_10040        K06158  532.07  624.8  3.2e-188 ATP-binding cassette, subfamily F, member 3
+* Spiro2_10050        K02392  299.40  352.1    5e-106 flagellar basal-body rod protein FlgG
+* Spiro2_10055        K02386   47.63   48.5   1.2e-13 flagellar basal body P-ring formation protein FlgA
+* Spiro2_10065        K02394  120.07  338.6  5.4e-102 flagellar P-ring protein FlgI
+* Spiro2_10070        K02395   35.50   67.0   3.8e-19 peptidoglycan hydrolase FlgJ
+* Spiro2_10085        K01768  164.80  247.8   2.7e-74 adenylate cyclase [EC:4.6.1.1]
+* Spiro2_10095        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_10120        K01697  441.00  536.1  2.3e-161 cystathionine beta-synthase [EC:4.2.1.22]
+* Spiro2_10135        K03652   45.67  228.1   2.8e-68 DNA-3-methyladenine glycosylase [EC:3.2.2.21]
+* Spiro2_10155        K07484   19.23   23.8   3.5e-06 transposase
+* Spiro2_10180        K07484   19.23   39.0   8.3e-11 transposase
+* Spiro2_10205        K07484   19.23   32.3     9e-09 transposase
+* Spiro2_10220        K07497   22.97   30.0   4.4e-08 putative transposase
+* Spiro2_10240        K03271  132.73  206.2     9e-62 D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28]
+* Spiro2_10245        K07031  206.00  408.8  3.5e-123 D-glycero-alpha-D-manno-heptose-7-phosphate kinase [EC:2.7.1.168]
+* Spiro2_10250        K03273  154.33  189.8   1.5e-56 D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase [EC:3.1.3.82 3.1.3.83]
+* Spiro2_10270        K00012  380.13  593.2  9.2e-179 UDPglucose 6-dehydrogenase [EC:1.1.1.22]
+* Spiro2_10280        K13002  285.67  288.2   6.8e-87 glycosyltransferase [EC:2.4.1.-]
+* Spiro2_10285        K02377  219.20  452.8    2e-136 GDP-L-fucose synthase [EC:1.1.1.271]
+* Spiro2_10290        K01711  287.77  705.4  1.2e-212 GDPmannose 4,6-dehydratase [EC:4.2.1.47]
+* Spiro2_10310        K01679  633.90  846.0    3e-255 fumarate hydratase, class II [EC:4.2.1.2]
+* Spiro2_10325        K01889   97.67  291.2   2.9e-87 phenylalanyl-tRNA synthetase alpha chain [EC:6.1.1.20]
+* Spiro2_10330        K01890  122.07  459.5  3.3e-138 phenylalanyl-tRNA synthetase beta chain [EC:6.1.1.20]
+* Spiro2_10335        K01303  167.43  176.8     1e-52 acylaminoacyl-peptidase [EC:3.4.19.1]
+* Spiro2_10345        K03100  111.43  169.5   1.1e-50 signal peptidase I [EC:3.4.21.89]
+* Spiro2_10365        K07012  140.67  173.6   9.8e-52 CRISPR-associated endonuclease/helicase Cas3 [EC:3.1.-.- 5.6.2.4]
+* Spiro2_10370        K15342   70.57  114.3   8.4e-34 CRISP-associated protein Cas1
+* Spiro2_10380        K19130   80.13  109.5   2.7e-32 CRISPR-associated endonuclease Csy4 [EC:3.1.-.-]
+* Spiro2_10385        K19129  157.70  303.8   2.3e-91 CRISPR-associated protein Csy3
+* Spiro2_10390        K19128  114.93  120.3     1e-35 CRISPR-associated protein Csy2
+* Spiro2_10400        K02044  110.17  194.7   5.1e-58 phosphonate transport system substrate-binding protein
+* Spiro2_10415        K02073  140.43  290.1   4.3e-87 D-methionine transport system substrate-binding protein
+* Spiro2_10420        K02072  120.87  303.0   2.4e-91 D-methionine transport system permease protein
+* Spiro2_10425        K02071  326.77  457.7  5.9e-138 D-methionine transport system ATP-binding protein
+* Spiro2_10430        K00928  394.13  442.3  4.1e-133 aspartate kinase [EC:2.7.2.4]
+* Spiro2_10470        K02687  115.90  263.0     1e-78 ribosomal protein L11 methyltransferase [EC:2.1.1.-]
+* Spiro2_10505        K02959   29.43  118.2     7e-35 small subunit ribosomal protein S16
+* Spiro2_10510        K02968   27.77   95.9   4.2e-28 small subunit ribosomal protein S20
+* Spiro2_10525        K03406   58.43  256.2     1e-76 methyl-accepting chemotaxis protein
+* Spiro2_10570        K03411   48.73  110.0   2.1e-32 chemotaxis protein CheD [EC:3.5.1.44]
+* Spiro2_10575        K00575  185.83  204.7   4.2e-61 chemotaxis protein methyltransferase CheR [EC:2.1.1.80]
+* Spiro2_10585        K07484   19.23   23.8   3.5e-06 transposase
+* Spiro2_10595        K03406   58.43  203.5   9.5e-61 methyl-accepting chemotaxis protein
+* Spiro2_10600        K07491   16.23   70.2   3.6e-20 REP-associated tyrosine transposase
+* Spiro2_10605        K07496   25.43  254.6   3.4e-76 putative transposase
+* Spiro2_10625        K02012  199.43  232.6   1.5e-69 iron(III) transport system substrate-binding protein
+* Spiro2_10650        K04096   27.57  210.2   1.1e-62 DNA processing protein
+* Spiro2_10700        K04095   43.93   54.7   1.4e-15 cell filamentation protein, protein adenylyltransferase [EC:2.7.7.108]
+* Spiro2_10705        K07726   44.33   51.7   1.1e-14 putative transcriptional regulator
+* Spiro2_10710        K07726   44.33   71.2   1.3e-20 putative transcriptional regulator
+* Spiro2_10720        K07491   16.23   50.6   3.4e-14 REP-associated tyrosine transposase
+* Spiro2_10725        K07496   25.43  223.4   9.2e-67 putative transposase
+* Spiro2_10795        K07726   44.33   81.8   7.2e-24 putative transcriptional regulator
+* Spiro2_10825        K09803   24.33   70.2     2e-20 uncharacterized protein
+* Spiro2_10830        K06193   48.60  175.8   6.8e-53 protein PhnA
+* Spiro2_10835        K03651  111.97  135.1   5.3e-40 3',5'-cyclic-AMP phosphodiesterase [EC:3.1.4.53]
+* Spiro2_10900        K08640   60.87  101.4   9.3e-30 zinc D-Ala-D-Ala carboxypeptidase [EC:3.4.17.14]
+* Spiro2_10925        K15537  186.87  271.1   2.7e-81 alkylglycerol monooxygenase [EC:1.14.16.5]
+* Spiro2_10935        K13288   60.13  206.0   1.2e-61 oligoribonuclease [EC:3.1.-.-]
+* Spiro2_10940        K01873  583.53 1124.1         0 valyl-tRNA synthetase [EC:6.1.1.9]
+* Spiro2_10955        K01689   73.37  671.9  1.5e-202 enolase [EC:4.2.1.11]
+* Spiro2_10975        K22074   85.80  122.2   4.3e-36 NFU1 iron-sulfur cluster scaffold homolog, mitochondrial
+* Spiro2_10980        K03593  111.43  458.0  8.2e-138 ATP-binding protein involved in chromosome partitioning
+* Spiro2_11005        K25153  153.50  189.4   1.6e-56 gliding motility-associatede transport system auxiliary component
+* Spiro2_11015        K25152  326.77  381.6  5.9e-115 gliding motility-associated transport system ATP-binding protein
+* Spiro2_11015        K01990  254.07  270.7     3e-81 ABC-2 type transport system ATP-binding protein
+* Spiro2_11055        K01866   90.07  375.5  8.9e-113 tyrosyl-tRNA synthetase [EC:6.1.1.1]
+* Spiro2_11085        K00602  115.73  621.8  1.9e-187 phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10]
+* Spiro2_11110        K03517  155.17  360.3  2.4e-108 quinolinate synthase [EC:2.5.1.72]
+* Spiro2_11115        K00074  399.40  455.1  5.1e-137 3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157]
+* Spiro2_11120        K03406   58.43  193.8   8.2e-58 methyl-accepting chemotaxis protein
+* Spiro2_11125        K04771  315.40  335.8  8.4e-101 serine protease Do [EC:3.4.21.107]
+* Spiro2_11155        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_11175        K03546  180.07  219.6   1.3e-65 DNA repair protein SbcC/Rad50
+* Spiro2_11185        K03547   97.43  236.6   8.8e-71 DNA repair protein SbcD/Mre11
+* Spiro2_11190        K05807   69.40  149.0   3.2e-44 outer membrane protein assembly factor BamD
+* Spiro2_11195        K05606   72.90  147.4     7e-44 methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1]
+* Spiro2_11200        K07588  270.77  328.5   1.8e-98 GTPase [EC:3.6.5.-]
+* Spiro2_11210        K01961  714.10  723.1  2.7e-218 acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]
+* Spiro2_11215        K01966  880.20  898.0  9.6e-271 propionyl-CoA carboxylase beta chain [EC:6.4.1.3 2.1.3.15]
+* Spiro2_11220        K01849  180.80  215.9   1.1e-64 methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2]
+* Spiro2_11225        K00876  136.37  214.1   4.7e-64 uridine kinase [EC:2.7.1.48]
+* Spiro2_11280        K03797  130.13  377.2  1.8e-113 carboxyl-terminal processing protease [EC:3.4.21.102]
+* Spiro2_11285        K00240  133.00  215.8   1.1e-64 succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]
+* Spiro2_11290        K00239  609.33  669.6  5.7e-202 succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]
+* Spiro2_11295        K00241   52.73  136.6   1.6e-40 succinate dehydrogenase cytochrome b subunit
+* Spiro2_11310        K03665  216.93  479.9  2.9e-144 GTPase
+* Spiro2_11340        K00831  122.73  370.1  2.7e-111 phosphoserine aminotransferase [EC:2.6.1.52]
+* Spiro2_11350        K01647  366.37  386.9  2.3e-116 citrate synthase [EC:2.3.3.1]
+* Spiro2_11355        K07501   80.43  191.0   4.7e-57 3'-5' exonuclease
+* Spiro2_11365        K00763   97.60  541.9  3.1e-163 nicotinate phosphoribosyltransferase [EC:6.3.4.21]
+* Spiro2_11400        K01555  214.60  621.5  4.6e-187 fumarylacetoacetase [EC:3.7.1.2]
+* Spiro2_11460        K02837  450.70  780.8  9.2e-236 peptide chain release factor 3
+* Spiro2_11485        K09761   57.70  121.6   5.1e-36 16S rRNA (uracil1498-N3)-methyltransferase [EC:2.1.1.193]
+* Spiro2_11490        K12251  329.57  410.3  7.8e-124 N-carbamoylputrescine amidase [EC:3.5.1.53]
+* Spiro2_11495        K10536   94.63  443.7    1e-133 agmatine deiminase [EC:3.5.3.12]
+* Spiro2_11510        K00868  136.57  289.3   7.2e-87 pyridoxine kinase [EC:2.7.1.35]
+* Spiro2_11515        K07507   47.60  170.1     1e-50 putative Mg2+ transporter-C (MgtC) family protein
+* Spiro2_11530        K01920  131.47  213.0   6.7e-64 glutathione synthase [EC:6.3.2.3]
+* Spiro2_11535        K00451   47.07  208.5   2.3e-62 homogentisate 1,2-dioxygenase [EC:1.13.11.5]
+* Spiro2_11540        K02563  186.43  303.2   4.6e-91 UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase [EC:2.4.1.227]
+* Spiro2_11545        K06925   63.50  107.0   1.7e-31 tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+* Spiro2_11555        K01881  177.33  398.1    1e-119 prolyl-tRNA synthetase [EC:6.1.1.15]
+* Spiro2_11565        K21064  178.87  202.0   1.6e-60 5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104]
+* Spiro2_11570        K01874  217.10  501.1  8.7e-151 methionyl-tRNA synthetase [EC:6.1.1.10]
+* Spiro2_11575        K03060   22.03   80.7     2e-23 DNA-directed RNA polymerase subunit omega [EC:2.7.7.6]
+* Spiro2_11580        K02035  245.87  305.5   1.2e-91 peptide/nickel transport system substrate-binding protein
+* Spiro2_11585        K02033  273.53  377.9  1.4e-113 peptide/nickel transport system permease protein
+* Spiro2_11590        K02034  160.37  304.9   1.5e-91 peptide/nickel transport system permease protein
+* Spiro2_11595        K02002  118.03  287.3   2.8e-86 glycine betaine/proline transport system substrate-binding protein
+* Spiro2_11600        K02001  245.67  383.8    3e-115 glycine betaine/proline transport system permease protein
+* Spiro2_11610        K00108  733.33  893.4  1.7e-269 choline dehydrogenase [EC:1.1.99.1]
+* Spiro2_11625        K03406   58.43  178.7   3.1e-53 methyl-accepting chemotaxis protein
+* Spiro2_11630        K00575  185.83  202.1   2.6e-60 chemotaxis protein methyltransferase CheR [EC:2.1.1.80]
+* Spiro2_11635        K03406   58.43  189.5   1.6e-56 methyl-accepting chemotaxis protein
+* Spiro2_11645        K07025  111.77  132.9   2.6e-39 putative hydrolase of the HAD superfamily
+* Spiro2_11650        K09458  480.43  555.6  2.5e-167 3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+* Spiro2_11665        K02362  118.47  190.2   9.9e-57 enterobactin synthetase component D [EC:6.3.2.14 2.7.8.-]
+* Spiro2_11670        K02493  236.30  261.7   2.1e-78 release factor glutamine methyltransferase [EC:2.1.1.297]
+* Spiro2_11675        K02835  364.60  533.5    1e-160 peptide chain release factor 1
+* Spiro2_11680        K02909   21.53   96.1   1.9e-28 large subunit ribosomal protein L31
+* Spiro2_11685        K00316  322.37  845.5  4.9e-255 spermidine dehydrogenase [EC:1.5.99.6]
+* Spiro2_11690        K03177  197.80  290.0   5.6e-87 tRNA pseudouridine55 synthase [EC:5.4.99.25]
+* Spiro2_11695        K02834   26.00  143.0   1.6e-42 ribosome-binding factor A
+* Spiro2_11700        K02519  313.17  909.3  3.5e-274 translation initiation factor IF-2
+* Spiro2_11710        K02600   38.97  466.4  1.3e-140 transcription termination/antitermination protein NusA
+* Spiro2_11715        K09748   26.67   41.3   1.9e-11 ribosome maturation factor RimP
+* Spiro2_11740        K00384  347.13  448.2  4.9e-135 thioredoxin reductase (NADPH) [EC:1.8.1.9]
+* Spiro2_11755        K00059  270.17  351.5  8.7e-106 3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100]
+* Spiro2_11765        K03977  242.70  584.5    3e-176 GTPase
+* Spiro2_11780        K00294  473.93  507.8  5.8e-153 1-pyrroline-5-carboxylate dehydrogenase [EC:1.2.1.88]
+* Spiro2_11785        K01843  354.80  430.0  1.6e-129 lysine 2,3-aminomutase [EC:5.4.3.2]
+* Spiro2_11790        K09808  206.23  291.6   1.5e-87 lipoprotein-releasing system permease protein
+* Spiro2_11790        K02004   43.17   64.6   7.6e-19 putative ABC transport system permease protein
+* Spiro2_11795        K09810  330.40  331.4  9.2e-100 lipoprotein-releasing system ATP-binding protein [EC:7.6.2.-]
+* Spiro2_11795        K02003  291.57  304.4     2e-91 putative ABC transport system ATP-binding protein
+* Spiro2_11800        K07277  283.40  458.0  1.4e-137 outer membrane protein insertion porin family
+* Spiro2_11805        K06142   38.40   98.9     5e-29 outer membrane protein
+* Spiro2_11810        K02536  180.23  424.2  9.1e-128 UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [EC:2.3.1.191]
+* Spiro2_11815        K02372   75.03  147.5   8.5e-44 3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59]
+* Spiro2_11820        K00677  203.70  367.3    9e-111 UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129]
+* Spiro2_11825        K00748  123.30  368.2  1.3e-110 lipid-A-disaccharide synthase [EC:2.4.1.182]
+* Spiro2_11835        K00912   86.63  130.4   1.3e-38 tetraacyldisaccharide 4'-kinase [EC:2.7.1.130]
+* Spiro2_11840        K08311   69.53   81.0   1.2e-23 putative (di)nucleoside polyphosphate hydrolase [EC:3.6.1.-]
+* Spiro2_11845        K03406   58.43  157.0   1.1e-46 methyl-accepting chemotaxis protein
+* Spiro2_11860        K07082   41.23  317.1   2.3e-95 UPF0755 protein
+* Spiro2_11870        K00767  214.83  267.5   3.1e-80 nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19]
+* Spiro2_11875        K03525   43.47   61.6   1.2e-17 type III pantothenate kinase [EC:2.7.1.33]
+* Spiro2_11890        K00343  325.13  404.9  9.1e-122 NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]
+* Spiro2_11900        K00341  537.30  731.5  1.4e-220 NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]
+* Spiro2_11905        K00340   95.37  124.9   4.4e-37 NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]
+* Spiro2_11910        K00339  129.27  145.3   3.8e-43 NADH-quinone oxidoreductase subunit J [EC:7.1.1.2]
+* Spiro2_11915        K00337  417.43  424.3  1.5e-127 NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]
+* Spiro2_11920        K00330  128.20  171.0   3.9e-51 NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]
+* Spiro2_11925        K01479  211.30  241.5     2e-72 formiminoglutamase [EC:3.5.3.8]
+* Spiro2_11930        K13236  309.00  329.7   3.9e-99 2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing], mitochondrial [EC:1.3.1.124]
+* Spiro2_11940        K02884   24.77  126.8   1.8e-37 large subunit ribosomal protein L19
+* Spiro2_11950        K02887   42.13  181.5   2.7e-54 large subunit ribosomal protein L20
+* Spiro2_11955        K02916   18.10   32.2   1.2e-08 large subunit ribosomal protein L35
+* Spiro2_11985        K00088  359.27  675.2  1.4e-203 IMP dehydrogenase [EC:1.1.1.205]
+* Spiro2_11990        K01951  105.10  665.5  9.9e-201 GMP synthase (glutamine-hydrolysing) [EC:6.3.5.2]
+* Spiro2_11995        K06223   80.53  230.6   6.5e-69 DNA adenine methylase [EC:2.1.1.72]
+* Spiro2_12015        K01251   65.00  796.5  1.9e-240 adenosylhomocysteinase [EC:3.13.2.1]
+* Spiro2_12025        K06206   60.97  227.4   3.5e-68 sugar fermentation stimulation protein A
+* Spiro2_12030        K04083   44.37  141.8   3.8e-42 molecular chaperone Hsp33
+* Spiro2_12035        K01784  261.03  316.1   6.9e-95 UDP-glucose 4-epimerase [EC:5.1.3.2]
+* Spiro2_12045        K03687   32.23  172.6   1.9e-51 molecular chaperone GrpE
+* Spiro2_12050        K01875   74.50  537.0  8.4e-162 seryl-tRNA synthetase [EC:6.1.1.11]
+* Spiro2_12060        K01745  425.53  628.2  2.9e-189 histidine ammonia-lyase [EC:4.3.1.3]
+* Spiro2_12065        K04487  280.90  378.8    5e-114 cysteine desulfurase [EC:2.8.1.7]
+* Spiro2_12070        K04077  143.97  874.2  7.5e-264 chaperonin GroEL [EC:5.6.1.7]
+* Spiro2_12075        K04078   25.80  145.8     2e-43 chaperonin GroES
+* Spiro2_12080        K01493   79.70  157.8   6.8e-47 dCMP deaminase [EC:3.5.4.12]
+* Spiro2_12085        K01848  800.10  892.2  1.6e-269 methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2]
+* Spiro2_12095        K18979  101.30  288.5     2e-86 epoxyqueuosine reductase [EC:1.17.99.6]
+* Spiro2_12100        K13283  189.97  236.9   3.3e-71 ferrous-iron efflux pump FieF
+* Spiro2_12105        K03439   64.87  142.5   3.2e-42 tRNA (guanine-N7-)-methyltransferase [EC:2.1.1.33]
+* Spiro2_12125        K03701  392.60  766.7    5e-231 excinuclease ABC subunit A
+* Spiro2_12130        K01613   32.77  216.0   1.1e-64 phosphatidylserine decarboxylase [EC:4.1.1.65]
+* Spiro2_12180        K07316  200.43  240.2   7.7e-72 adenine-specific DNA-methyltransferase [EC:2.1.1.72]
+* Spiro2_12190        K03561   54.67   57.8   2.5e-16 biopolymer transport protein ExbB
+* Spiro2_12210        K12574  126.80  572.9  1.3e-172 ribonuclease J [EC:3.1.-.-]
+* Spiro2_12215        K00648  219.23  352.6  4.8e-106 3-oxoacyl-[acyl-carrier-protein] synthase III [EC:2.3.1.180]
+* Spiro2_12220        K03631  132.17  483.4  1.6e-145 DNA repair protein RecN (Recombination protein N)
+* Spiro2_12250        K01661  396.10  472.7    1e-142 naphthoate synthase [EC:4.1.3.36]
+* Spiro2_12255        K08325  457.27  545.3  8.1e-165 NADP-dependent alcohol dehydrogenase [EC:1.1.-.-]
+* Spiro2_12260        K00283  521.13  715.1  8.6e-216 glycine cleavage system P protein (glycine dehydrogenase) subunit 2 [EC:1.4.4.2]
+* Spiro2_12265        K00282  401.67  600.0  3.7e-181 glycine cleavage system P protein (glycine dehydrogenase) subunit 1 [EC:1.4.4.2]
+* Spiro2_12270        K02437   37.80  162.6   1.7e-48 glycine cleavage system H protein
+* Spiro2_12285        K01507   20.83  172.9   1.9e-51 inorganic pyrophosphatase [EC:3.6.1.1]
+* Spiro2_12310        K26996   29.27   38.3   1.6e-10 immunity protein, SdpI family
+* Spiro2_12320        K01902  358.70  537.9  6.2e-162 succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]
+* Spiro2_12325        K01903  503.70  571.0  2.8e-172 succinyl-CoA synthetase beta subunit [EC:6.2.1.5]
+* Spiro2_12340        K06180  287.80  327.9   1.7e-98 23S rRNA pseudouridine1911/1915/1917 synthase [EC:5.4.99.23]
+* Spiro2_12345        K15539   58.07   73.7   2.7e-21 cytoskeleton protein RodZ
+* Spiro2_12350        K04562  203.43  223.8   4.4e-67 flagellar biosynthesis protein FlhG
+* Spiro2_12355        K02277   48.57   72.4   8.5e-21 cytochrome c oxidase subunit IV [EC:7.1.1.9]
+* Spiro2_12360        K02276  178.73  217.9   2.6e-65 cytochrome c oxidase subunit III [EC:7.1.1.9]
+* Spiro2_12375        K02275  207.57  285.9   1.5e-85 cytochrome c oxidase subunit II [EC:7.1.1.9]
+* Spiro2_12380        K07152   53.70   88.0   1.2e-25 protein SCO1
+* Spiro2_12415        K02257  123.83  310.8   3.1e-93 heme o synthase [EC:2.5.1.141]
+* Spiro2_12425        K01091  111.07  137.9   6.6e-41 phosphoglycolate phosphatase [EC:3.1.3.18]
+* Spiro2_12435        K01069  160.73  207.1   6.3e-62 hydroxyacylglutathione hydrolase [EC:3.1.2.6]
+* Spiro2_12440        K06959  431.17  999.3  2.3e-301 protein Tex
+* Spiro2_12445        K00940  149.97  204.2   3.5e-61 nucleoside-diphosphate kinase [EC:2.7.4.6]
+* Spiro2_12460        K14054  118.80  208.2     3e-62 murein peptide amidase A
+* Spiro2_12465        K00773  527.70  566.2  8.2e-171 queuine tRNA-ribosyltransferase [EC:2.4.2.29]
+* Spiro2_12470        K07736   48.33  188.3   3.6e-56 CarD family transcriptional regulator, regulator of rRNA transcription
+* Spiro2_12475        K06885  287.07  333.6    4e-100 uncharacterized protein
+* Spiro2_12480        K09773  305.63  319.4   4.2e-96 [pyruvate, water dikinase]-phosphate phosphotransferase / [pyruvate, water dikinase] kinase [EC:2.7.4.28 2.7.11.33]
+* Spiro2_12485        K01883  406.87  592.5    3e-178 cysteinyl-tRNA synthetase [EC:6.1.1.16]
+* Spiro2_12490        K03686  409.57  453.8  1.4e-136 molecular chaperone DnaJ
+* Spiro2_12495        K02535  313.60  339.0  5.2e-102 UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108]
+* Spiro2_12500        K03111   22.63  182.5   1.5e-54 single-strand DNA-binding protein
+* Spiro2_12510        K08641   53.93  140.5     1e-41 zinc D-Ala-D-Ala dipeptidase [EC:3.4.13.22]
+* Spiro2_12525        K07494   57.07   75.4   7.4e-22 putative transposase
+* Spiro2_12540        K01126  136.20  195.6   1.9e-58 glycerophosphoryl diester phosphodiesterase [EC:3.1.4.46]
+* Spiro2_12545        K05813  323.57  494.2    8e-149 sn-glycerol 3-phosphate transport system substrate-binding protein
+* Spiro2_12550        K05814  347.83  372.0  3.2e-112 sn-glycerol 3-phosphate transport system permease protein
+* Spiro2_12555        K05815  316.43  338.3  4.7e-102 sn-glycerol 3-phosphate transport system permease protein
+* Spiro2_12620        K03089  257.60  350.8  1.5e-105 RNA polymerase sigma-32 factor
+* Spiro2_12635        K03657  358.03  635.9  1.7e-191 ATP-dependent DNA helicase UvrD/PcrA [EC:5.6.2.4]
+* Spiro2_12640        K01783  251.80  266.6   5.5e-80 ribulose-phosphate 3-epimerase [EC:5.1.3.1]
+* Spiro2_12665        K02031  426.77  521.5    6e-157 peptide/nickel transport system ATP-binding protein
+* Spiro2_12665        K15583  516.93  519.7  1.2e-156 oligopeptide transport system ATP-binding protein
+* Spiro2_12675        K02032  389.40  518.3  6.4e-156 peptide/nickel transport system ATP-binding protein
+* Spiro2_12685        K10680  508.40  542.3  2.4e-163 N-ethylmaleimide reductase [EC:1.-.-.-]
+* Spiro2_12710        K01894  311.50  345.4  4.6e-104 glutamyl-Q tRNA(Asp) synthetase [EC:6.1.1.-]
+* Spiro2_12720        K02110   65.83   83.6   2.1e-24 F-type H+-transporting ATPase subunit c
+* Spiro2_12725        K02108  159.87  192.1   2.1e-57 F-type H+-transporting ATPase subunit a
+* Spiro2_12735        K02313  129.83  463.0  2.7e-139 chromosomal replication initiator protein
+* Spiro2_12740        K07566   91.37  315.7     1e-94 L-threonylcarbamoyladenylate synthase [EC:2.7.7.87]

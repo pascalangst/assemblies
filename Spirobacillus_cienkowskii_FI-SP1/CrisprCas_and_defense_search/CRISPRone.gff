@@ -1,0 +1,20 @@
+##gff-version 3
+#!processor CRISPRone
+contig_1	Genbank	region	1	2806830	.	+	.	ID=contig_1;array=2;gene=10;type=(type I)
+contig_1	FGS-hmm	CDS	1874052	1875218	.	+	.	what=cas;des=cas14:cas14;note=Type-V
+contig_1	FGS-hmm	CDS	1875344	1876078	.	+	.	what=cas;des=unk;note=unknown
+contig_1	FGS-hmm	CDS	1876145	1876405	.	+	.	what=cas;des=unk;note=unknown
+contig_1	CRISPRone	partial_repeat	1876633	1876668	.	+	.	what=antiCRISPR;des=antiRepeat:eat;note=25-11
+contig_1	FGS-hmm	CDS	1876713	1880057	.	+	.	what=cas;des=cd09643:cas9;note=Type-II
+contig_1	metaCRT	direct_repeat	1880067	1880631	.	.	.	what=CRISPR;des=repeat:GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT;note=copy:9
+contig_1	FGS-hmm	CDS	1880183	1880464	.	+	.	what=cas;des=unk;note=unknown
+contig_1	FGS-hmm	CDS	1880683	1881024	.	-	.	what=cas;des=pfam09827:cas2;note=universal
+contig_1	FGS-hmm	CDS	1881058	1881951	.	-	.	what=cas;des=cd09634:cas1;note=universal
+contig_1	FGS-hmm	CDS	2328483	2331122	.	-	.	what=cas;des=cd09673:cas3f;note=Subtype-I-F
+contig_1	FGS-hmm	CDS	2331201	2332148	.	-	.	what=cas;des=COG1518:cas1;note=universal
+contig_1	metaCRT	direct_repeat	2332254	2333730	.	.	.	what=CRISPR;des=repeat:TTTCTCAGCCACCTATGCGGTGGTTAAT;note=copy:25
+contig_1	FGS-hmm	CDS	2332509	2332709	.	+	.	what=cas;des=unk;note=unknown
+contig_1	FGS-hmm	CDS	2333874	2334473	.	-	.	what=cas;des=cd09739:cas6f;note=other
+contig_1	FGS-hmm	CDS	2334505	2335632	.	-	.	what=cas;des=pfam09615:cas7f;note=Subtype-I-F
+contig_1	FGS-hmm	CDS	2335635	2336483	.	-	.	what=cas;des=cd09736:cas5f;note=Subtype-I-F
+contig_1	FGS-hmm	CDS	2336480	2337712	.	-	.	what=cas;des=cls000148:cas8f;note=Subtype-I-F

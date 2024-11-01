@@ -1,0 +1,4 @@
+prefix	bacteria_id	bacteria_def	genome_size	prophage_start	prophage_end	method	key_proteins	best_hit_species	CDS_number	attl_region	attr_region
+sequence_1	contig_1	contig_1	2806830	638489	647091	DBSCAN-SWA		Diachasmimorpha_longicaudata_entomopoxvirus(16.67%)	9	NA	NA
+sequence_1	contig_1	contig_1	2806830	2372361	2382780	DBSCAN-SWA	transposase	Helicobacter_phage(28.57%)	11	NA	NA
+sequence_1	contig_1	contig_1	2806830	2430262	2439711	DBSCAN-SWA	tRNA	Bacillus_phage(28.57%)	8	NA	NA

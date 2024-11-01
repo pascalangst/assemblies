@@ -1,0 +1,1 @@
+bac_id	bac_def	genome_size	prophage_start	prophage_end	method	best_hit_phage_species(turnout)	prophage_key_proteins	hit_phage_id	hit_phage_def	prophage_homolog_percent	prophage_alignment_identity	prophage_alignment_coverage

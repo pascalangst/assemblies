@@ -1,0 +1,2 @@
+strain_id	description	flag	length
+contig_1	contig_1	fasta	2806830

@@ -1,0 +1,12 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp55tajx5y/contigs.fna
+# Target file:     /home/pascal/bioinformatics/bakta/db/ncRNA-regions
+# Option settings: cmscan -g -Z 5 --tblout /tmp/tmp55tajx5y/ncrna-regions.tsv --noali --cut_tc --rfam --nohmmonly --cpu 8 /home/pascal/bioinformatics/bakta/db/ncRNA-regions /tmp/tmp55tajx5y/contigs.fna 
+# Current dir:     /tmp/tmp55tajx5y
+# Date:            Wed Oct 18 11:56:32 2023
+# [ok]

@@ -1,0 +1,31 @@
+# OneDrive-UniversitätBaselassembliesSpirobacillus_cienkowskii_FI-SP1comparison_to_old_refproteinortho.proteinortho.tsv statistics:
+# number of groups that contains at least p% species:
+# p	species	groups	genes in groups
+0%	0	2126 (100%)	4265 (100%)	
+50%	1	2126 (100%)	4265 (100%)	
+100%	2	2126 (100%)	4265 (100%)	
+# NOTE: p=100% correspond to the core proteome and p=0% to all groups
+# number of groups for each input species:
+Spirobacillus_cienkowskii_FI-SP1.faa	2126	100%
+protein.faa	2126	100%
+
+# ----------------------------------
+# graph file statistics:
+
+# The adjacency matrix, the number of edges between 2 species
+# file	Spirobacillus_cienkowskii_FI-SP1.faa	protein.faa	
+Spirobacillus_cienkowskii_FI-SP1.faa	0	2175
+protein.faa	2175	0
+
+# file	average number of edges
+Spirobacillus_cienkowskii_FI-SP1.faa	1087.5	
+protein.faa	1087.5	
+
+# The 2-path matrix, the number of paths between 2 species of length 2
+# file	Spirobacillus_cienkowskii_FI-SP1.faa	protein.faa	
+Spirobacillus_cienkowskii_FI-SP1.faa(0)	4730625	0
+protein.faa(1)	0	4730625
+
+# file	average number of 2-paths
+Spirobacillus_cienkowskii_FI-SP1.faa(0)	2365312.5
+protein.faa(1)	2365312.5

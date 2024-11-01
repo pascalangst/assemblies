@@ -1,0 +1,3 @@
+bacteria_id	genome_size	prophage_start	prophage_end	predict_method	best_hit_species	key_proteins
+Spirobacillus	Spirobacillus	2806830	2372361	2382780	DBSCAN-SWA	Helicobacter_phage(28.57%)	transposase
+Spirobacillus	Spirobacillus	2806830	2430262	2438170	DBSCAN-SWA	Bacillus_phage(33.33%)	tRNA

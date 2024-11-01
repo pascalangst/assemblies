@@ -1,0 +1,3 @@
+Contig	Operon	Operon_Pos	Prediction	CRISPRs	Distances	Prediction_Cas	Prediction_CRISPRs
+contig_1	contig_1@33	[1876713, 1881951]	II-C	['contig_1_1']	[0]	Ambiguous	['II-C']
+contig_1	contig_1@39	[2328483, 2337712]	I-F	['contig_1_2']	[0]	I-F	['I-F']

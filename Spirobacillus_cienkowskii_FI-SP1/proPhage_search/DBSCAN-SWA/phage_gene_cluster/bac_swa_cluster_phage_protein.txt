@@ -1,0 +1,1 @@
+swa_region_id	region_location	region_key_proteins	protein_id	hit_uniprot_id	identity	coverage

@@ -1,0 +1,680 @@
+{
+"Date":"28/11/2023_14:35:49",
+"Version":"4.2.30",
+"Command":"perl /usr/local/CRISPRCasFinder/CRISPRCasFinder.pl ",
+"Sequences":
+[{
+"Id":"contig_1",
+"Version":"contig_1",
+"Description":"Unknown",
+"AT":67.8095217736735,
+"Length":2806830,
+"Summary_CRISPR-Cas":"",
+"Crisprs":[
+{
+"Name": "contig_1_1",
+"Start": 895766,
+"End": 895853,
+"DR_Consensus": "TTTCTCAACCGCCTACATGGCGGAAAAC",
+"Repeat_ID": "Unknown",
+"DR_Length": 28,
+"Spacers": 1,
+"Potential_Orientation": "-",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 96.4285714285714,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 895666,
+"End": 895765,
+"Sequence": "GAACGACAATTATATAATCTTTTAGCATTATAGCCGTTTGCACATCTCTATTGATATCATCTTTGAATTCTTACTCAAAACGCGTTATCATCTTTGCATA",
+"Leader": 0,
+"AT": 69
+},
+ {
+"Type": "DR",
+"Start": 895766,
+"End": 895793,
+"Sequence": "TTTCTCAACCGCCTACATGGCGGAAAAC"
+},
+{
+"Type": "Spacer",
+"Start": 895794,
+"End": 895825,
+"Sequence": "GTTTGTTCATGTCACAGAACAATATTTAACAT"
+},
+{
+"Type": "DR",
+"Start": 895826,
+"End": 895853,
+"Sequence": "TTTCTCAACCACCTACATGGCGGAAAAC"
+},
+{
+"Type": "RightFLANK",
+"Start": 895854,
+"End": 895953,
+"Sequence": "TATCTCAAGTGCAACAATAACCTTAATATACTTAAAGAACGAGTTGCCGTCTAAGTCTGTAGCAATGTTTTTTACATATTAAAAAAATTTAAAAATATTA",
+"Leader": 1,
+"AT": 75
+}
+]
+},
+{
+"Name": "contig_1_2",
+"Start": 1053412,
+"End": 1053503,
+"DR_Consensus": "ACGCCTTTTATTCGAGAATTAAA",
+"Repeat_ID": "Unknown",
+"DR_Length": 23,
+"Spacers": 1,
+"Potential_Orientation": "-",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 95.6521739130435,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 1053312,
+"End": 1053411,
+"Sequence": "ACTAGATCTTAAAAATAAAAATATTCATGATTTGTCATCAATCGCAACTTTAGTTGATCTTGAAGAGCTTAATCTAGAAAATAATAAAATTACTGAAATT",
+"Leader": 0,
+"AT": 77
+},
+ {
+"Type": "DR",
+"Start": 1053412,
+"End": 1053434,
+"Sequence": "ACGCCTTTTATTCGAGAATTAAA"
+},
+{
+"Type": "Spacer",
+"Start": 1053435,
+"End": 1053480,
+"Sequence": "AAAACTCACAGCAATAAATTTTAGTCATAATAAAATTAGTGCAATC"
+},
+{
+"Type": "DR",
+"Start": 1053481,
+"End": 1053503,
+"Sequence": "ACGCCTTATATTCGAGAATTAAA"
+},
+{
+"Type": "RightFLANK",
+"Start": 1053504,
+"End": 1053603,
+"Sequence": "TAAACTGATAGCAATAAATTTTAGTCATAATATTATTAAAGAATTACCAGAAGAAATGCGAGAACTAGATTTAAAAACAATTTATTTTAATAATAACCAG",
+"Leader": 1,
+"AT": 79
+}
+]
+},
+{
+"Name": "contig_1_3",
+"Start": 1090477,
+"End": 1090565,
+"DR_Consensus": "GCATAGCAAGTTCTATGTCATCTGTATCAGAT",
+"Repeat_ID": "Unknown",
+"DR_Length": 32,
+"Spacers": 1,
+"Potential_Orientation": "-",
+"CRISPRDirection": "ND",
+"Evidence_Level": 1,
+"Conservation_DRs": 100,
+"Conservation_Spacers": 100,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 1090377,
+"End": 1090476,
+"Sequence": "GCTCGAAATGTATCCGTGGGTCGAAGTGTCTCCGATGTAGTAAGACGAACCGCAGAGCAAACACTTACTATATCCGCTAGACAAAGGCCTATATCACTTA",
+"Leader": 0,
+"AT": 54
+},
+ {
+"Type": "DR",
+"Start": 1090477,
+"End": 1090508,
+"Sequence": "GCATAGCAAGTTCTATGTCATCTGTATCAGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1090509,
+"End": 1090533,
+"Sequence": "GATTTATCATTTCATACACCACGTG"
+},
+{
+"Type": "DR",
+"Start": 1090534,
+"End": 1090565,
+"Sequence": "GCATAGCAAGTTCTATGTCATCTGTATCAGAT"
+},
+{
+"Type": "RightFLANK",
+"Start": 1090566,
+"End": 1090665,
+"Sequence": "ATGTCATATGTACCAGATGGTATTATATCATTTTTGGGGTGGACGTGGTATTAATAATATTCTTTCATTTTTTAGTGACCCTATTTGGAATACGAATTTA",
+"Leader": 1,
+"AT": 70
+}
+]
+},
+{
+"Name": "contig_1_4",
+"Start": 1880067,
+"End": 1880631,
+"DR_Consensus": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT",
+"Repeat_ID": "Unknown",
+"DR_Length": 36,
+"Spacers": 8,
+"Potential_Orientation": "+",
+"CRISPRDirection": "ND",
+"Evidence_Level": 4,
+"Conservation_DRs": 88.8164814494301,
+"Conservation_Spacers": 2.22222222222222,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 1879967,
+"End": 1880066,
+"Sequence": "AAAAAAACCTACTAGAAAAAGCATCAATAATTTATTAAAAATGAAATTTAAAAAACTTAAAATTTCGCCTTTAGGAGAAATTTTACAGTAAGCAGTTTAT",
+"Leader": 1,
+"AT": 79
+},
+ {
+"Type": "DR",
+"Start": 1880067,
+"End": 1880102,
+"Sequence": "TTTATGTATTGTAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880103,
+"End": 1880132,
+"Sequence": "TGTAACGCTCTCCCTTAAAAACCCAATTTG"
+},
+{
+"Type": "DR",
+"Start": 1880133,
+"End": 1880168,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880169,
+"End": 1880199,
+"Sequence": "TCAGAAACTATCGAATGATTTACAATCACCC"
+},
+{
+"Type": "DR",
+"Start": 1880200,
+"End": 1880235,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880236,
+"End": 1880265,
+"Sequence": "TGCCATTATCAACTCTTCGACCGCTATCTG"
+},
+{
+"Type": "DR",
+"Start": 1880266,
+"End": 1880301,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880302,
+"End": 1880331,
+"Sequence": "AATTTTTAGTGAAAGCAGGAAGTGGACTTG"
+},
+{
+"Type": "DR",
+"Start": 1880332,
+"End": 1880367,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880368,
+"End": 1880397,
+"Sequence": "TTTTAGACCAATCTGCTTGTCCTTTTTTTT"
+},
+{
+"Type": "DR",
+"Start": 1880398,
+"End": 1880433,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880434,
+"End": 1880463,
+"Sequence": "TAAGCGCGTGATGCGTCTCTATCAACTTTA"
+},
+{
+"Type": "DR",
+"Start": 1880464,
+"End": 1880499,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880500,
+"End": 1880529,
+"Sequence": "ACCAACTGTTAAGCTTCCTTTCTGTAGTTC"
+},
+{
+"Type": "DR",
+"Start": 1880530,
+"End": 1880565,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "Spacer",
+"Start": 1880566,
+"End": 1880595,
+"Sequence": "TGTTGCTGTTTGATTAAAATCGCCTGTATC"
+},
+{
+"Type": "DR",
+"Start": 1880596,
+"End": 1880631,
+"Sequence": "GCTGGAACTTGCAGGGAATAAGACTTCTGATATGAT"
+},
+{
+"Type": "RightFLANK",
+"Start": 1880632,
+"End": 1880731,
+"Sequence": "AGACCCGTCAATAACTTACTAATTATTGACGGGATTTTTTTATTTTTAGAGCTAAAAAAGGAGTATTTCGGGTAGTGGTTCTTCTGTTTTTTCTTTGTTT",
+"Leader": 0,
+"AT": 69
+}
+]
+},
+{
+"Name": "contig_1_5",
+"Start": 2332254,
+"End": 2333730,
+"DR_Consensus": "TTTCTCAGCCACCTATGCGGTGGTTAAT",
+"Repeat_ID": "Unknown",
+"DR_Length": 28,
+"Spacers": 24,
+"Potential_Orientation": "+",
+"CRISPRDirection": "ND",
+"Evidence_Level": 4,
+"Conservation_DRs": 98.2693415065542,
+"Conservation_Spacers": 0,
+"Regions": [
+{
+"Type": "LeftFLANK",
+"Start": 2332154,
+"End": 2332253,
+"Sequence": "ATCTCTTTTTTATTTAGGAATTAATAAGAATGATTAAGTTAAAAATAAAAACCGCCTATGCGGCGGGAAACAATACTAGTGAAAATACCTATAATCATAA",
+"Leader": 1,
+"AT": 73
+},
+ {
+"Type": "DR",
+"Start": 2332254,
+"End": 2332281,
+"Sequence": "TTTCTCAGCCACCTACACGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332282,
+"End": 2332313,
+"Sequence": "GTTATTCATAGAGACATCTAACACGTTTTCTG"
+},
+{
+"Type": "DR",
+"Start": 2332314,
+"End": 2332341,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332342,
+"End": 2332373,
+"Sequence": "TATTCTTTATTATTTAGACTACTATATGAAGA"
+},
+{
+"Type": "DR",
+"Start": 2332374,
+"End": 2332401,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332402,
+"End": 2332433,
+"Sequence": "TGATGTTTGTTTGTGCTTTAGAAAGTTTTGTA"
+},
+{
+"Type": "DR",
+"Start": 2332434,
+"End": 2332461,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332462,
+"End": 2332494,
+"Sequence": "GTCGTTTTAAATACTGCATTAATTAAATTTGAG"
+},
+{
+"Type": "DR",
+"Start": 2332495,
+"End": 2332522,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332523,
+"End": 2332554,
+"Sequence": "AAATGCAGGTATGTCAAAGCAATTGAACCAAA"
+},
+{
+"Type": "DR",
+"Start": 2332555,
+"End": 2332582,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332583,
+"End": 2332615,
+"Sequence": "GGCAAATCACCAACACCTTGTTTTAACCATTGG"
+},
+{
+"Type": "DR",
+"Start": 2332616,
+"End": 2332643,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332644,
+"End": 2332675,
+"Sequence": "CAGCAACTTACCGTGGCGCATCATTTACAAAT"
+},
+{
+"Type": "DR",
+"Start": 2332676,
+"End": 2332703,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332704,
+"End": 2332735,
+"Sequence": "AGCTAGTCTATTTATTTTCCGCTGTAATAAGT"
+},
+{
+"Type": "DR",
+"Start": 2332736,
+"End": 2332763,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332764,
+"End": 2332795,
+"Sequence": "TGTTATATTATTTGTTATGCCTTTGTTTTATT"
+},
+{
+"Type": "DR",
+"Start": 2332796,
+"End": 2332823,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332824,
+"End": 2332855,
+"Sequence": "ATTGCTCAGATGTAACATATACTATACAAAAC"
+},
+{
+"Type": "DR",
+"Start": 2332856,
+"End": 2332883,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332884,
+"End": 2332915,
+"Sequence": "TATTGCAAACACCACGAGCAATTATACGTTTA"
+},
+{
+"Type": "DR",
+"Start": 2332916,
+"End": 2332943,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2332944,
+"End": 2332976,
+"Sequence": "GTGGTTGTTTTTTGAACTCTATTTGTATTAAAT"
+},
+{
+"Type": "DR",
+"Start": 2332977,
+"End": 2333004,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333005,
+"End": 2333037,
+"Sequence": "AATATCAACGCTGCAACATATCCTCTTTGGAAA"
+},
+{
+"Type": "DR",
+"Start": 2333038,
+"End": 2333065,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333066,
+"End": 2333098,
+"Sequence": "TTCTTTATGCTTTTGGAGAAGAAAATTTTGATA"
+},
+{
+"Type": "DR",
+"Start": 2333099,
+"End": 2333126,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333127,
+"End": 2333159,
+"Sequence": "TTATAAAACATTATACACAAGTGGAGTATTAGG"
+},
+{
+"Type": "DR",
+"Start": 2333160,
+"End": 2333187,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333188,
+"End": 2333220,
+"Sequence": "GAAATTATCCGCTCGGCATTATTGACGGGTTAT"
+},
+{
+"Type": "DR",
+"Start": 2333221,
+"End": 2333248,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333249,
+"End": 2333280,
+"Sequence": "GTGATGTTTTCTTTTCATCAGGCTCTGGATCT"
+},
+{
+"Type": "DR",
+"Start": 2333281,
+"End": 2333308,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333309,
+"End": 2333340,
+"Sequence": "GTTTAATCAACTATTATTTATCGCAACAGTTG"
+},
+{
+"Type": "DR",
+"Start": 2333341,
+"End": 2333368,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333369,
+"End": 2333400,
+"Sequence": "GCGTAAGCAATGAGGCTGCCATAAATGCACCA"
+},
+{
+"Type": "DR",
+"Start": 2333401,
+"End": 2333428,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333429,
+"End": 2333461,
+"Sequence": "CGCTATTCTTTTTCTTTGTATTGACTTAAAAAT"
+},
+{
+"Type": "DR",
+"Start": 2333462,
+"End": 2333489,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333490,
+"End": 2333521,
+"Sequence": "ACCCCTTTACAAACGGAGTTTAAATAAGGGGT"
+},
+{
+"Type": "DR",
+"Start": 2333522,
+"End": 2333549,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333550,
+"End": 2333581,
+"Sequence": "AAAGACGATGTGGAGCAGGCTCTTTCTGAATT"
+},
+{
+"Type": "DR",
+"Start": 2333582,
+"End": 2333609,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333610,
+"End": 2333642,
+"Sequence": "TTATAAAACATTATACACAAGTGGAGTATTAGG"
+},
+{
+"Type": "DR",
+"Start": 2333643,
+"End": 2333670,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "Spacer",
+"Start": 2333671,
+"End": 2333702,
+"Sequence": "ATATCATGTGTCAGACAAAATTTTAGCCACAA"
+},
+{
+"Type": "DR",
+"Start": 2333703,
+"End": 2333730,
+"Sequence": "TTTCTCAGCCACCTATGCGGTGGTTAAT"
+},
+{
+"Type": "RightFLANK",
+"Start": 2333731,
+"End": 2333830,
+"Sequence": "GCTCTAATTTTTGTAACAACATACTGGTAACAATGCAATACATTATAATTTAAACCACTGCACCATTGCTTTAGGCAATTTTAAAAAAGCATAGTATTTA",
+"Leader": 0,
+"AT": 72
+}
+]
+}]
+,
+"Cas":[{
+"Type": "CAS-TypeIIU",
+"Start": 1876713,
+"End": 1881951,
+"Genes": [
+{
+"Sub_type": "cas9_TypeII",
+"Start": 1876713,
+"End": 1880057,
+"Orientation": "+"
+},
+{
+"Sub_type": "cas2_TypeI-II-III",
+"Start": 1880683,
+"End": 1881024,
+"Orientation": "-"
+},
+{
+"Sub_type": "cas1_TypeII",
+"Start": 1881058,
+"End": 1881951,
+"Orientation": "-"
+}]},
+{
+"Type": "CAS-TypeIF",
+"Start": 2328483,
+"End": 2335632,
+"Genes": [
+{
+"Sub_type": "cas3-cas2_TypeIF",
+"Start": 2328483,
+"End": 2331182,
+"Orientation": "-"
+},
+{
+"Sub_type": "cas1_TypeIF",
+"Start": 2331201,
+"End": 2332148,
+"Orientation": "-"
+},
+{
+"Sub_type": "cas6_TypeIF",
+"Start": 2333874,
+"End": 2334473,
+"Orientation": "-"
+},
+{
+"Sub_type": "csy3_TypeIF",
+"Start": 2334505,
+"End": 2335632,
+"Orientation": "-"
+}]}]
+
+}
+]
+}

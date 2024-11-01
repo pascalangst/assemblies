@@ -1,0 +1,17 @@
+bac_id	bac_def	hit_prophage	hit_phage_id	hit_phage_def	prophage_pro_num	hit_pro_percent	hit_pro_num
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KX119183	Helicobacter phage SwC388G genomic sequence	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KY653118	Morganella phage IME1369_01, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	JX006077	Saccharomonospora phage PIS 136, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	MH937457	Streptococcus phage CHPC1248, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	MH892373	Streptococcus phage SW27, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	MH892355	Streptococcus phage SW4, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KY705278	Streptococcus phage P7952, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KY705275	Streptococcus phage P7632, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KY705271	Streptococcus phage P7574, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	KY705253	Streptococcus phage P0093, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA|11	MK257744	Thermus phage YS40_Isch, complete genome	11.0	0.09090909090909091	1
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA|6	AF020713	Bacteriophage SPBc2 complete genome	6.0	0.16666666666666666	1
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA|6	KY030782	Bacillus phage phi3T, complete genome	6.0	0.16666666666666666	1
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA|6	EF583821	Bacillus phage 0305phi8-36, complete genome	6.0	0.16666666666666666	1
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA|6	HG424323	Streptococcus phage 20617 complete prophage genome	6.0	0.16666666666666666	1
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA|6	KX077893	Streptococcus phage phiZJ20091101-2, complete genome	6.0	0.16666666666666666	1

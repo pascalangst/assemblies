@@ -1,0 +1,45 @@
+Sequence 		tRNA   	Bounds 	tRNA	Anti	Intron Bounds	Inf	      
+Name     	tRNA #	Begin  	End    	Type	Codon	Begin	End	Score	Note
+-------- 	------	-----  	------ 	----	-----	-----	----	------	------
+contig_1 	1	34891  	34967  	Arg	ACG	0	0	80.8	
+contig_1 	2	34980  	35070  	Ser	GCT	0	0	85.4	
+contig_1 	3	188799 	188875 	Arg	CCT	0	0	67.8	
+contig_1 	4	223389 	223464 	Glu	TTC	0	0	68.5	
+contig_1 	5	223581 	223658 	Glu	TTC	0	0	63.2	
+contig_1 	6	235880 	235956 	Gly	GCC	0	0	85.8	
+contig_1 	7	329291 	329367 	Met	CAT	0	0	68.9	
+contig_1 	8	384285 	384360 	Ala	TGC	0	0	77.1	
+contig_1 	9	453411 	453486 	fMet	CAT	0	0	76.4	
+contig_1 	10	455389 	455464 	Ala	TGC	0	0	77.1	
+contig_1 	11	564571 	564657 	Leu	CAG	0	0	60.8	
+contig_1 	12	668588 	668670 	Leu	GAG	0	0	58.6	
+contig_1 	13	677034 	677109 	Trp	CCA	0	0	72.5	
+contig_1 	14	1028078	1028167	Ser	CGA	0	0	83.7	
+contig_1 	15	1069383	1069457	Gln	TTG	0	0	65.1	
+contig_1 	16	1957405	1957479	Pro	TGG	0	0	73.1	
+contig_1 	17	1985566	1985642	Ile2	CAT	0	0	67.7	
+contig_1 	18	1986652	1986728	Val	GAC	0	0	78.3	
+contig_1 	19	2086618	2086692	Cys	GCA	0	0	66.5	
+contig_1 	20	2113734	2113808	Arg	CCG	0	0	68.8	
+contig_1 	21	2776557	2776632	His	GTG	0	0	64.8	
+contig_1 	22	2798956	2799045	Ser	TGA	0	0	88.7	
+contig_1 	23	2802062	2801987	Lys	CTT	0	0	84.1	
+contig_1 	24	2651638	2651562	Ile	GAT	0	0	80.7	
+contig_1 	25	2648243	2648168	Lys	TTT	0	0	82.8	
+contig_1 	26	2647140	2647063	Pro	GGG	0	0	75.6	
+contig_1 	27	2603018	2602932	Leu	TAA	0	0	72.5	
+contig_1 	28	2538822	2538746	Asp	GTC	0	0	67.7	
+contig_1 	29	2510435	2510360	Thr	TGT	0	0	83.6	
+contig_1 	30	2510352	2510267	Tyr	GTA	0	0	75.2	
+contig_1 	31	2510243	2510167	Gly	TCC	0	0	67.1	
+contig_1 	32	2510082	2510008	Thr	GGT	0	0	76.7	
+contig_1 	33	2444092	2444018	Asn	GTT	0	0	69.3	
+contig_1 	34	2245192	2245117	Ala	TGC	0	0	77.1	
+contig_1 	35	1755909	1755834	Phe	GAA	0	0	79.7	
+contig_1 	36	721379 	721294 	Leu	CAA	0	0	64.6	
+contig_1 	37	428751 	428661 	Ser	GGA	0	0	72.9	
+contig_1 	38	417177 	417101 	Val	TAC	0	0	86.4	
+contig_1 	39	417054 	416978 	Val	TAC	0	0	86.4	
+contig_1 	40	249582 	249506 	Arg	TCT	0	0	77.7	
+contig_1 	41	238458 	238385 	Gln	CTG	0	0	55.1	
+contig_1 	42	20801  	20717  	Leu	TAG	0	0	71.9	

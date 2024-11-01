@@ -1,0 +1,2 @@
+Sequence(s)	CRISPR array(s)	Nb CRISPRs	Evidence-levels	Cas cluster(s)	Nb Cas	Cas Types/Subtypes
+contig_1	contig_1_1[895766;895853] (evidence-level=1), contig_1_2[1053412;1053503] (evidence-level=1), contig_1_3[1090477;1090565] (evidence-level=1), contig_1_4[1880067;1880631] (evidence-level=4), contig_1_5[2332254;2333730] (evidence-level=4),	5	Nb_arrays_evidence-level_1=3,Nb_arrays_evidence-level_2=0,Nb_arrays_evidence-level_3=0,Nb_arrays_evidence-level_4=2	CAS-TypeIIU[1876713;1881951], CAS-TypeIF[2328483;2335632],	2	CAS-TypeIF (n=1), CAS-TypeIIU (n=1), 

@@ -1,0 +1,9 @@
+sys_id	type	subtype	sys_beg	sys_end	protein_in_syst	genes_count	name_of_profiles_in_sys	Start_in_genome	End_in_genome
+UserReplicon_SoFic_1	SoFIC	SoFic	contig_1_245	contig_1_245	contig_1_245	1	SoFic__SoFic	297574	298740
+UserReplicon_RM_Type_II_2	RM	RM_Type_II	contig_1_249	contig_1_250	"contig_1_249,contig_1_250"	2	"RM_Type_II__Type_II_MTases,RM_Type_II__Type_II_REases"	300907	303162
+UserReplicon_RM_Type_IIG_4	RM	RM_Type_IIG	contig_1_251	contig_1_251	contig_1_251	1	RM_Type_IIG__Type_IIG	303162	305633
+UserReplicon_RM_Type_I_1	RM	RM_Type_I	contig_1_258	contig_1_260	"contig_1_258,contig_1_259,contig_1_260"	3	"RM__Type_I_REases,RM__Type_I_S,RM__Type_I_MTases"	310806	316847
+UserReplicon_RM_Type_II_3	RM	RM_Type_II	contig_1_1846	contig_1_1847	"contig_1_1846,contig_1_1847"	2	"RM_Type_II__Type_II_MTases,RM_Type_II__Type_II_REases"	2113979	2116007
+UserReplicon_CAS_Class2-Subtype-II-C_3	Cas	CAS_Class2-Subtype-II-C	contig_1_1642	contig_1_1644	"contig_1_1642,contig_1_1643,contig_1_1644"	3	"Cas__cas9_II-A_II-B_II-C_1,Cas__cas2_I_II_III_IV_V_VI_6,Cas__cas1_I_II_III_IV_V_VI_5"	1876713	1881951
+UserReplicon_CAS_Class1-Subtype-I-F_1	Cas	CAS_Class1-Subtype-I-F	contig_1_2038	contig_1_2043	"contig_1_2038,contig_1_2039,contig_1_2041,contig_1_2042,contig_1_2043"	5	"Cas__cas3f_I-F_1,Cas__cas1_I-F_1,Cas__cas6f_I_II_III_IV_V_VI_3,Cas__cas7f_I-F_2,Cas__cas5f_I-F_1"	2328483	2336483
+UserReplicon_Gabija_1	Gabija	Gabija	contig_1_1189	contig_1_1190	"contig_1_1189,contig_1_1190"	2	"Gabija__GajB_2,Gabija__GajA"	1379124	1382221

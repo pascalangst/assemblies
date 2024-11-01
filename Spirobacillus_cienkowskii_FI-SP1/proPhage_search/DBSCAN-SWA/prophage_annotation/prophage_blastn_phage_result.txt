@@ -1,0 +1,3 @@
+bac_id	bac_def	prophage_id	hit_phage_id	hit_phage_def	prophage_length	hit_length	identity	coverage
+Spirobacillus	Spirobacillus	Spirobacillus|2372361:2382780|DBSCAN-SWA	HQ683709	Planktothrix phage PaV-LD, complete genome	10420	46	87.23	0.004414587332053743
+Spirobacillus	Spirobacillus	Spirobacillus|2430262:2438170|DBSCAN-SWA	HG424323	Streptococcus phage 20617 complete prophage genome	7909	409	70.57	0.05171323808319636

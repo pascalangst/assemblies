@@ -1,0 +1,25 @@
+#target name         accession query name           accession mdl mdl from   mdl to seq from   seq to strand trunc pass   gc  bias  score   E-value inc description of target
+#------------------- --------- -------------------- --------- --- -------- -------- -------- -------- ------ ----- ---- ---- ----- ------ --------- --- ---------------------
+SSU_rRNA_bacteria    RF00177   contig_1             -          cm        1     1533   382602   384135      +    no    1 0.54  18.7 1540.4   4.8e-47 !   Bacterial small subunit ribosomal RNA
+SSU_rRNA_bacteria    RF00177   contig_1             -          cm        1     1533  2246875  2245342      -    no    1 0.54  19.8 1533.1   7.7e-47 !   Bacterial small subunit ribosomal RNA
+SSU_rRNA_bacteria    RF00177   contig_1             -          cm        1     1533   453706   455239      +    no    1 0.54  19.2 1532.6     8e-47 !   Bacterial small subunit ribosomal RNA
+SSU_rRNA_bacteria    RF00177   contig_1             -          cm        1     1533  2653251  2651717      -    no    1 0.53  19.7 1528.0   1.1e-46 !   Bacterial small subunit ribosomal RNA
+5S_rRNA              RF00001   contig_1             -          cm        1      119   387556   387670      +    no    1 0.60   0.0   81.8   5.1e-13 !   5S ribosomal RNA
+5S_rRNA              RF00001   contig_1             -          cm        1      119   458661   458775      +    no    1 0.60   0.0   81.8   5.1e-13 !   5S ribosomal RNA
+5S_rRNA              RF00001   contig_1             -          cm        1      119  2241920  2241806      -    no    1 0.60   0.0   81.8   5.1e-13 !   5S ribosomal RNA
+5S_rRNA              RF00001   contig_1             -          cm        1      119  2648376  2648262      -    no    1 0.60   0.0   81.8   5.1e-13 !   5S ribosomal RNA
+5S_rRNA              RF00001   contig_1             -          cm        1      119  1846116  1846002      -    no    1 0.56   0.0   76.8   4.3e-12 !   5S ribosomal RNA
+LSU_rRNA_bacteria    RF02541   contig_1             -          cm        1     2925   384505   387399      +    no    1 0.53  51.1 2788.1   2.5e-05 !   Bacterial large subunit ribosomal RNA
+LSU_rRNA_bacteria    RF02541   contig_1             -          cm        1     2925  2651427  2648533      -    no    1 0.53  50.8 2784.1   2.6e-05 !   Bacterial large subunit ribosomal RNA
+LSU_rRNA_bacteria    RF02541   contig_1             -          cm        1     2925  2244972  2242077      -    no    1 0.53  51.2 2779.6   2.6e-05 !   Bacterial large subunit ribosomal RNA
+LSU_rRNA_bacteria    RF02541   contig_1             -          cm        1     2925   455609   458504      +    no    1 0.53  51.0 2777.7   2.7e-05 !   Bacterial large subunit ribosomal RNA
+#
+# Program:         cmscan
+# Version:         1.1.4 (Dec 2020)
+# Pipeline mode:   SCAN
+# Query file:      /tmp/tmp55tajx5y/contigs.fna
+# Target file:     /home/pascal/bioinformatics/bakta/db/rRNA
+# Option settings: cmscan -g -Z 5 --tblout /tmp/tmp55tajx5y/rrna.tsv --noali --cut_tc --rfam --nohmmonly --cpu 8 /home/pascal/bioinformatics/bakta/db/rRNA /tmp/tmp55tajx5y/contigs.fna 
+# Current dir:     /tmp/tmp55tajx5y
+# Date:            Wed Oct 18 11:55:25 2023
+# [ok]

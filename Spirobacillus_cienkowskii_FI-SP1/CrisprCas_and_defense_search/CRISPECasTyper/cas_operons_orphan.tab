@@ -1,0 +1,5 @@
+Contig	Operon	Start	End	Prediction	Complete_Interference	Complete_Adaptation	Best_type	Best_score	Genes	Positions	E-values	CoverageSeq	CoverageHMM	Strand_Interference	Strand_Adaptation
+contig_1	contig_1@47	2789610	2790896	II-D	100%	0%	II-D	4.0	['Cas9_0_II-D']	[2483]	['1.30e-27']	[0.392]	[0.212]	1	NA
+contig_1	contig_1@20	1235901	1237187	II-D	100%	0%	II-D	4.0	['Cas9_0_II-D']	[1070]	['2.30e-27']	[0.392]	[0.212]	-1	NA
+contig_1	contig_1@11	644453	645757	II-D	100%	0%	II-D	4.0	['Cas9_0_II-D']	[549]	['2.40e-27']	[0.386]	[0.212]	1	NA
+contig_1	contig_1@32	1808671	1809957	II-D	100%	0%	II-D	4.0	['Cas9_0_II-D']	[1579]	['2.30e-27']	[0.392]	[0.212]	1	NA

@@ -1,0 +1,3 @@
+dbscan_region_id	region_location
+1	2372361:2382780
+2	2430262:2438170

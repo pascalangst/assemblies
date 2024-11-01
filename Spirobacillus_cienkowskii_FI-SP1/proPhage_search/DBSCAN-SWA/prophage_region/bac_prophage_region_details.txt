@@ -1,0 +1,21 @@
+The following contents displays predicted prophage regions
+first line of each prophage describes the prophage information and the following lines describe the proteins and homology proteins in uniprot database
+prophage_protein_ID	prophage_protein_product	key_proteins	hit_protein_id	hit_species	identity	evalue
+
+>prophage 1
+Spirobacillus	Spirobacillus	2806830	2372361	2382780	DBSCAN-SWA	Helicobacter_phage(28.57%)	transposase
+BAMDCOFK_02107|2372361_2374002_+	putative ABC transporter ATP-binding protein YbiT	NA	A0A2K9L3Z8	Tupanvirus	26.1	2.2e-31
+BAMDCOFK_02110|2375780_2377310_+|transposas	IS21 family transposase ISPpu7	transposase	K4I413	Acidithiobacillus_phage	32.5	1.7e-49
+BAMDCOFK_02111|2377325_2378066_+|transposas	IS21 family transposase ISCsa9	transposase	A0A059NT77	Lactococcus_phage	27.4	1.0e-20
+BAMDCOFK_02113|2378344_2378848_-	Methyl-accepting chemotaxis protein IV	NA	A0A2H4J162	uncultured_Caudovirales_phage	66.7	1.8e-08
+BAMDCOFK_02114|2379029_2379506_-	hypothetical protein	NA	A0A1S5RHE3	Helicobacter_phage	50.8	4.5e-33
+BAMDCOFK_02115|2379553_2380918_+	hypothetical protein	NA	A0A1S5RFS3	Helicobacter_phage	23.5	2.4e-10
+BAMDCOFK_02117|2381694_2382780_-	Vitamin B12 import ATP-binding protein BtuD	NA	G3M9Y6	Bacillus_virus	32.1	2.4e-21
+>prophage 2
+Spirobacillus	Spirobacillus	2806830	2430262	2438170	DBSCAN-SWA	Bacillus_phage(33.33%)	tRNA
+BAMDCOFK_02180|2430262_2430604_-	hypothetical protein	NA	M4ZS56	Bacillus_phage	62.1	5.7e-14
+BAMDCOFK_02181|2430609_2431110_-	Oligoribonuclease	NA	Q8B5Y0	Diachasmimorpha_longicaudata_entomopoxvirus	38.2	4.3e-26
+BAMDCOFK_02182|2431237_2433910_-|tRNA	Valine--tRNA ligase	tRNA	A0A1V0SK04	Klosneuvirus	39.0	2.1e-156
+BAMDCOFK_02183|2434027_2436022_-	hypothetical protein	NA	A0A1V0SHG2	Klosneuvirus	24.7	4.5e-26
+BAMDCOFK_02184|2436238_2436586_-	Integration host factor subunit alpha	NA	A0A1P8CWT5	Bacillus_phage	42.2	2.5e-09
+BAMDCOFK_02185|2436889_2438170_+	Enolase	NA	W6LP63	Streptococcus_phage	57.3	1.3e-127
