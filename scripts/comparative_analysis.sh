@@ -1216,3 +1216,16 @@ trimal -in sorted.concat.mafft.fasta -out sorted.concat.trimal.phylip -automated
 
 # infer phylogeny
 iqtree2 -s sorted.concat.trimal.phylip -nt AUTO -ntmax 12 -seed 12345 -bb 1000 -o "Rozella_allomycis"
+
+# gene trees in the same manner
+for fasta in *sorted.fasta
+do
+mafft --anysymbol --quiet $fasta > $fasta.mafft.fasta
+sed -i "" 's/ /_/g' $fasta.mafft.fasta
+trimal -in $fasta.mafft.fasta -out $fasta.mafft.trimal.phylip -automated1 -phylip
+iqtree2 -s $fasta.mafft.trimal.phylip -nt AUTO -ntmax 12 -seed 12345 -bb 1000 -o "Rozella_allomycis"
+done
+
+# ASTRAL "weigthed" phylogeny based on gene trees
+cat *fasta.sorted.fasta.mafft.trimal.phylip.treefile > all.fasta.sorted.fasta.mafft.trimal.phylip.treefile
+~/bioinformatics/ASTER-MacOS/bin/wastral -r 16 -s 16 -x 100 -n 0 --root "Rozella_allomycis" -t 12 -o all.fasta.sorted.fasta.mafft.trimal.phylip.astral all.fasta.sorted.fasta.mafft.trimal.phylip.treefile 2>all.fasta.sorted.fasta.mafft.trimal.phylip.log
