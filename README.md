@@ -6,4 +6,4 @@
 
 ![PFAM_domains](analysis/graphs/Venn_PFAM_protein_domains.png)  
 
-![PFAM_domains_missing_in_some](Bar_PFAM_protein_domains.png)  
+![PFAM_domains_missing_in_some](analysis/graphs/Bar_PFAM_protein_domains.png)  
