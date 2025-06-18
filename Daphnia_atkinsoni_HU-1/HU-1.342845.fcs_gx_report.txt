@@ -1,0 +1,23 @@
+##[["FCS genome report", 2, 1], {"git-rev": "v0.5.5-0-g0bda491", "run-date": "Mon Jun 16 08:43:20 2025", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.589314, "asserted-div": "anml:crustaceans", "inferred-primary-divs": ["anml:crustaceans", "anml:insects"], "corrected-primary-divs": ["anml:crustaceans", "anml:insects"], "genome-hash": "a046a154146694a3"}}]
+#seq_id	start_pos	end_pos	seq_len	action	div	agg_cont_cov	top_tax_name
+ptg000027l	1	429392	429392	EXCLUDE	fung:microsporidians	76	Ordospora colligata
+ptg000031l	1	3659096	3659096	EXCLUDE	prok:high GC Gram+	93	Mycolicibacterium anyangense
+ptg000036l	1	350987	350987	EXCLUDE	fung:microsporidians	91	Ordospora colligata
+ptg000038l	1	320557	320557	EXCLUDE	fung:microsporidians	71	Ordospora colligata
+ptg000041l	1	338623	338623	EXCLUDE	fung:microsporidians	75	Ordospora colligata
+ptg000042l	1	357938	357938	EXCLUDE	fung:microsporidians	81	Ordospora colligata
+ptg000048l	1	430423	430423	EXCLUDE	fung:microsporidians	78	Ordospora colligata
+ptg000049l	1	348740	348740	EXCLUDE	fung:microsporidians	75	Ordospora colligata
+ptg000052l	1	318852	318852	EXCLUDE	fung:microsporidians	73	Ordospora colligata
+ptg000060l	1	104815	104815	EXCLUDE	prok:high GC Gram+	73	Mycolicibacter acidiphilus
+ptg000061l	1	192401	192401	EXCLUDE	prok:high GC Gram+	76	Mycobacterium frederiksbergense
+ptg000075l	1	392321	392321	EXCLUDE	fung:microsporidians	64	Ordospora colligata
+ptg000092l	1	25337	25337	EXCLUDE	prok:CFB group bacteria	100	Flavobacterium bernardetii
+ptg000131l	1	24286	24286	EXCLUDE	prok:b-proteobacteria	84	Ideonella sp. MAG2
+ptg000142l	1	29891	29891	EXCLUDE	prok:b-proteobacteria	90	Ideonella paludis
+ptg000143l	1	44548	44548	EXCLUDE	prok:b-proteobacteria	95	Ideonella paludis
+ptg000145l	1	20977	20977	EXCLUDE	prok:b-proteobacteria	97	Ideonella sp. MAG2
+ptg000146l	1	36390	36390	EXCLUDE	prok:b-proteobacteria	100	Ideonella sp. MAG2
+ptg000229l	1	29644	29644	EXCLUDE	prok:b-proteobacteria	97	Ideonella paludis
+ptg000233l	1	31725	31725	EXCLUDE	prok:b-proteobacteria	68	Ideonella paludis
+ptg000235l	1	30523	30523	EXCLUDE	prok:b-proteobacteria	100	Ideonella paludis

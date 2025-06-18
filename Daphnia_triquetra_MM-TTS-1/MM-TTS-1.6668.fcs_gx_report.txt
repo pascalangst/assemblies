@@ -1,0 +1,5 @@
+##[["FCS genome report", 2, 1], {"git-rev": "v0.5.5-0-g0bda491", "run-date": "Mon Jun 16 09:05:44 2025", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.454832, "asserted-div": "anml:crustaceans", "inferred-primary-divs": ["anml:crustaceans", "anml:insects"], "corrected-primary-divs": ["anml:crustaceans", "anml:insects"], "genome-hash": "d93ad6ac5ac4c8d0"}}]
+#seq_id	start_pos	end_pos	seq_len	action	div	agg_cont_cov	top_tax_name
+ptg000005c	1	2302183	2302183	EXCLUDE	prok:b-proteobacteria	91	Hydromonas sp.
+ptg000042l	1	28520	28520	EXCLUDE	prok:b-proteobacteria	100	Ideonella paludis
+ptg000676l	1	46394	46394	EXCLUDE	prok:b-proteobacteria	64	Hydromonas sp.

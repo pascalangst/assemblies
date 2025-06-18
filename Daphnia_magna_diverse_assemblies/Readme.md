@@ -305,4 +305,104 @@
 	L75                         40                          
 	# N's per 100 kbp           0.00 
 	
-	
+## RU-YAK1-6
+
+    C:98.6%[S:89.1%,D:9.5%],F:0.5%,M:1.0%,n:1536,E:2.5%       
+    1514    Complete BUSCOs (C)    (of which 38 contain internal stop codons)           
+    1368    Complete and single-copy BUSCOs (S)       
+    146    Complete and duplicated BUSCOs (D)       
+    7    Fragmented BUSCOs (F)               
+    15    Missing BUSCOs (M)               
+    1536    Total BUSCO groups searched
+    
+    Assembly                    RU-YAK1-6.clean
+    # contigs (>= 0 bp)         772            
+    # contigs (>= 1000 bp)      772            
+    # contigs (>= 5000 bp)      772            
+    # contigs (>= 10000 bp)     767            
+    # contigs (>= 25000 bp)     667            
+    # contigs (>= 50000 bp)     434            
+    Total length (>= 0 bp)      210512663      
+    Total length (>= 1000 bp)   210512663      
+    Total length (>= 5000 bp)   210512663      
+    Total length (>= 10000 bp)  210473472      
+    Total length (>= 25000 bp)  208597142      
+    Total length (>= 50000 bp)  200202453      
+    # contigs                   772            
+    Largest contig              9209901        
+    Total length                210512663      
+    GC (%)                      38.01          
+    N50                         5070634        
+    N90                         75833          
+    auN                         4277243.3      
+    L50                         16             
+    L90                         262            
+    # N's per 100 kbp           0.00   
+
+## ZA-SFP2-1 (lower than expected BUSCO score) (maybe needs further cleaning from microsporidium) (G. intestinalis)
+
+    C:94.1%[S:90.2%,D:4.0%],F:0.6%,M:5.3%,n:1536,E:2.9%       
+    1446    Complete BUSCOs (C)    (of which 42 contain internal stop codons)           
+    1385    Complete and single-copy BUSCOs (S)       
+    61    Complete and duplicated BUSCOs (D)       
+    9    Fragmented BUSCOs (F)               
+    81    Missing BUSCOs (M)               
+    1536    Total BUSCO groups searched
+    
+    Assembly                    ZA-SFP2-1.clean
+    # contigs (>= 0 bp)         666            
+    # contigs (>= 1000 bp)      666            
+    # contigs (>= 5000 bp)      666            
+    # contigs (>= 10000 bp)     664            
+    # contigs (>= 25000 bp)     566            
+    # contigs (>= 50000 bp)     396            
+    Total length (>= 0 bp)      222793373      
+    Total length (>= 1000 bp)   222793373      
+    Total length (>= 5000 bp)   222793373      
+    Total length (>= 10000 bp)  222776487      
+    Total length (>= 25000 bp)  220901333      
+    Total length (>= 50000 bp)  214826903      
+    # contigs                   666            
+    Largest contig              9361163        
+    Total length                222793373      
+    GC (%)                      37.39          
+    N50                         5289615        
+    N90                         116510         
+    auN                         4389202.6      
+    L50                         16             
+    L90                         219            
+    # N's per 100 kbp           0.00 
+
+## ZA-SFP3-1
+
+    C:97.9%[S:86.9%,D:10.9%],F:0.7%,M:1.4%,n:1536,E:2.5%       
+    1503    Complete BUSCOs (C)    (of which 37 contain internal stop codons)           
+    1335    Complete and single-copy BUSCOs (S)       
+    168    Complete and duplicated BUSCOs (D)       
+    11    Fragmented BUSCOs (F)               
+    22    Missing BUSCOs (M)               
+    1536    Total BUSCO groups searched
+    
+    Assembly                    ZA-SFP3-1.clean
+    # contigs (>= 0 bp)         907            
+    # contigs (>= 1000 bp)      907            
+    # contigs (>= 5000 bp)      907            
+    # contigs (>= 10000 bp)     894            
+    # contigs (>= 25000 bp)     702            
+    # contigs (>= 50000 bp)     427            
+    Total length (>= 0 bp)      228541086      
+    Total length (>= 1000 bp)   228541086      
+    Total length (>= 5000 bp)   228541086      
+    Total length (>= 10000 bp)  228436539      
+    Total length (>= 25000 bp)  224934645      
+    Total length (>= 50000 bp)  215132430      
+    # contigs                   907            
+    Largest contig              11056885       
+    Total length                228541086      
+    GC (%)                      38.04          
+    N50                         5517674        
+    N90                         79164          
+    auN                         4865301.4      
+    L50                         16             
+    L90                         276            
+    # N's per 100 kbp           0.00 

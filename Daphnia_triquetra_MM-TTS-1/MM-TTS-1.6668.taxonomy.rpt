@@ -1,0 +1,767 @@
+##[["GX taxonomy analysis report", 3, 1], {"git-rev": "v0.5.5-0-g0bda491", "run-date": "Mon Jun 16 09:05:44 2025", "db": {"build-date": "2023-01-24", "seqs": 3025824, "Gbp": 709.264}, "run-info": {"agg-cvg": 0.454832, "asserted-div": "anml:crustaceans", "inferred-primary-divs": ["anml:crustaceans", "anml:insects"], "corrected-primary-divs": ["anml:crustaceans", "anml:insects"], "genome-hash": "d93ad6ac5ac4c8d0"}}]
+#seq-id	seq-len	(xp,lc,co,n,mt,pt,pm)-len	cvg-by-all	sep1	tax-name-1	tax-id-1	div-1	cvg-by-div-1	cvg-by-tax-1	score-1	sep2	tax-id-2	div-2	cvg-by-div-2	cvg-by-tax-2	score-2	sep3	tax-id-3	div-3	cvg-by-div-3	cvg-by-tax-3	score-3	sep4	tax-id-4	div-4	cvg-by-div-4	cvg-by-tax-4	score-4	sep5	reserved	result	div	div_pct_cvg
+ptg000001l	7419976	642049,61063,50860,0,0,0,0	5665547	|	Daphnia magna	35525	anml:crustaceans	5512419	5320475	7666	|	6669	anml:crustaceans	5512419	3044114	4681	|	189513	anml:insects	703970	46891	370	|	7213	anml:insects	703970	38537	364	|	n/a	primary-div	anml:crustaceans	74
+ptg000002l	3096395	2101989,11250,2200,0,0,0,0	1627844	|	Daphnia magna	35525	anml:crustaceans	1595092	1470340	4481	|	6669	anml:crustaceans	1595092	565559	1905	|	8049	anml:fishes	12507	592	136	|	470939	anml:insects	47660	7327	132	|	n/a	repeat	anml:crustaceans	52
+ptg000003l	964262	41570,8677,4500,0,0,0,0	535344	|	Daphnia magna	35525	anml:crustaceans	494465	461825	2172	|	6669	anml:crustaceans	494465	298395	1311	|	7515	anml:insects	61222	4967	106	|	43146	anml:insects	61222	4458	103	|	n/a	primary-div	anml:crustaceans	51
+ptg000004l	7047802	990943,38905,30440,0,0,0,0	4811322	|	Daphnia magna	35525	anml:crustaceans	4663647	4474541	7236	|	6669	anml:crustaceans	4663647	2656390	4305	|	460826	anml:insects	578904	32963	304	|	470939	anml:insects	578904	29678	299	|	n/a	primary-div	anml:crustaceans	66
+ptg000005c~~1..195841	195841	9579,501,0,0,0,0,0	184757	|	Hydromonas sp.	1910925	prok:b-proteobacteria	182287	169557	2852	|	1384487	prok:b-proteobacteria	182287	98503	750	|	1121015	prok:g-proteobacteria	76030	12040	187	|	1808979	prok:g-proteobacteria	76030	9748	173	|	n/a	contaminant(div)	prok:b-proteobacteria	93
+ptg000005c~~195842..198381	2540	0,0,0,0,0,0,0	1822	|	Helicobacter hepaticus	235279	prok:proteobacteria	1562	1238	58	|	2949739	prok:proteobacteria	1562	1299	57	|	1737472	prok:a-proteobacteria	1243	1226	45	|	1384487	prok:b-proteobacteria	50	50	8	|	n/a	inconclusive	prok:proteobacteria	61
+ptg000005c~~198382..398558	200177	0,2456,1020,0,0,0,0	193621	|	Hydromonas sp.	1910925	prok:b-proteobacteria	192753	173076	2931	|	2268024	prok:b-proteobacteria	192753	139684	1035	|	2714892	prok:CFB group bacteria	18406	7307	425	|	1934948	prok:g-proteobacteria	78830	16211	386	|	n/a	contaminant(div)	prok:b-proteobacteria	96
+ptg000005c~~398559..400595	2037	0,0,0,0,0,0,0	1538	|	Tellurirhabdus rosea	2674997	prok:CFB group bacteria	1106	582	42	|	2834140	prok:g-proteobacteria	1410	529	39	|	1500538	prok:g-proteobacteria	1410	391	36	|	1979387	prok:CFB group bacteria	1106	502	32	|	n/a	inconclusive	prok:CFB group bacteria	54
+ptg000005c~~400596..543216	142621	0,344,0,0,0,0,0	140856	|	Hydromonas sp.	1910925	prok:b-proteobacteria	139260	136409	2597	|	1384487	prok:b-proteobacteria	139260	84016	659	|	857087	prok:g-proteobacteria	62578	14034	201	|	722472	prok:a-proteobacteria	31257	10071	163	|	n/a	contaminant(div)	prok:b-proteobacteria	98
+ptg000005c~~543217..545872	2656	0,0,0,0,0,0,0	1694	|	Clostridium uliginosum	119641	prok:firmicutes	1539	1211	57	|	1286698	prok:firmicutes	1539	1126	56	|	2482724	prok:CFB group bacteria	1629	1180	54	|	1537369	prok:CFB group bacteria	1629	1065	53	|	n/a	inconclusive	prok:firmicutes	58
+ptg000005c~~545873..754852	208980	0,77,0,0,0,0,0	200950	|	Hydromonas sp.	1910925	prok:b-proteobacteria	200203	197772	3133	|	2268024	prok:b-proteobacteria	200203	142448	806	|	1122935	prok:g-proteobacteria	76847	11385	197	|	1524965	prok:g-proteobacteria	76847	8625	167	|	n/a	contaminant(div)	prok:b-proteobacteria	96
+ptg000005c~~754853..756941	2089	0,0,0,0,0,0,0	2082	|	Xanthobacter agilis	47492	prok:a-proteobacteria	2015	1592	74	|	1964541	prok:g-proteobacteria	1253	1253	70	|	858455	prok:a-proteobacteria	2015	1011	60	|	297	prok:proteobacteria	78	78	11	|	n/a	inconclusive	prok:a-proteobacteria	96
+ptg000005c~~756942..1575401	818460	477,3715,3720,0,0,0,0	749407	|	Hydromonas sp.	1910925	prok:b-proteobacteria	740523	673571	5740	|	1384487	prok:b-proteobacteria	740523	385663	1380	|	465797	prok:g-proteobacteria	292562	13952	328	|	2714892	prok:CFB group bacteria	43329	4544	304	|	n/a	contaminant(div)	prok:b-proteobacteria	90
+ptg000005c~~1575402..1577700	2299	0,0,0,0,0,0,0	2299	|	Flavobacterium omnivorum	178355	prok:CFB group bacteria	2299	2288	91	|	1542390	prok:g-proteobacteria	2286	2286	86	|	387094	prok:CFB group bacteria	2299	2189	86	|	2282321	prok:g-proteobacteria	2286	2227	83	|	n/a	inconclusive	prok:CFB group bacteria	100
+ptg000005c~~1577701..2302183	724483	5712,2387,460,0,0,0,0	663546	|	Hydromonas sp.	1910925	prok:b-proteobacteria	656673	629905	5545	|	2268024	prok:b-proteobacteria	656673	425287	1492	|	1435465	prok:g-proteobacteria	304754	29802	305	|	702114	prok:g-proteobacteria	304754	15542	303	|	n/a	contaminant(div)	prok:b-proteobacteria	91
+ptg000006l	5417779	724715,33166,29020,0,0,0,0	3526568	|	Daphnia magna	35525	anml:crustaceans	3389764	3229086	6148	|	6669	anml:crustaceans	3389764	1713319	3420	|	2014036	anml:insects	425304	27273	282	|	684658	anml:insects	425304	33481	276	|	n/a	primary-div	anml:crustaceans	63
+ptg000007l	8727367	685350,58336,67700,0,0,0,0	6501525	|	Daphnia magna	35525	anml:crustaceans	6305277	6112639	8253	|	6669	anml:crustaceans	6305277	3291652	4794	|	2065413	anml:insects	886957	69882	464	|	2014036	anml:insects	886957	60107	431	|	n/a	primary-div	anml:crustaceans	72
+ptg000008l	3924534	141412,24093,35780,0,0,0,0	2719549	|	Daphnia magna	35525	anml:crustaceans	2605337	2496939	5232	|	6669	anml:crustaceans	2605337	1670546	3343	|	136037	anml:insects	443514	39379	333	|	161013	anml:insects	443514	23723	281	|	n/a	primary-div	anml:crustaceans	66
+ptg000009l	5446443	1029611,35385,41080,0,0,0,0	3657268	|	Daphnia magna	35525	anml:crustaceans	3544158	3417376	6224	|	6669	anml:crustaceans	3544158	2016438	3808	|	470939	anml:insects	502326	41186	368	|	7167	anml:insects	502326	32865	334	|	n/a	primary-div	anml:crustaceans	65
+ptg000010l	7817906	588263,43731,82280,0,0,0,0	5708327	|	Daphnia magna	35525	anml:crustaceans	5548044	5357542	8246	|	6669	anml:crustaceans	5548044	2952753	4643	|	7159	anml:insects	755092	87975	527	|	30069	anml:insects	755092	67918	495	|	n/a	primary-div	anml:crustaceans	71
+ptg000011l	4636112	215068,31726,45620,0,0,0,0	3335315	|	Daphnia magna	35525	anml:crustaceans	3191297	3057701	5732	|	6669	anml:crustaceans	3191297	2011250	3620	|	460826	anml:insects	555794	49936	376	|	69319	anml:insects	555794	43828	362	|	n/a	primary-div	anml:crustaceans	69
+ptg000012l	4773473	411596,30930,50880,0,0,0,0	3237843	|	Daphnia magna	35525	anml:crustaceans	3109854	2953162	6179	|	6669	anml:crustaceans	3109854	1751734	3603	|	7137	anml:insects	403148	37742	481	|	63433	anml:insects	403148	58023	465	|	n/a	primary-div	anml:crustaceans	65
+ptg000013l	5939534	498008,31374,50940,0,0,0,0	3981783	|	Daphnia magna	35525	anml:crustaceans	3817099	3648185	6334	|	6669	anml:crustaceans	3817099	2188980	3828	|	460826	anml:insects	554297	52262	397	|	37344	anml:insects	554297	48492	395	|	n/a	primary-div	anml:crustaceans	64
+ptg000014l	4245946	601045,28665,19980,0,0,0,0	2713103	|	Daphnia magna	35525	anml:crustaceans	2622317	2455018	5748	|	6669	anml:crustaceans	2622317	1336932	3165	|	561572	anml:insects	225633	18215	220	|	38358	anml:insects	225633	16309	218	|	n/a	primary-div	anml:crustaceans	62
+ptg000015l	5808492	421787,27554,69840,0,0,0,0	4014364	|	Daphnia magna	35525	anml:crustaceans	3839647	3682729	6604	|	6669	anml:crustaceans	3839647	2263304	3946	|	35570	anml:insects	556384	40226	374	|	30033	anml:insects	556384	39464	373	|	n/a	primary-div	anml:crustaceans	66
+ptg000016l	7067302	374026,54610,44020,0,0,0,0	5205450	|	Daphnia magna	35525	anml:crustaceans	5056972	4864738	7504	|	6669	anml:crustaceans	5056972	2858295	4558	|	41895	anml:insects	639102	36259	332	|	29029	anml:insects	639102	32510	330	|	n/a	primary-div	anml:crustaceans	72
+ptg000017l	8083933	584797,54348,54180,0,0,0,0	6112745	|	Daphnia magna	35525	anml:crustaceans	5964172	5751794	8294	|	6669	anml:crustaceans	5964172	3353308	5026	|	189513	anml:insects	790432	57240	400	|	105785	anml:insects	790432	51483	370	|	n/a	primary-div	anml:crustaceans	74
+ptg000018l	294936	272085,121,0,0,0,0,0	18015	|	Daphnia magna	35525	anml:crustaceans	17511	16313	522	|	6669	anml:crustaceans	17511	11091	284	|	6596	anml:molluscs	1093	1093	34	|						|	n/a	repeat	anml:crustaceans	6
+ptg000019l	1957940	378177,17001,2520,0,0,0,0	1278916	|	Daphnia magna	35525	anml:crustaceans	1238704	1190934	4216	|	6669	anml:crustaceans	1238704	477303	1898	|	470939	anml:insects	68109	6839	166	|	116153	anml:insects	68109	9586	153	|	n/a	primary-div	anml:crustaceans	63
+ptg000020l	59161	34152,4923,0,0,0,0,0	16644	|	Daphnia magna	35525	anml:crustaceans	16644	16644	245	|	326657	fung:ascomycetes	464	464	23	|						|						|	n/a	repeat	anml:crustaceans	28
+ptg000021l	4546424	1108368,20358,33980,0,0,0,0	2756608	|	Daphnia magna	35525	anml:crustaceans	2626450	2489045	5557	|	6669	anml:crustaceans	2626450	1312267	2956	|	7160	anml:insects	432581	31867	290	|	28588	anml:insects	432581	29600	280	|	n/a	primary-div	anml:crustaceans	58
+ptg000022l	3538791	1706505,89104,2280,0,0,0,0	2080733	|	Daphnia magna	35525	anml:crustaceans	2040204	1987250	5454	|	6669	anml:crustaceans	2040204	835004	2567	|	7176	anml:insects	71295	8986	149	|	110193	anml:insects	71295	7442	138	|	n/a	primary-div	anml:crustaceans	58
+ptg000023l	8499993	4620430,32483,13820,0,0,0,0	3331722	|	Daphnia magna	35525	anml:crustaceans	3238712	3088715	6731	|	6669	anml:crustaceans	3238712	1508653	3550	|	2014036	anml:insects	318324	22919	257	|	110193	anml:insects	318324	22173	246	|	n/a	repeat	anml:crustaceans	38
+ptg000024l	6817739	3501635,20309,30580,0,0,0,0	3373761	|	Daphnia magna	35525	anml:crustaceans	3241062	3095226	6323	|	6669	anml:crustaceans	3241062	1292157	3303	|	7137	anml:insects	251104	36559	1013	|	370036	anml:insects	251104	31338	722	|	n/a	repeat	anml:crustaceans	48
+ptg000025l~~1..2297613	2297613	95111,16567,14900,0,0,0,0	1706012	|	Daphnia magna	35525	anml:crustaceans	1652277	1593786	4135	|	6669	anml:crustaceans	1652277	987031	2659	|	104421	anml:insects	253411	14635	217	|	103372	anml:insects	253411	17495	215	|	n/a	primary-div	anml:crustaceans	72
+ptg000025l~~2297614..2299848	2235	0,0,180,0,0,0,0	1768	|	Gottschalkia acidurici	1128398	prok:firmicutes	1120	1120	44	|	1114875	prok:CFB group bacteria	1005	981	38	|	1588644	prok:high GC Gram+	945	607	28	|	512402	prok:high GC Gram+	945	518	25	|	n/a	inconclusive	prok:firmicutes	50
+ptg000025l~~2299849..2521697	221849	85436,973,0,0,0,0,0	148319	|	Daphnia magna	35525	anml:crustaceans	146295	142151	1477	|	6669	anml:crustaceans	146295	66860	773	|	6185	anml:worms	1955	1955	81	|	1035111	anml:insects	7689	2844	71	|	n/a	primary-div	anml:crustaceans	66
+ptg000026l	1857594	371611,9815,5600,0,0,0,0	1190117	|	Daphnia magna	35525	anml:crustaceans	1160390	1116692	3513	|	6669	anml:crustaceans	1160390	619634	1977	|	189513	anml:insects	122717	24068	262	|	460826	anml:insects	122717	23247	256	|	n/a	primary-div	anml:crustaceans	62
+ptg000027l	37663	5117,1181,10460,0,0,0,0	22195	|	Daphnia magna	35525	anml:crustaceans	21270	20698	941	|	7137	anml:insects	18000	14775	719	|	441921	anml:insects	18000	14208	550	|	45954	anml:molluscs	14882	13683	466	|	n/a	primary-div	anml:crustaceans	56
+ptg000028l	63472	6856,1746,17880,0,0,0,0	40188	|	Daphnia magna	35525	anml:crustaceans	37887	36557	1236	|	7137	anml:insects	31436	26399	950	|	362088	anml:insects	31436	23995	741	|	45954	anml:molluscs	26461	24471	609	|	n/a	primary-div	anml:crustaceans	60
+ptg000029l	28307	3416,780,8260,0,0,0,0	17289	|	Daphnia magna	35525	anml:crustaceans	16102	15523	813	|	7137	anml:insects	14433	11116	627	|	441921	anml:insects	14433	10739	487	|	6573	anml:molluscs	8045	6068	367	|	n/a	primary-div	anml:crustaceans	57
+ptg000030l	34650	5123,961,10260,0,0,0,0	21538	|	Daphnia magna	35525	anml:crustaceans	20322	19746	926	|	7137	anml:insects	17959	14204	710	|	441921	anml:insects	17959	14304	538	|	45954	anml:molluscs	14712	13542	459	|	n/a	primary-div	anml:crustaceans	59
+ptg000031l	139950	96979,1173,12700,0,0,0,0	29759	|	Daphnia magna	35525	anml:crustaceans	26923	26036	1004	|	7137	anml:insects	21525	16683	771	|	441921	anml:insects	21525	16391	596	|	6579	anml:molluscs	18213	15713	555	|	n/a	repeat	anml:crustaceans	19
+ptg000032l	29185	3418,617,11000,0,0,0,0	17791	|	Daphnia magna	35525	anml:crustaceans	16905	16337	839	|	7137	anml:insects	14037	11610	648	|	370036	anml:insects	14037	11828	484	|	46514	anml:echinoderms	11521	11425	454	|	n/a	primary-div	anml:crustaceans	58
+ptg000033l	155993	128759,101,0,0,0,0,0	27798	|	Daphnia magna	35525	anml:crustaceans	27798	26064	757	|	6669	anml:crustaceans	27798	13868	307	|						|						|	n/a	repeat	anml:crustaceans	18
+ptg000034l	226454	29860,3203,2580,0,0,0,0	153533	|	Daphnia magna	35525	anml:crustaceans	142755	136203	1274	|	6669	anml:crustaceans	142755	88970	736	|	7213	anml:insects	41410	10042	155	|	64791	anml:insects	41410	9567	152	|	n/a	primary-div	anml:crustaceans	63
+ptg000035l	1410464	85452,9672,13560,0,0,0,0	879081	|	Daphnia magna	35525	anml:crustaceans	821830	771625	2753	|	6669	anml:crustaceans	821830	518811	1758	|	2014036	anml:insects	131991	19231	224	|	7994	anml:fishes	28224	7005	169	|	n/a	primary-div	anml:crustaceans	58
+ptg000036l	132312	121263,242,0,0,0,0,0	12698	|	Daphnia magna	35525	anml:crustaceans	10807	10744	374	|	6669	anml:crustaceans	10807	3216	104	|	7741	anml:fishes	1276	1276	41	|	65129	prst:alveolates	835	835	32	|	n/a	repeat	anml:crustaceans	8
+ptg000037l	236451	232005,259,0,0,0,0,0	6623	|	Daphnia magna	35525	anml:crustaceans	6623	6623	273	|	28901	prok:g-proteobacteria	383	383	22	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000038l	177173	154424,0,0,0,0,0,0	22259	|	Daphnia magna	35525	anml:crustaceans	21114	20830	720	|	6669	anml:crustaceans	21114	6194	225	|	644589	fung:ascomycetes	739	541	25	|	7493	anml:insects	498	267	17	|	n/a	repeat	anml:crustaceans	12
+ptg000039l	86994	84971,226,0,0,0,0,0	1892	|	Daphnia magna	35525	anml:crustaceans	1892	1892	131	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000040l	135040	120917,277,0,0,0,0,0	23593	|	Daphnia magna	35525	anml:crustaceans	23593	23271	437	|	6669	anml:crustaceans	23593	8131	191	|						|						|	n/a	repeat	anml:crustaceans	17
+ptg000041l	1865996	792037,5787,1560,0,0,0,0	1009132	|	Daphnia magna	35525	anml:crustaceans	990354	963080	3767	|	6669	anml:crustaceans	990354	389618	1776	|	121224	anml:insects	72944	8618	128	|	224129	anml:insects	72944	5505	123	|	n/a	primary-div	anml:crustaceans	53
+ptg000042l	28520	0,0,0,0,0,0,0	28500	|	Ideonella paludis	1233411	prok:b-proteobacteria	28500	28421	676	|	2083017	prok:b-proteobacteria	28500	13332	460	|	706570	prok:g-proteobacteria	4982	2468	89	|	447425	prok:g-proteobacteria	4982	1882	86	|	n/a	contaminant(div)	prok:b-proteobacteria	100
+ptg000043l	371907	360902,258,0,0,0,0,0	11174	|	Daphnia magna	35525	anml:crustaceans	11174	11111	505	|	6669	anml:crustaceans	11174	4082	126	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000044l	97953	83549,0,0,0,0,0,0	14996	|	Daphnia magna	35525	anml:crustaceans	14692	14574	714	|	6669	anml:crustaceans	14692	10903	431	|	170555	anml:insects	1159	1159	36	|	390379	anml:fishes	159	159	13	|	n/a	repeat	anml:crustaceans	15
+ptg000045l	305637	287419,128,0,0,0,0,0	18735	|	Daphnia magna	35525	anml:crustaceans	18735	18293	636	|	6669	anml:crustaceans	18735	7732	172	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000046l	160241	145825,122,0,0,0,0,0	17078	|	Daphnia magna	35525	anml:crustaceans	16971	15961	853	|	6669	anml:crustaceans	16971	12231	349	|	8030	anml:fishes	107	107	11	|						|	n/a	repeat	anml:crustaceans	11
+ptg000047l	199578	167499,192,0,0,0,0,0	32887	|	Daphnia magna	35525	anml:crustaceans	32072	31738	777	|	6669	anml:crustaceans	32072	6950	165	|	106335	plnt:plants	1448	1448	44	|						|	n/a	repeat	anml:crustaceans	16
+ptg000048l	4145207	4010897,10105,0,0,0,0,0	442097	|	Daphnia magna	35525	anml:crustaceans	434683	424275	2677	|	6669	anml:crustaceans	434683	27799	300	|	29030	anml:insects	6777	4772	80	|	79782	anml:insects	6777	2005	48	|	n/a	repeat	anml:crustaceans	10
+ptg000049l	32697	32697,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000050l	103599	103599,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000051l	56298	53490,0,0,0,0,0,0	3117	|	Daphnia magna	35525	anml:crustaceans	2923	2923	299	|	6669	anml:crustaceans	2923	1523	110	|	265458	anml:insects	746	493	42	|	1366115	anml:insects	746	415	37	|	n/a	repeat	anml:crustaceans	5
+ptg000052l	123078	106202,0,0,0,0,0,0	14921	|	Daphnia magna	35525	anml:crustaceans	13566	13566	391	|	2607531	anml:molluscs	2325	1937	49	|	36100	anml:molluscs	2325	388	21	|						|	n/a	repeat	anml:crustaceans	11
+ptg000053l	108766	83108,99,0,0,0,0,0	28616	|	Daphnia magna	35525	anml:crustaceans	28616	26759	702	|	6669	anml:crustaceans	28616	14105	329	|	65129	prst:alveolates	277	277	18	|	54383	anml:birds	177	177	15	|	n/a	repeat	anml:crustaceans	26
+ptg000054l	190276	176443,66,0,0,0,0,0	15070	|	Daphnia magna	35525	anml:crustaceans	14878	14878	522	|	2607531	anml:molluscs	428	428	23	|	2827099	prok:g-proteobacteria	162	162	11	|						|	n/a	repeat	anml:crustaceans	8
+ptg000055l	144577	118253,251,0,0,0,0,0	24718	|	Daphnia magna	35525	anml:crustaceans	24488	24260	648	|	6669	anml:crustaceans	24488	8240	465	|	104688	anml:insects	389	389	29	|	36015	fung:budding yeasts	311	311	17	|	n/a	repeat	anml:crustaceans	17
+ptg000056l	297290	255663,459,0,0,0,0,0	42563	|	Daphnia magna	35525	anml:crustaceans	42329	41112	796	|	6669	anml:crustaceans	42329	19943	327	|	8355	anml:amphibians	723	723	29	|						|	n/a	repeat	anml:crustaceans	14
+ptg000057l	60612	53391,74,0,0,0,0,0	7273	|	Daphnia magna	35525	anml:crustaceans	6879	6879	300	|	37623	anml:molluscs	475	475	23	|	1188115	anml:insects	257	257	16	|						|	n/a	repeat	anml:crustaceans	11
+ptg000058l	55475	55475,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000059l	35644	30981,0,0,0,0,0,0	1987	|	Daphnia magna	35525	anml:crustaceans	1987	1987	113	|						|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000060l	130506	119844,101,0,0,0,0,0	12757	|	Daphnia magna	35525	anml:crustaceans	12533	11697	521	|	6669	anml:crustaceans	12533	8205	245	|	37623	anml:molluscs	1589	1589	54	|						|	n/a	repeat	anml:crustaceans	10
+ptg000061l	126303	103819,114,0,0,0,0,0	10153	|	Daphnia magna	35525	anml:crustaceans	10131	9181	256	|	6669	anml:crustaceans	10131	5308	128	|	189913	anml:insects	255	255	17	|						|	n/a	repeat	anml:crustaceans	8
+ptg000062l	249994	238302,299,0,0,0,0,0	13686	|	Daphnia magna	35525	anml:crustaceans	13146	13146	354	|	281415	anml:insects	1039	1039	35	|	6412	anml:worms	779	779	30	|						|	n/a	repeat	anml:crustaceans	5
+ptg000063l	622304	587440,1046,380,0,0,0,0	36577	|	Daphnia magna	35525	anml:crustaceans	34689	31634	888	|	6669	anml:crustaceans	34689	12127	448	|	51298	anml:mammals	2043	1372	40	|	100861	prst:algae	780	780	35	|	n/a	repeat	anml:crustaceans	6
+ptg000064l	264788	256636,119,0,0,0,0,0	12731	|	Daphnia magna	35525	anml:crustaceans	12731	12320	577	|	6669	anml:crustaceans	12731	7172	265	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000065l	287836	278269,267,0,0,0,0,0	11005	|	Daphnia magna	35525	anml:crustaceans	10842	10322	340	|	6669	anml:crustaceans	10842	4366	106	|	37623	anml:molluscs	1548	1548	55	|						|	n/a	repeat	anml:crustaceans	4
+ptg000066l	216599	189165,99,120,0,0,0,0	28762	|	Daphnia magna	35525	anml:crustaceans	28476	26304	848	|	6669	anml:crustaceans	28476	13090	301	|	1803374	fung:fungi	641	641	28	|	2881407	anml:nematodes	584	584	27	|	n/a	repeat	anml:crustaceans	13
+ptg000067l	34803	34803,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000068l	328500	313969,0,0,0,0,0,0	17860	|	Daphnia magna	35525	anml:crustaceans	17255	16889	813	|	6669	anml:crustaceans	17255	4805	148	|	3827	plnt:plants	1079	1079	43	|	143948	anml:insects	604	604	29	|	n/a	repeat	anml:crustaceans	5
+ptg000069l	164074	146198,180,0,0,0,0,0	26933	|	Daphnia magna	35525	anml:crustaceans	26330	25897	731	|	6669	anml:crustaceans	26330	5956	170	|	7936	anml:fishes	862	862	33	|	7282	anml:insects	628	565	30	|	n/a	repeat	anml:crustaceans	16
+ptg000070l	416939	350157,439,0,0,0,0,0	61661	|	Daphnia magna	35525	anml:crustaceans	61661	53483	1196	|	6669	anml:crustaceans	61661	25919	400	|						|						|	n/a	repeat	anml:crustaceans	15
+ptg000071l	607168	597440,592,0,0,0,0,0	5157	|	Daphnia magna	35525	anml:crustaceans	5157	5101	433	|	6669	anml:crustaceans	5157	4519	131	|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000072l	68922	68638,62,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000073l	414715	397338,415,0,0,0,0,0	37298	|	Daphnia magna	35525	anml:crustaceans	37189	36199	554	|	6669	anml:crustaceans	37189	9631	419	|	2743191	anml:echinoderms	670	670	28	|						|	n/a	repeat	anml:crustaceans	9
+ptg000074l	114267	103756,172,0,0,0,0,0	11443	|	Daphnia magna	35525	anml:crustaceans	11443	10703	444	|	6669	anml:crustaceans	11443	4785	182	|						|						|	n/a	repeat	anml:crustaceans	10
+ptg000075l	60256	49952,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000076l	285288	246381,436,0,0,0,0,0	48464	|	Daphnia magna	35525	anml:crustaceans	48464	46691	801	|	6669	anml:crustaceans	48464	16957	491	|						|						|	n/a	repeat	anml:crustaceans	17
+ptg000077l	110968	94158,0,0,0,0,0,0	25726	|	Daphnia magna	35525	anml:crustaceans	25265	25040	756	|	6669	anml:crustaceans	25265	12496	239	|	13397	anml:fishes	935	935	34	|	9337	anml:marsupials	272	272	18	|	n/a	repeat	anml:crustaceans	23
+ptg000078l	415114	394188,122,0,0,0,0,0	24048	|	Daphnia magna	35525	anml:crustaceans	24048	22284	659	|	6669	anml:crustaceans	24048	19915	406	|	631055	prst:alveolates	133	133	12	|						|	n/a	repeat	anml:crustaceans	6
+ptg000079l	182398	169475,296,0,0,0,0,0	23829	|	Daphnia magna	35525	anml:crustaceans	23829	22707	464	|	6669	anml:crustaceans	23829	17022	391	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000080l	185407	172456,79,0,0,0,0,0	12243	|	Daphnia magna	35525	anml:crustaceans	12146	10961	573	|	6669	anml:crustaceans	12146	10978	364	|	2707006	prok:high GC Gram+	156	156	12	|						|	n/a	repeat	anml:crustaceans	7
+ptg000081l	90052	76736,0,0,0,0,0,0	15071	|	Daphnia magna	35525	anml:crustaceans	15071	14601	684	|	6669	anml:crustaceans	15071	12239	474	|	48799	anml:nematodes	535	535	23	|						|	n/a	repeat	anml:crustaceans	17
+ptg000082l	528135	514826,137,0,0,0,0,0	14223	|	Daphnia magna	35525	anml:crustaceans	14223	13667	633	|	6669	anml:crustaceans	14223	10728	300	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000083l	208742	195838,563,0,0,0,0,0	10194	|	Daphnia magna	35525	anml:crustaceans	10194	9466	556	|	6669	anml:crustaceans	10194	7411	235	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000084l	60610	55491,0,0,0,0,0,0	13458	|	Daphnia magna	35525	anml:crustaceans	13458	13398	618	|	6669	anml:crustaceans	13458	3675	285	|						|						|	n/a	repeat	anml:crustaceans	22
+ptg000085l	35572	28909,95,0,0,0,0,0	6428	|	Daphnia magna	35525	anml:crustaceans	6428	6428	343	|						|						|						|	n/a	repeat	anml:crustaceans	18
+ptg000086l	58061	57660,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000087l	146234	122392,0,0,0,0,0,0	28207	|	Daphnia magna	35525	anml:crustaceans	28207	26231	510	|	6669	anml:crustaceans	28207	5708	195	|						|						|	n/a	repeat	anml:crustaceans	19
+ptg000088l	28341	25091,0,0,0,0,0,0	3607	|	Daphnia magna	35525	anml:crustaceans	3607	3598	186	|	6669	anml:crustaceans	3607	2292	113	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000089l	69003	69003,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000090l	73577	73195,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000091l	150675	144233,63,0,0,0,0,0	6557	|	Daphnia magna	35525	anml:crustaceans	6557	6557	453	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000092l	32479	32478,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000093l	279798	246948,64,0,0,0,0,0	34521	|	Daphnia magna	35525	anml:crustaceans	34521	33416	1001	|	6669	anml:crustaceans	34521	21497	319	|	116150	anml:insects	268	152	13	|	217634	anml:insects	268	116	12	|	n/a	repeat	anml:crustaceans	12
+ptg000094l	71270	71270,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000095l	137441	136532,0,0,0,0,0,0	984	|	Daphnia magna	35525	anml:crustaceans	984	984	146	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000096l	86670	86670,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000097l	372443	332565,0,0,0,0,0,0	51926	|	Daphnia magna	35525	anml:crustaceans	50966	49469	861	|	6669	anml:crustaceans	50966	25698	279	|	37623	anml:molluscs	2430	1605	54	|	6596	anml:molluscs	2430	825	30	|	n/a	repeat	anml:crustaceans	14
+ptg000098l	132217	126556,0,0,0,0,0,0	8237	|	Daphnia magna	35525	anml:crustaceans	8237	6121	287	|	6669	anml:crustaceans	8237	2262	128	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000099l	37803	37787,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000100l	86207	75370,65,0,0,0,0,0	9132	|	Daphnia magna	35525	anml:crustaceans	8707	8560	309	|	6669	anml:crustaceans	8707	3783	235	|	6579	anml:molluscs	425	425	22	|						|	n/a	repeat	anml:crustaceans	10
+ptg000101l	95603	91828,0,0,0,0,0,0	618	|	Pecten maximus	6579	anml:molluscs	325	325	21	|	189913	anml:insects	293	293	20	|						|						|	n/a	repeat	anml:molluscs	0
+ptg000102l	50553	50553,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000103l	155735	141844,64,0,0,0,0,0	13652	|	Daphnia magna	35525	anml:crustaceans	13319	13185	585	|	6669	anml:crustaceans	13319	4066	275	|	931172	anml:insects	1031	1031	37	|	9483	anml:primates	102	102	10	|	n/a	repeat	anml:crustaceans	9
+ptg000104l	203587	199725,0,0,0,0,0,0	8422	|	Daphnia magna	35525	anml:crustaceans	8422	8422	263	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000105l	77696	72051,0,0,0,0,0,0	7175	|	Daphnia magna	35525	anml:crustaceans	7097	6872	292	|	6669	anml:crustaceans	7097	4089	111	|	37623	anml:molluscs	1297	1297	51	|						|	n/a	repeat	anml:crustaceans	9
+ptg000106l	572686	540058,468,0,0,0,0,0	34951	|	Daphnia magna	35525	anml:crustaceans	34458	32308	739	|	6669	anml:crustaceans	34458	25797	383	|	7574	anml:brachiopods	633	633	28	|	6579	anml:molluscs	568	568	26	|	n/a	repeat	anml:crustaceans	6
+ptg000107l	310523	296804,144,0,0,0,0,0	15038	|	Daphnia magna	35525	anml:crustaceans	14167	13773	652	|	6669	anml:crustaceans	14167	7425	376	|	413010	anml:nematodes	587	587	28	|	30419	anml:birds	482	482	27	|	n/a	repeat	anml:crustaceans	5
+ptg000108l	117519	116382,116,0,0,0,0,0	1862	|	Daphnia magna	35525	anml:crustaceans	1862	1862	130	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000109l	135999	117729,0,0,0,0,0,0	19167	|	Daphnia magna	35525	anml:crustaceans	19029	18123	567	|	6669	anml:crustaceans	19029	11475	366	|	1423731	prok:firmicutes	557	557	27	|	4814	fung:chytrids	537	537	24	|	n/a	repeat	anml:crustaceans	14
+ptg000110l	55953	55950,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000111l	89786	79049,0,0,0,0,0,0	12160	|	Daphnia magna	35525	anml:crustaceans	12140	11545	715	|	6669	anml:crustaceans	12140	8880	180	|	1169293	prok:firmicutes	238	238	17	|						|	n/a	repeat	anml:crustaceans	14
+ptg000112l	94145	94143,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000113l	25913	25913,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000114l	149108	148883,0,0,0,0,0,0	1193	|	Daphnia magna	35525	anml:crustaceans	1193	1193	99	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000115l	266643	256771,626,0,0,0,0,0	34458	|	Daphnia magna	35525	anml:crustaceans	34458	32386	538	|	6669	anml:crustaceans	34458	8978	177	|	860625	prst:algae	182	182	14	|						|	n/a	repeat	anml:crustaceans	13
+ptg000116l	68720	68720,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000117l	956036	943053,661,0,0,0,0,0	13217	|	Daphnia magna	35525	anml:crustaceans	13217	13216	628	|	6669	anml:crustaceans	13217	9582	471	|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000118l	92084	92021,63,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000119l	488924	470300,331,0,0,0,0,0	15009	|	Daphnia magna	35525	anml:crustaceans	13727	13474	653	|	6669	anml:crustaceans	13727	6335	123	|	3914	plnt:plants	885	885	33	|	48498	anml:basal metazoans	444	444	22	|	n/a	repeat	anml:crustaceans	3
+ptg000120l	58758	58694,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000121l	103318	98848,180,0,0,0,0,0	4188	|	Daphnia magna	35525	anml:crustaceans	4188	3409	298	|	6669	anml:crustaceans	4188	3025	186	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000122l	41466	34216,0,0,0,0,0,0	6700	|	Daphnia magna	35525	anml:crustaceans	6700	6700	367	|						|						|						|	n/a	repeat	anml:crustaceans	16
+ptg000123l	53472	53471,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000124l	76974	76974,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000125l	304756	277027,588,0,0,0,0,0	46400	|	Daphnia magna	35525	anml:crustaceans	45987	43759	804	|	6669	anml:crustaceans	45987	18535	291	|	1868482	anml:primates	844	844	31	|	1658444	fung:ascomycetes	641	641	28	|	n/a	repeat	anml:crustaceans	15
+ptg000126l	88499	88498,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000127l	45422	40508,0,0,0,0,0,0	3053	|	Daphnia magna	35525	anml:crustaceans	3053	3053	210	|						|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000128l	190439	172718,65,0,0,0,0,0	18452	|	Daphnia magna	35525	anml:crustaceans	18452	17958	470	|	6669	anml:crustaceans	18452	5069	211	|						|						|	n/a	repeat	anml:crustaceans	10
+ptg000129l	241082	225396,0,0,0,0,0,0	9272	|	Daphnia magna	35525	anml:crustaceans	8784	8764	531	|	6669	anml:crustaceans	8784	4025	294	|	166011	anml:nematodes	483	483	24	|	4097	plnt:plants	406	406	20	|	n/a	repeat	anml:crustaceans	4
+ptg000130l	46230	45971,107,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000131l	126394	126394,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000132l	156453	125155,184,0,0,0,0,0	42205	|	Daphnia magna	35525	anml:crustaceans	42205	39942	814	|	6669	anml:crustaceans	42205	16086	295	|						|						|	n/a	repeat	anml:crustaceans	27
+ptg000133l	95292	94396,0,0,0,0,0,0	1150	|	Daphnia magna	35525	anml:crustaceans	1150	1150	141	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000134l	192140	184949,0,0,0,0,0,0	7104	|	Daphnia magna	35525	anml:crustaceans	7104	7012	291	|	6669	anml:crustaceans	7104	2118	100	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000135l	267098	266762,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000136l	38547	4659,978,10200,0,0,0,0	22661	|	Daphnia magna	35525	anml:crustaceans	21183	20333	922	|	7137	anml:insects	17830	14362	722	|	441921	anml:insects	17830	13924	568	|	6579	anml:molluscs	15851	13763	522	|	n/a	primary-div	anml:crustaceans	55
+ptg000137l	59055	7054,1779,17000,0,0,0,0	36462	|	Daphnia magna	35525	anml:crustaceans	34315	33182	1172	|	7137	anml:insects	29171	23507	902	|	441921	anml:insects	29171	22579	710	|	45954	anml:molluscs	23136	21557	581	|	n/a	primary-div	anml:crustaceans	58
+ptg000138l	36347	6650,1084,9600,0,0,0,0	20305	|	Daphnia magna	35525	anml:crustaceans	18593	18015	872	|	7137	anml:insects	15445	12213	671	|	441921	anml:insects	15445	12177	521	|	6579	anml:molluscs	13306	11542	475	|	n/a	primary-div	anml:crustaceans	51
+ptg000139l	465865	419532,249,0,0,0,0,0	59121	|	Daphnia magna	35525	anml:crustaceans	58451	56993	1332	|	6669	anml:crustaceans	58451	26869	470	|	9361	anml:mammals	1103	1051	36	|	7396	anml:insects	905	703	31	|	n/a	repeat	anml:crustaceans	13
+ptg000140l	148948	135141,67,0,0,0,0,0	14194	|	Daphnia magna	35525	anml:crustaceans	13840	13829	679	|	6669	anml:crustaceans	13840	2825	145	|	106335	plnt:plants	1325	1325	42	|						|	n/a	repeat	anml:crustaceans	9
+ptg000141l	612348	576373,1747,0,0,0,0,0	77099	|	Daphnia magna	35525	anml:crustaceans	74339	71733	1282	|	6669	anml:crustaceans	74339	6463	134	|	29030	anml:insects	3081	2305	54	|	79782	anml:insects	3081	776	34	|	n/a	repeat	anml:crustaceans	12
+ptg000142l	109275	108509,0,0,0,0,0,0	695	|	Daphnia magna	35525	anml:crustaceans	695	695	65	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000143l	137574	129643,0,0,0,0,0,0	10430	|	Daphnia magna	35525	anml:crustaceans	10430	9985	412	|	6669	anml:crustaceans	10430	4065	339	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000144l	362925	321512,240,0,0,0,0,0	29488	|	Daphnia magna	35525	anml:crustaceans	27270	27270	650	|	51298	anml:mammals	1904	1904	48	|	7213	anml:insects	1079	1079	37	|						|	n/a	repeat	anml:crustaceans	8
+ptg000145l	3170112	2049404,5028,380,0,0,0,0	1417202	|	Daphnia magna	35525	anml:crustaceans	1386167	1335873	4154	|	6669	anml:crustaceans	1386167	404310	1927	|	7137	anml:insects	36128	3759	193	|	3708	plnt:plants	25206	15315	137	|	n/a	repeat	anml:crustaceans	44
+ptg000146l	34164	23517,0,0,0,0,0,0	10398	|	Daphnia magna	35525	anml:crustaceans	10120	9889	314	|	6669	anml:crustaceans	10120	6884	151	|	100861	prst:algae	1050	1050	43	|						|	n/a	repeat	anml:crustaceans	30
+ptg000147c	50802	0,1157,15220,0,0,0,0	45958	|	Daphnia magna	35525	anml:crustaceans	45088	44746	538	|	6669	anml:crustaceans	45088	43919	490	|	28610	anml:insects	45105	40813	383	|	7159	anml:insects	45105	39878	379	|	n/a	primary-div	anml:crustaceans	89
+ptg000148l	74653	74259,0,0,0,0,0,0	936	|	Aedes albopictus	7160	anml:insects	936	936	33	|						|						|						|	n/a	repeat	anml:insects	1
+ptg000149l	108471	107456,108,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000150l	173898	164861,165,0,0,0,0,0	12662	|	Daphnia magna	35525	anml:crustaceans	12662	12540	322	|	6669	anml:crustaceans	12662	2911	119	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000151l	72385	71748,636,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000152l	89513	77659,202,0,0,0,0,0	13857	|	Daphnia magna	35525	anml:crustaceans	13857	13102	548	|	6669	anml:crustaceans	13857	7203	263	|						|						|	n/a	repeat	anml:crustaceans	15
+ptg000153l	73866	57557,75,0,0,0,0,0	14406	|	Daphnia magna	35525	anml:crustaceans	14106	13667	702	|	6669	anml:crustaceans	14106	6378	176	|	1271730	anml:insects	198	198	14	|	48498	anml:basal metazoans	194	194	14	|	n/a	repeat	anml:crustaceans	19
+ptg000154l	257145	231849,994,0,0,0,0,0	16091	|	Daphnia magna	35525	anml:crustaceans	15221	15012	302	|	6669	anml:crustaceans	15221	4905	147	|	473156	anml:nematodes	675	675	30	|	9739	anml:mammals	347	347	19	|	n/a	repeat	anml:crustaceans	6
+ptg000155l	89797	87784,0,0,0,0,0,0	1647	|	Daphnia magna	35525	anml:crustaceans	1647	1647	162	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000156l	144084	139045,94,0,0,0,0,0	2950	|	Daphnia magna	35525	anml:crustaceans	2950	2950	132	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000157l	126387	108792,62,0,0,0,0,0	26497	|	Daphnia magna	35525	anml:crustaceans	25925	25538	705	|	6669	anml:crustaceans	25925	13053	338	|	37623	anml:molluscs	2227	2227	60	|	8010	anml:fishes	623	623	27	|	n/a	repeat	anml:crustaceans	21
+ptg000158l	49940	39079,1990,0,0,0,0,0	9875	|	Daphnia magna	35525	anml:crustaceans	9344	9344	184	|	326657	fung:ascomycetes	734	734	29	|	4686	plnt:plants	606	606	26	|	13397	anml:fishes	263	263	17	|	n/a	repeat	anml:crustaceans	19
+ptg000159l	24549	22878,1196,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000160l	156753	143094,0,0,0,0,0,0	12932	|	Daphnia magna	35525	anml:crustaceans	12932	12090	601	|	6669	anml:crustaceans	12932	7865	192	|	291302	anml:mammals	462	462	22	|						|	n/a	repeat	anml:crustaceans	8
+ptg000161l	55658	52601,74,0,0,0,0,0	8948	|	Daphnia magna	35525	anml:crustaceans	8948	7168	286	|	6669	anml:crustaceans	8948	6504	134	|						|						|	n/a	repeat	anml:crustaceans	16
+ptg000162l	221919	150830,6234,360,0,0,0,0	81898	|	Daphnia magna	35525	anml:crustaceans	77015	73974	1263	|	6669	anml:crustaceans	77015	25284	644	|	45351	anml:basal metazoans	3863	3275	90	|	6565	anml:molluscs	2168	2168	59	|	n/a	repeat	anml:crustaceans	35
+ptg000163l	57105	44083,282,0,0,0,0,0	13701	|	Daphnia magna	35525	anml:crustaceans	13701	13100	666	|	6669	anml:crustaceans	13701	6869	544	|						|						|	n/a	repeat	anml:crustaceans	24
+ptg000164l	30473	27030,0,0,0,0,0,0	4988	|	Daphnia magna	35525	anml:crustaceans	4954	4708	407	|	6669	anml:crustaceans	4954	3774	239	|	6198	anml:worms	34	34	8	|						|	n/a	repeat	anml:crustaceans	16
+ptg000165l	96530	93118,0,0,0,0,0,0	3349	|	Daphnia magna	35525	anml:crustaceans	2411	2351	247	|	6669	anml:crustaceans	2411	1402	129	|	6579	anml:molluscs	1106	1106	36	|						|	n/a	repeat	anml:crustaceans	2
+ptg000166l	160012	151190,0,0,0,0,0,0	10612	|	Daphnia magna	35525	anml:crustaceans	10280	10280	592	|	4232	plnt:plants	332	332	21	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000167l	331616	298053,1686,140,0,0,0,0	23603	|	Daphnia magna	35525	anml:crustaceans	22523	21632	758	|	6669	anml:crustaceans	22523	13381	226	|	37623	anml:molluscs	1900	1900	58	|	104688	anml:insects	1166	379	29	|	n/a	repeat	anml:crustaceans	7
+ptg000168l	53484	44230,1334,0,0,0,0,0	9737	|	Daphnia magna	35525	anml:crustaceans	9737	9202	626	|	6669	anml:crustaceans	9737	7703	179	|	2528333	fung:budding yeasts	505	505	28	|	9995	anml:rodents	239	239	16	|	n/a	repeat	anml:crustaceans	18
+ptg000169l	65407	58935,61,0,0,0,0,0	5759	|	Daphnia magna	35525	anml:crustaceans	5759	5607	304	|	6669	anml:crustaceans	5759	2765	128	|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000170l	129794	129794,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000171l	387794	358372,932,0,0,0,0,0	32178	|	Daphnia magna	35525	anml:crustaceans	30996	28807	819	|	6669	anml:crustaceans	30996	18604	495	|	2065413	anml:insects	765	548	25	|	6579	anml:molluscs	453	453	23	|	n/a	repeat	anml:crustaceans	8
+ptg000172l	120802	111263,0,0,0,0,0,0	10402	|	Daphnia magna	35525	anml:crustaceans	10061	9798	407	|	6669	anml:crustaceans	10061	6641	143	|	460826	anml:insects	437	437	22	|						|	n/a	repeat	anml:crustaceans	8
+ptg000173l	202987	201637,0,0,0,0,0,0	1107	|	Daphnia magna	35525	anml:crustaceans	1107	1107	132	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000174l	39817	33628,0,0,0,0,0,0	7117	|	Daphnia pulex	6669	anml:crustaceans	7117	6398	333	|	35525	anml:crustaceans	7117	6910	329	|						|						|	n/a	repeat	anml:crustaceans	18
+ptg000175l	133511	128453,57,0,0,0,0,0	5626	|	Daphnia magna	35525	anml:crustaceans	5626	5626	466	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000176l	99950	86677,132,0,0,0,0,0	3838	|	Daphnia magna	35525	anml:crustaceans	3838	3838	156	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000177l	100943	85700,62,0,0,0,0,0	5601	|	Daphnia magna	35525	anml:crustaceans	3330	3330	92	|	94328	plnt:plants	943	943	33	|	87228	fung:ascomycetes	972	972	31	|	2950588	anml:nematodes	600	600	26	|	n/a	repeat	anml:crustaceans	3
+ptg000178l	272172	248975,159,0,0,0,0,0	27319	|	Daphnia magna	35525	anml:crustaceans	26949	24587	582	|	6669	anml:crustaceans	26949	17351	336	|	88149	prst:algae	690	690	27	|						|	n/a	repeat	anml:crustaceans	10
+ptg000179l	166698	161337,0,0,0,0,0,0	5698	|	Daphnia magna	35525	anml:crustaceans	5698	5527	272	|	6669	anml:crustaceans	5698	4997	260	|	70543	anml:fishes	411	411	21	|						|	n/a	repeat	anml:crustaceans	3
+ptg000180l	34616	34616,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000181l	112851	93614,99,0,0,0,0,0	20128	|	Daphnia magna	35525	anml:crustaceans	19908	19699	858	|	6669	anml:crustaceans	19908	10903	454	|	27687	anml:fishes	916	916	33	|	266149	prst:alveolates	129	129	11	|	n/a	repeat	anml:crustaceans	18
+ptg000182l	168265	167786,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000183l	180425	165377,0,0,0,0,0,0	9491	|	Daphnia magna	35525	anml:crustaceans	9491	8969	318	|	6669	anml:crustaceans	9491	4008	174	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000184l	250228	241252,594,0,0,0,0,0	8040	|	Daphnia magna	35525	anml:crustaceans	8040	8040	241	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000185l	239965	239418,128,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000186l	47668	47557,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000187l	95270	81853,98,80,0,0,0,0	18406	|	Daphnia magna	35525	anml:crustaceans	17780	17096	441	|	6669	anml:crustaceans	17780	9363	278	|	1803374	fung:fungi	856	856	32	|	4072	plnt:plants	224	224	18	|	n/a	repeat	anml:crustaceans	19
+ptg000188l	66616	54349,0,0,0,0,0,0	19311	|	Daphnia magna	35525	anml:crustaceans	18257	17523	438	|	6669	anml:crustaceans	18257	7403	301	|	2743191	anml:echinoderms	1139	1139	36	|	7217	anml:insects	791	791	31	|	n/a	repeat	anml:crustaceans	27
+ptg000189l	71528	71197,0,0,0,0,0,0	1117	|	Daphnia magna	35525	anml:crustaceans	625	625	78	|	4236	plnt:plants	612	612	24	|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000190l	28623	27790,0,0,0,0,0,0	1306	|	Daphnia magna	35525	anml:crustaceans	1306	1211	181	|	6669	anml:crustaceans	1306	468	64	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000191l	160346	159985,86,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000192l	43587	37252,0,0,0,0,0,0	4804	|	Daphnia magna	35525	anml:crustaceans	4804	4724	248	|	6669	anml:crustaceans	4804	697	65	|						|						|	n/a	repeat	anml:crustaceans	11
+ptg000193l	82886	77585,0,0,0,0,0,0	6869	|	Daphnia magna	35525	anml:crustaceans	6869	6547	525	|	6669	anml:crustaceans	6869	2029	137	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000194l	38920	36078,0,0,0,0,0,0	2590	|	Daphnia magna	35525	anml:crustaceans	2590	2590	225	|	6669	anml:crustaceans	2590	1421	115	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000195l	164249	148588,548,0,0,0,0,0	24867	|	Daphnia magna	35525	anml:crustaceans	24474	24116	663	|	6669	anml:crustaceans	24474	8847	425	|	89957	prst:alveolates	454	454	23	|	9244	anml:birds	363	363	22	|	n/a	repeat	anml:crustaceans	15
+ptg000196l	37694	27159,214,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000197l	153507	149750,0,0,0,0,0,0	8162	|	Daphnia magna	35525	anml:crustaceans	8162	8162	283	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000198l	48572	48351,59,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000199l	79667	76049,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000200l	40340	28381,2623,0,0,0,0,0	4211	|	Daphnia magna	35525	anml:crustaceans	3730	3730	117	|	13397	anml:fishes	263	263	17	|	6573	anml:molluscs	286	286	15	|						|	n/a	repeat	anml:crustaceans	9
+ptg000201l	37409	37224,0,0,0,0,0,0	2199	|	Daphnia magna	35525	anml:crustaceans	2199	2070	165	|	6669	anml:crustaceans	2199	1626	127	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000202l	329905	301466,326,0,0,0,0,0	29732	|	Daphnia magna	35525	anml:crustaceans	29578	28419	769	|	6669	anml:crustaceans	29578	19967	462	|	109461	anml:insects	154	154	14	|						|	n/a	repeat	anml:crustaceans	9
+ptg000203l	32194	32194,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000204l	161442	156176,193,0,0,0,0,0	6094	|	Daphnia magna	35525	anml:crustaceans	6094	5623	220	|	6669	anml:crustaceans	6094	4826	145	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000205l	97812	86490,64,0,0,0,0,0	11599	|	Daphnia magna	35525	anml:crustaceans	11257	10861	340	|	6669	anml:crustaceans	11257	6231	156	|	1035111	anml:insects	510	510	24	|						|	n/a	repeat	anml:crustaceans	12
+ptg000206l	218082	208812,450,0,0,0,0,0	11801	|	Daphnia magna	35525	anml:crustaceans	11801	11087	534	|	6669	anml:crustaceans	11801	7061	375	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000207l	440607	397015,349,0,0,0,0,0	37441	|	Daphnia magna	35525	anml:crustaceans	36356	33141	767	|	6669	anml:crustaceans	36356	27785	500	|	63436	anml:insects	1533	1419	42	|	13397	anml:fishes	581	581	27	|	n/a	repeat	anml:crustaceans	8
+ptg000208l	119035	92924,1062,0,0,0,0,0	23444	|	Daphnia magna	35525	anml:crustaceans	23444	22145	886	|	6669	anml:crustaceans	23444	11235	344	|	13686	anml:insects	127	127	14	|						|	n/a	repeat	anml:crustaceans	20
+ptg000209l	94250	80783,153,0,0,0,0,0	22864	|	Daphnia magna	35525	anml:crustaceans	22639	22240	586	|	6669	anml:crustaceans	22639	5372	114	|	37623	anml:molluscs	2024	2024	58	|						|	n/a	repeat	anml:crustaceans	24
+ptg000210l	118092	107010,58,0,0,0,0,0	1224	|	Daphnia magna	35525	anml:crustaceans	1224	1224	108	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000211l	35048	31951,0,0,0,0,0,0	2075	|	Daphnia magna	35525	anml:crustaceans	2075	2075	86	|						|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000212c	630038	617308,394,0,0,0,0,0	13350	|	Daphnia magna	35525	anml:crustaceans	13350	11915	378	|	6669	anml:crustaceans	13350	5453	340	|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000213l	32247	32183,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000214l	419538	397675,349,0,0,0,0,0	28668	|	Daphnia magna	35525	anml:crustaceans	28472	26675	555	|	6669	anml:crustaceans	28472	11496	225	|	2743191	anml:echinoderms	490	490	25	|	51298	anml:mammals	108	108	9	|	n/a	repeat	anml:crustaceans	7
+ptg000215l	180712	177768,64,0,0,0,0,0	3269	|	Daphnia magna	35525	anml:crustaceans	3269	3103	232	|	6669	anml:crustaceans	3269	1870	150	|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000216l	62355	62264,91,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000217l	116157	115778,379,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000218l	72120	72056,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000219l	226818	215124,243,0,0,0,0,0	12292	|	Daphnia pulex	6669	anml:crustaceans	12292	11458	559	|	35525	anml:crustaceans	12292	11456	540	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000220l	50614	50614,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000221l	63895	63895,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000222l	49085	49085,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000223l	42056	42056,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000224l	252578	243229,64,0,0,0,0,0	10755	|	Daphnia magna	35525	anml:crustaceans	9709	9562	677	|	6669	anml:crustaceans	9709	3552	241	|	2867440	prok:a-proteobacteria	2947	2787	110	|	2878923	prok:a-proteobacteria	2947	225	86	|	n/a	repeat	anml:crustaceans	4
+ptg000225l	147082	140261,182,0,0,0,0,0	7210	|	Daphnia magna	35525	anml:crustaceans	7210	6297	355	|	6669	anml:crustaceans	7210	5429	117	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000226l	103247	103163,84,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000227l	151714	147977,0,0,0,0,0,0	9757	|	Daphnia magna	35525	anml:crustaceans	9350	9350	314	|	7217	anml:insects	696	696	27	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000228l	46068	46068,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000229l	64117	64050,66,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000230l	87524	86332,178,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000231l	40829	30243,92,0,0,0,0,0	551	|	Cimex lectularius	79782	anml:insects	551	551	27	|						|						|						|	n/a	repeat	anml:insects	1
+ptg000232l	264748	250236,64,120,0,0,0,0	17890	|	Daphnia magna	35525	anml:crustaceans	16995	16357	721	|	6669	anml:crustaceans	16995	9017	261	|	37621	anml:worms	907	907	33	|	9447	anml:primates	697	697	29	|	n/a	repeat	anml:crustaceans	6
+ptg000233l	140180	122859,65,0,0,0,0,0	14865	|	Daphnia magna	35525	anml:crustaceans	14865	14265	441	|	6669	anml:crustaceans	14865	5299	183	|						|						|	n/a	repeat	anml:crustaceans	11
+ptg000234l	91874	86091,90,0,0,0,0,0	6564	|	Daphnia magna	35525	anml:crustaceans	6564	5664	530	|	6669	anml:crustaceans	6564	6548	464	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000235l	73204	73204,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000236l	46240	46240,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000237l	49600	42625,159,0,0,0,0,0	7014	|	Daphnia magna	35525	anml:crustaceans	7014	7014	298	|						|						|						|	n/a	repeat	anml:crustaceans	14
+ptg000238l	280599	260346,128,0,0,0,0,0	22796	|	Daphnia magna	35525	anml:crustaceans	22796	22455	593	|	6669	anml:crustaceans	22796	9359	177	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000239l	117031	110928,0,0,0,0,0,0	6305	|	Daphnia magna	35525	anml:crustaceans	6305	6305	241	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000240l	68465	68256,209,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000241l	294164	278494,296,0,0,0,0,0	16410	|	Daphnia magna	35525	anml:crustaceans	15233	14671	678	|	6669	anml:crustaceans	15233	2446	151	|	8010	anml:fishes	1142	623	28	|	7757	anml:fishes	1142	524	25	|	n/a	repeat	anml:crustaceans	5
+ptg000242l	137349	115223,189,0,0,0,0,0	25614	|	Daphnia magna	35525	anml:crustaceans	25614	25442	890	|	6669	anml:crustaceans	25614	8474	431	|						|						|	n/a	repeat	anml:crustaceans	19
+ptg000243l	302367	290345,269,240,0,0,0,0	13378	|	Daphnia magna	35525	anml:crustaceans	12609	12184	531	|	6669	anml:crustaceans	12609	7065	454	|	175694	plnt:plants	1865	1592	52	|	70186	prst:protists	358	358	21	|	n/a	repeat	anml:crustaceans	4
+ptg000244l	100640	99330,0,0,0,0,0,0	1231	|	Daphnia magna	35525	anml:crustaceans	1231	1231	133	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000245l	91253	90258,212,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000246l	43286	43265,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000247l	49381	49378,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000248l	66336	66334,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000249l	99989	99989,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000250l	294583	278667,237,0,0,0,0,0	16686	|	Daphnia magna	35525	anml:crustaceans	16517	16436	742	|	6669	anml:crustaceans	16517	3653	171	|	104688	anml:insects	558	558	33	|						|	n/a	repeat	anml:crustaceans	6
+ptg000251l	64041	64041,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000252l	73140	72945,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000253l	90439	90439,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000254l	71932	71931,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000255l	51500	51498,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000256l	45580	45580,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000257l	173343	159682,78,0,0,0,0,0	14392	|	Daphnia magna	35525	anml:crustaceans	14042	13813	654	|	6669	anml:crustaceans	14042	5943	293	|	106335	plnt:plants	1156	1156	39	|						|	n/a	repeat	anml:crustaceans	8
+ptg000258l	40380	37000,0,0,0,0,0,0	3872	|	Daphnia magna	35525	anml:crustaceans	3469	3392	255	|	6669	anml:crustaceans	3469	3149	167	|	27794	anml:reptiles	473	473	25	|						|	n/a	repeat	anml:crustaceans	9
+ptg000259l	67369	62873,160,0,0,0,0,0	5301	|	Daphnia magna	35525	anml:crustaceans	5301	4481	192	|	6669	anml:crustaceans	5301	4806	177	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000260l	94649	94494,128,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000261l	74207	64703,0,0,0,0,0,0	10625	|	Daphnia magna	35525	anml:crustaceans	9843	9430	592	|	6669	anml:crustaceans	9843	4674	392	|	8407	anml:amphibians	752	752	32	|	8030	anml:fishes	271	271	20	|	n/a	repeat	anml:crustaceans	13
+ptg000262l	243452	230611,0,0,0,0,0,0	17598	|	Daphnia magna	35525	anml:crustaceans	16893	16226	792	|	6669	anml:crustaceans	16893	14000	505	|	1754190	fung:chytrids	561	561	27	|	7244	anml:insects	729	469	21	|	n/a	repeat	anml:crustaceans	7
+ptg000263l	51662	51660,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000264l	52602	52602,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000265l	72509	63653,206,0,0,0,0,0	8734	|	Daphnia magna	35525	anml:crustaceans	8364	8296	372	|	6669	anml:crustaceans	8364	5158	124	|	1685382	prok:a-proteobacteria	363	363	19	|	45954	anml:molluscs	341	341	19	|	n/a	repeat	anml:crustaceans	12
+ptg000266l	85791	85791,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000267l	46311	46311,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000268l	35057	35057,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000269l	35510	35510,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000270l	195928	188985,0,0,0,0,0,0	6452	|	Daphnia magna	35525	anml:crustaceans	6452	6452	188	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000271l	94960	94827,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000272l	125761	122577,0,0,0,0,0,0	4376	|	Daphnia magna	35525	anml:crustaceans	3679	3302	369	|	6669	anml:crustaceans	3679	2872	288	|	8030	anml:fishes	948	948	35	|						|	n/a	repeat	anml:crustaceans	3
+ptg000273l	66575	66534,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000274l	300665	275342,244,0,0,0,0,0	29180	|	Daphnia magna	35525	anml:crustaceans	28973	28448	894	|	6669	anml:crustaceans	28973	15022	367	|	8010	anml:fishes	494	494	25	|	354353	fung:ascomycetes	328	328	21	|	n/a	repeat	anml:crustaceans	10
+ptg000275l	35159	35159,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000276l	197012	149807,555,0,0,0,0,0	41210	|	Daphnia magna	35525	anml:crustaceans	37939	37212	986	|	6669	anml:crustaceans	37939	10956	172	|	7574	anml:brachiopods	1937	1937	50	|	286706	anml:insects	984	850	33	|	n/a	repeat	anml:crustaceans	19
+ptg000277l	77482	77481,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000278l	47302	40483,0,0,0,0,0,0	7587	|	Daphnia magna	35525	anml:crustaceans	7587	7464	435	|	6669	anml:crustaceans	7587	564	80	|						|						|	n/a	repeat	anml:crustaceans	16
+ptg000279l	164070	164070,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000280l	170332	152355,201,0,0,0,0,0	18411	|	Daphnia magna	35525	anml:crustaceans	18293	17839	472	|	6669	anml:crustaceans	18293	14749	260	|	460826	anml:insects	1647	1647	52	|	9606	anml:primates	265	265	17	|	n/a	repeat	anml:crustaceans	11
+ptg000281l	52564	52563,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000282l	119789	103492,164,0,0,0,0,0	17288	|	Daphnia magna	35525	anml:crustaceans	17051	16630	653	|	6669	anml:crustaceans	17051	10779	330	|	4944	fung:budding yeasts	852	852	37	|	166361	anml:insects	172	172	17	|	n/a	repeat	anml:crustaceans	14
+ptg000283l	128896	114453,0,260,0,0,0,0	13958	|	Daphnia magna	35525	anml:crustaceans	13439	13332	420	|	6669	anml:crustaceans	13439	4507	109	|	37623	anml:molluscs	1879	1508	54	|	310915	anml:fishes	1345	1082	38	|	n/a	repeat	anml:crustaceans	10
+ptg000284l	74505	74377,128,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000285l	120228	120060,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000286l	133877	116386,181,0,0,0,0,0	27752	|	Daphnia magna	35525	anml:crustaceans	27486	26937	730	|	6669	anml:crustaceans	27486	8211	224	|	100861	prst:algae	748	748	36	|	7515	anml:insects	863	863	33	|	n/a	repeat	anml:crustaceans	21
+ptg000287l	36228	36228,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000288l	47154	47154,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000289l	99952	99952,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000290l	62271	62271,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000291l	69991	66946,0,0,0,0,0,0	3605	|	Daphnia magna	35525	anml:crustaceans	3605	3605	351	|	6669	anml:crustaceans	3605	1090	76	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000292l	145429	141889,102,0,0,0,0,0	3470	|	Daphnia magna	35525	anml:crustaceans	3470	2669	169	|	6669	anml:crustaceans	3470	3136	134	|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000293l	63050	63050,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000294l	110290	110290,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000295l	38588	38588,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000296l	57395	57395,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000297l	85219	78088,0,0,0,0,0,0	8466	|	Daphnia magna	35525	anml:crustaceans	8466	8334	258	|	6669	anml:crustaceans	8466	4925	152	|						|						|	n/a	repeat	anml:crustaceans	10
+ptg000298l	45837	45837,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000299l	46024	46024,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000300l	43602	37097,0,0,0,0,0,0	6538	|	Daphnia magna	35525	anml:crustaceans	6538	6501	557	|	6669	anml:crustaceans	6538	6388	413	|						|						|	n/a	repeat	anml:crustaceans	15
+ptg000301l	25369	25369,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000302l	38591	38591,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000303l	104952	104456,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000304l	50233	50233,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000305l	17941	17941,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000306l	138506	133693,0,0,0,0,0,0	5688	|	Daphnia magna	35525	anml:crustaceans	5218	4837	465	|	6669	anml:crustaceans	5218	3539	176	|	8407	anml:amphibians	464	464	23	|	202533	anml:insects	280	280	18	|	n/a	repeat	anml:crustaceans	4
+ptg000307l	81502	69443,190,0,0,0,0,0	12876	|	Daphnia magna	35525	anml:crustaceans	12876	12516	569	|	6669	anml:crustaceans	12876	5229	429	|						|						|	n/a	repeat	anml:crustaceans	16
+ptg000308l	32758	32758,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000309l	64305	64305,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000310l	93116	88454,0,0,0,0,0,0	5682	|	Daphnia magna	35525	anml:crustaceans	5682	5133	481	|	6669	anml:crustaceans	5682	5055	462	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000311l	54377	54377,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000312l	15503	15503,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000313l	135750	135750,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000314l	81257	79652,0,0,0,0,0,0	2242	|	Daphnia magna	35525	anml:crustaceans	2242	2242	170	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000315l	46826	46826,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000316l	85514	85514,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000317l	35012	34898,114,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000318l	81065	79474,0,0,0,0,0,0	9760	|	Daphnia magna	35525	anml:crustaceans	9760	9760	417	|						|						|						|	n/a	repeat	anml:crustaceans	12
+ptg000319l	55252	55252,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000320l	52222	52222,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000321l	41011	39152,0,0,0,0,0,0	1945	|	Daphnia magna	35525	anml:crustaceans	1945	1875	306	|	6669	anml:crustaceans	1945	1829	278	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000322l	49527	49527,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000323l	39140	39140,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000324l	78074	77964,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000325l	87230	87229,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000326l	49874	49874,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000327l	54231	54231,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000328l	34691	34691,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000329l	46877	46813,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000330l	76973	76971,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000331l	39293	39155,138,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000332l	113618	103447,0,0,0,0,0,0	8420	|	Daphnia magna	35525	anml:crustaceans	8420	8420	249	|						|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000333l	35665	35665,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000334l	47527	47527,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000335l	25768	25768,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000336l	125873	125095,98,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000337l	44041	44041,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000338l	209703	193243,177,0,0,0,0,0	8293	|	Daphnia magna	35525	anml:crustaceans	8108	5510	434	|	6669	anml:crustaceans	8108	7067	190	|	63433	anml:insects	625	625	26	|						|	n/a	repeat	anml:crustaceans	4
+ptg000339l	39773	39773,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000340l	40524	40519,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000341l	39257	39257,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000342l	72706	72706,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000343l	77252	77195,57,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000344l	40384	39041,0,0,0,0,0,0	2551	|	Daphnia magna	35525	anml:crustaceans	2551	2551	274	|						|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000345l	100563	84468,160,0,0,0,0,0	5792	|	Daphnia magna	35525	anml:crustaceans	5792	5412	293	|	6669	anml:crustaceans	5792	1746	111	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000346l	111696	110620,298,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000347l	31764	26300,0,0,0,0,0,0	6205	|	Daphnia magna	35525	anml:crustaceans	6205	5820	371	|	6669	anml:crustaceans	6205	2614	180	|						|						|	n/a	repeat	anml:crustaceans	20
+ptg000348l	83741	83741,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000349l	43012	42994,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000350l	110702	110702,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000351l	65450	60839,0,0,0,0,0,0	11893	|	Daphnia magna	35525	anml:crustaceans	11893	11758	366	|	6669	anml:crustaceans	11893	2836	196	|						|						|	n/a	repeat	anml:crustaceans	18
+ptg000352l	109121	102521,190,0,0,0,0,0	6228	|	Daphnia magna	35525	anml:crustaceans	6228	5838	298	|	6669	anml:crustaceans	6228	2996	128	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000353l	46138	46134,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000354l	55151	55151,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000355l	111461	111324,137,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000356l	101467	101467,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000357l	163151	145976,63,0,0,0,0,0	23818	|	Daphnia magna	35525	anml:crustaceans	23496	21206	648	|	6669	anml:crustaceans	23496	13298	224	|	65129	prst:alveolates	525	525	22	|						|	n/a	repeat	anml:crustaceans	14
+ptg000358l	35552	27438,115,0,0,0,0,0	8107	|	Daphnia magna	35525	anml:crustaceans	7744	7744	288	|	13397	anml:fishes	1098	1098	35	|	6412	anml:worms	443	443	24	|	281415	anml:insects	461	461	24	|	n/a	repeat	anml:crustaceans	22
+ptg000359l	145776	133024,0,0,0,0,0,0	13305	|	Daphnia magna	35525	anml:crustaceans	13305	13251	530	|	6669	anml:crustaceans	13305	5353	284	|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000360l	40073	30423,0,0,0,0,0,0	9293	|	Daphnia magna	35525	anml:crustaceans	9293	9293	414	|	6669	anml:crustaceans	9293	4830	128	|						|						|	n/a	repeat	anml:crustaceans	23
+ptg000361l	70200	70008,192,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000362l	42486	40736,0,0,0,0,0,0	2031	|	Daphnia magna	35525	anml:crustaceans	1691	1691	117	|	5722	prst:monads	405	405	21	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000363l	66888	65867,0,0,0,0,0,0	947	|	Daphnia magna	35525	anml:crustaceans	947	947	110	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000364l	63193	57641,128,0,0,0,0,0	6044	|	Daphnia magna	35525	anml:crustaceans	6044	5348	269	|	6669	anml:crustaceans	6044	5889	267	|	70543	anml:fishes	348	348	21	|						|	n/a	repeat	anml:crustaceans	10
+ptg000365l	291511	287373,704,0,0,0,0,0	5476	|	Daphnia magna	35525	anml:crustaceans	5476	5476	336	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000366l	41022	41022,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000367l	50825	47357,0,0,0,0,0,0	3574	|	Daphnia magna	35525	anml:crustaceans	3574	3559	210	|	6669	anml:crustaceans	3574	3208	206	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000368l	132112	131909,203,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000369l	62470	62470,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000370l	113342	95750,575,0,0,0,0,0	17004	|	Daphnia magna	35525	anml:crustaceans	16140	15855	519	|	6669	anml:crustaceans	16140	11004	183	|	45954	anml:molluscs	1122	1122	38	|	7574	anml:brachiopods	540	540	24	|	n/a	repeat	anml:crustaceans	14
+ptg000371l	55553	55495,58,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000372l	97704	97704,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000373l	99500	95712,64,0,0,0,0,0	4010	|	Daphnia magna	35525	anml:crustaceans	4010	4010	242	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000374l	24637	24429,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000375l	93494	93494,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000376l	39597	39597,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000377l	34879	34879,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000378l	106138	105032,1106,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000379l	69708	68685,0,0,0,0,0,0	1671	|	Daphnia magna	35525	anml:crustaceans	1671	1671	132	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000380l	43448	43390,58,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000381l	28881	28881,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000382l	48016	42855,0,0,0,0,0,0	5653	|	Daphnia magna	35525	anml:crustaceans	5653	5507	501	|	6669	anml:crustaceans	5653	1740	136	|						|						|	n/a	repeat	anml:crustaceans	12
+ptg000383l	154513	154188,325,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000384l	82189	81631,246,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000385l	87644	82276,0,0,0,0,0,0	5502	|	Daphnia magna	35525	anml:crustaceans	5502	5502	367	|	6669	anml:crustaceans	5502	2540	201	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000386l	120753	120629,124,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000387l	68615	68382,233,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000388l	68877	68877,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000389l	47849	47741,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000390l	71184	71105,63,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000391l	104207	104207,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000392l	68551	67035,0,0,0,0,0,0	2238	|	Daphnia magna	35525	anml:crustaceans	2238	2238	164	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000393l	27547	27483,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000394l	32030	32030,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000395l	43029	41250,69,0,0,0,0,0	1599	|	Daphnia magna	35525	anml:crustaceans	1599	1599	105	|	2788	prst:algae	462	462	22	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000396l	156219	119949,76,0,0,0,0,0	47205	|	Daphnia magna	35525	anml:crustaceans	45753	44876	922	|	6669	anml:crustaceans	45753	17901	239	|	121845	anml:insects	1281	1281	41	|	31234	anml:nematodes	1393	1393	41	|	n/a	repeat	anml:crustaceans	29
+ptg000397l	237771	223951,271,0,0,0,0,0	21463	|	Daphnia magna	35525	anml:crustaceans	20817	18753	634	|	6669	anml:crustaceans	20817	10429	297	|	106335	plnt:plants	1062	1062	37	|						|	n/a	repeat	anml:crustaceans	9
+ptg000398l	62005	7019,1741,18460,0,0,0,0	40017	|	Daphnia magna	35525	anml:crustaceans	37615	36516	1239	|	7137	anml:insects	32026	26385	958	|	441921	anml:insects	32026	24941	733	|	45954	anml:molluscs	26598	24682	614	|	n/a	primary-div	anml:crustaceans	61
+ptg000399l	57529	51805,0,0,0,0,0,0	5681	|	Daphnia magna	35525	anml:crustaceans	5090	5090	223	|	90675	plnt:plants	1193	1193	40	|	100861	prst:algae	939	939	40	|	2077152	fung:ascomycetes	157	157	13	|	n/a	repeat	anml:crustaceans	9
+ptg000400l	43297	5127,1172,12560,0,0,0,0	26625	|	Daphnia magna	35525	anml:crustaceans	24942	24123	1012	|	7137	anml:insects	21341	17568	782	|	441921	anml:insects	21341	16863	614	|	45954	anml:molluscs	18072	16586	504	|	n/a	primary-div	anml:crustaceans	58
+ptg000401l	34484	5125,979,8800,0,0,0,0	19140	|	Daphnia magna	35525	anml:crustaceans	18200	17636	857	|	7137	anml:insects	14986	11930	657	|	441921	anml:insects	14986	11450	506	|	6579	anml:molluscs	13161	11533	469	|	n/a	primary-div	anml:crustaceans	53
+ptg000402l	32748	4934,987,8120,0,0,0,0	18144	|	Daphnia magna	35525	anml:crustaceans	17431	16853	827	|	7137	anml:insects	14063	11341	644	|	441921	anml:insects	14063	10981	491	|	45954	anml:molluscs	10736	10323	405	|	n/a	primary-div	anml:crustaceans	53
+ptg000403l	29186	3670,820,8620,0,0,0,0	17660	|	Daphnia magna	35525	anml:crustaceans	16952	16386	837	|	7137	anml:insects	14491	11668	648	|	441921	anml:insects	14491	11481	506	|	6579	anml:molluscs	12950	11542	464	|	n/a	primary-div	anml:crustaceans	58
+ptg000404l	40725	5092,1081,12000,0,0,0,0	24816	|	Daphnia magna	35525	anml:crustaceans	23030	22033	961	|	7137	anml:insects	19815	15848	741	|	441921	anml:insects	19815	15079	579	|	6579	anml:molluscs	16901	14617	539	|	n/a	primary-div	anml:crustaceans	57
+ptg000405l	44254	5312,1168,13680,0,0,0,0	27033	|	Daphnia magna	35525	anml:crustaceans	25863	24896	1033	|	7137	anml:insects	22321	18313	799	|	441921	anml:insects	22321	17577	639	|	45954	anml:molluscs	18182	16896	520	|	n/a	primary-div	anml:crustaceans	58
+ptg000406l	28619	3603,780,8560,0,0,0,0	17820	|	Daphnia magna	35525	anml:crustaceans	16540	15991	814	|	7137	anml:insects	13798	11102	630	|	362088	anml:insects	13798	10540	495	|	6579	anml:molluscs	12183	10650	453	|	n/a	primary-div	anml:crustaceans	58
+ptg000407l	33819	3418,869,11060,0,0,0,0	21369	|	Daphnia magna	35525	anml:crustaceans	20507	19962	931	|	7137	anml:insects	17461	14615	717	|	362088	anml:insects	17461	13625	549	|	45954	anml:molluscs	14782	13506	463	|	n/a	primary-div	anml:crustaceans	61
+ptg000408l	26466	3402,650,7740,0,0,0,0	16223	|	Daphnia magna	35525	anml:crustaceans	15195	14642	793	|	7137	anml:insects	12822	10511	611	|	441921	anml:insects	12822	10168	475	|	45954	anml:molluscs	10864	9912	394	|	n/a	primary-div	anml:crustaceans	57
+ptg000409l	78354	75606,0,0,0,0,0,0	3402	|	Daphnia magna	35525	anml:crustaceans	2725	2725	180	|	7741	anml:fishes	677	677	29	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000410l	92257	25102,959,0,0,0,0,0	70005	|	Daphnia magna	35525	anml:crustaceans	69223	67050	1021	|	6669	anml:crustaceans	69223	32621	538	|	13397	anml:fishes	1565	1565	45	|	9606	anml:primates	369	369	28	|	n/a	primary-div	anml:crustaceans	75
+ptg000411l	62879	62879,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000412l	132111	126822,186,0,0,0,0,0	5495	|	Daphnia magna	35525	anml:crustaceans	5495	5495	355	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000413l	86090	67678,204,0,0,0,0,0	20130	|	Daphnia magna	35525	anml:crustaceans	19898	19394	755	|	6669	anml:crustaceans	19898	13969	585	|	37623	anml:molluscs	1570	1570	54	|	4686	plnt:plants	573	573	25	|	n/a	repeat	anml:crustaceans	23
+ptg000414l	107689	104376,0,0,0,0,0,0	3924	|	Daphnia magna	35525	anml:crustaceans	3924	3613	410	|	6669	anml:crustaceans	3924	2728	197	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000415l	60336	60140,194,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000416l	48662	48662,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000417l	48718	43092,0,0,0,0,0,0	5701	|	Daphnia magna	35525	anml:crustaceans	5614	5614	464	|	1946372	prok:firmicutes	301	301	18	|						|						|	n/a	repeat	anml:crustaceans	12
+ptg000418l	35245	35245,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000419l	74222	68393,116,140,0,0,0,0	6643	|	Daphnia magna	35525	anml:crustaceans	6643	6585	513	|	6669	anml:crustaceans	6643	4130	110	|	7370	anml:insects	288	288	20	|	4442	plnt:plants	218	218	18	|	n/a	repeat	anml:crustaceans	9
+ptg000420l	49184	49184,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000421l	38935	38935,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000422l	160272	155166,0,0,0,0,0,0	5919	|	Daphnia magna	35525	anml:crustaceans	5919	5710	339	|	6669	anml:crustaceans	5919	3693	107	|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000423l	87761	85719,0,0,0,0,0,0	2434	|	Daphnia magna	35525	anml:crustaceans	2434	2346	312	|	6669	anml:crustaceans	2434	2078	254	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000424l	87342	85241,0,0,0,0,0,0	1874	|	Daphnia magna	35525	anml:crustaceans	1874	1874	129	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000425l	88209	81833,71,0,0,0,0,0	7870	|	Daphnia magna	35525	anml:crustaceans	7870	7463	256	|	6669	anml:crustaceans	7870	961	58	|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000426l	117425	117063,65,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000427l	56297	55997,300,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000428l	52463	51875,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000429l	76964	76568,0,0,0,0,0,0	8834	|	Daphnia magna	35525	anml:crustaceans	8834	8834	403	|						|						|						|	n/a	repeat	anml:crustaceans	11
+ptg000430l	35786	35786,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000431l	77148	61824,93,0,0,0,0,0	4082	|	Daphnia magna	35525	anml:crustaceans	4082	4082	129	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000432l	82102	81593,0,0,0,0,0,0	1048	|	Daphnia magna	35525	anml:crustaceans	1048	1048	139	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000433l	50760	44256,0,0,0,0,0,0	7125	|	Daphnia magna	35525	anml:crustaceans	7023	6611	530	|	6669	anml:crustaceans	7023	6164	379	|	45264	anml:basal metazoans	364	364	21	|						|	n/a	repeat	anml:crustaceans	14
+ptg000434l	55973	55850,123,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000435l	70161	68886,348,0,0,0,0,0	671	|	Homarus americanus	6706	anml:crustaceans	671	671	29	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000436l	59683	55028,68,0,0,0,0,0	4801	|	Daphnia magna	35525	anml:crustaceans	4801	4778	363	|	6669	anml:crustaceans	4801	2212	90	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000437l	23180	23180,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000438l	93798	83356,1306,0,0,0,0,0	16231	|	Daphnia magna	35525	anml:crustaceans	16231	15873	686	|	6669	anml:crustaceans	16231	8895	202	|	186751	anml:insects	1057	877	39	|	113566	prok:high GC Gram+	335	335	21	|	n/a	repeat	anml:crustaceans	17
+ptg000439l	44809	44515,294,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000440l	53447	53447,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000441l	30668	30668,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000442l	28399	28399,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000443l	34977	34977,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000444l	63650	61452,159,0,0,0,0,0	3831	|	Daphnia magna	35525	anml:crustaceans	3831	3079	211	|	6669	anml:crustaceans	3831	2467	96	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000445l	47037	47037,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000446l	73701	73697,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000447l	69688	65942,58,0,0,0,0,0	3851	|	Daphnia magna	35525	anml:crustaceans	3851	3769	427	|	6669	anml:crustaceans	3851	1357	128	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000448l	99503	99093,0,0,0,0,0,0	9099	|	Daphnia magna	35525	anml:crustaceans	9099	9099	400	|						|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000449l	179358	161203,65,0,0,0,0,0	17534	|	Daphnia magna	35525	anml:crustaceans	17534	17417	643	|	6669	anml:crustaceans	17534	7858	173	|						|						|	n/a	repeat	anml:crustaceans	10
+ptg000450l	29602	29602,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000451l	43576	41815,1761,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000452l	37795	30432,0,0,0,0,0,0	9090	|	Daphnia magna	35525	anml:crustaceans	9090	8929	476	|	6669	anml:crustaceans	9090	6725	171	|						|						|	n/a	repeat	anml:crustaceans	24
+ptg000453l	94374	94374,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000454l	34240	34240,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000455l	137812	126117,128,0,0,0,0,0	12781	|	Daphnia magna	35525	anml:crustaceans	12781	12061	443	|	6669	anml:crustaceans	12781	8862	306	|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000456l	61507	52534,232,0,0,0,0,0	10075	|	Daphnia magna	35525	anml:crustaceans	10075	9853	474	|	6669	anml:crustaceans	10075	3546	143	|						|						|	n/a	repeat	anml:crustaceans	16
+ptg000457l	134366	122061,668,0,0,0,0,0	17228	|	Daphnia magna	35525	anml:crustaceans	16991	16881	396	|	6669	anml:crustaceans	16991	1726	97	|	7217	anml:insects	604	604	26	|						|	n/a	repeat	anml:crustaceans	13
+ptg000458l	38135	37567,0,0,0,0,0,0	513	|	Daphnia magna	35525	anml:crustaceans	513	513	108	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000459l	25795	25795,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000460l	17578	17578,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000461l	92091	79228,0,0,0,0,0,0	12164	|	Daphnia magna	35525	anml:crustaceans	12164	11607	441	|	6669	anml:crustaceans	12164	3644	126	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000462l	31174	31174,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000463l	124497	124497,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000464l	98318	98318,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000465l	33286	28761,0,0,0,0,0,0	4308	|	Daphnia magna	35525	anml:crustaceans	4308	4229	383	|	6669	anml:crustaceans	4308	3471	264	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000466l	89789	75950,60,0,0,0,0,0	17252	|	Daphnia magna	35525	anml:crustaceans	17252	17112	578	|	6669	anml:crustaceans	17252	10613	434	|						|						|	n/a	repeat	anml:crustaceans	19
+ptg000467l	35957	4675,977,9880,0,0,0,0	21446	|	Daphnia magna	35525	anml:crustaceans	19874	18982	878	|	7137	anml:insects	16283	12875	684	|	441921	anml:insects	16283	12875	549	|	210409	anml:crustaceans	19874	13061	529	|	n/a	primary-div	anml:crustaceans	55
+ptg000468l	31085	4573,741,8380,0,0,0,0	18103	|	Daphnia magna	35525	anml:crustaceans	16804	16236	816	|	7137	anml:insects	13722	11095	634	|	362088	anml:insects	13722	10435	491	|	45954	anml:molluscs	11527	10653	405	|	n/a	primary-div	anml:crustaceans	54
+ptg000469l	29895	4308,874,9220,0,0,0,0	17224	|	Daphnia magna	35525	anml:crustaceans	16381	15802	819	|	7137	anml:insects	13385	11130	630	|	370036	anml:insects	13385	11368	461	|	7654	anml:echinoderms	10958	10832	444	|	n/a	primary-div	anml:crustaceans	55
+ptg000470l	29390	3417,766,8880,0,0,0,0	18147	|	Daphnia magna	35525	anml:crustaceans	17051	16468	842	|	7137	anml:insects	14894	11479	647	|	441921	anml:insects	14894	11656	494	|	45954	anml:molluscs	11299	11021	417	|	n/a	primary-div	anml:crustaceans	58
+ptg000471l	84601	70524,0,0,0,0,0,0	19671	|	Daphnia magna	35525	anml:crustaceans	19238	19238	635	|	2743191	anml:echinoderms	1322	1322	39	|						|						|	n/a	repeat	anml:crustaceans	23
+ptg000472l	25153	25153,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000473l	64384	51574,59,0,0,0,0,0	13280	|	Daphnia magna	35525	anml:crustaceans	13280	12807	706	|	6669	anml:crustaceans	13280	4813	179	|						|						|	n/a	repeat	anml:crustaceans	21
+ptg000474l	152468	144999,134,0,0,0,0,0	7868	|	Daphnia magna	35525	anml:crustaceans	7868	7476	532	|	6669	anml:crustaceans	7868	7458	184	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000475l	43748	43748,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000476l	27697	27697,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000477l	96037	95606,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000478l	86771	83011,64,0,0,0,0,0	889	|	Panagrolaimus sp. LJ2414	2950588	anml:nematodes	380	313	19	|	94328	plnt:plants	352	352	19	|	2448451	anml:insects	305	305	18	|	46012	anml:nematodes	380	144	14	|	n/a	repeat	anml:nematodes	0
+ptg000479l	50415	46167,57,0,0,0,0,0	4693	|	Daphnia magna	35525	anml:crustaceans	4427	4241	320	|	6669	anml:crustaceans	4427	3430	121	|	207710	plnt:plants	599	333	20	|	3469	plnt:plants	599	266	17	|	n/a	repeat	anml:crustaceans	9
+ptg000480l	74015	68380,0,0,0,0,0,0	5674	|	Daphnia magna	35525	anml:crustaceans	5674	5674	358	|						|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000481l	71883	71883,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000482l	245345	239542,0,0,0,0,0,0	5898	|	Daphnia magna	35525	anml:crustaceans	5898	5804	244	|	6669	anml:crustaceans	5898	956	81	|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000483l	118736	112287,123,0,0,0,0,0	7016	|	Daphnia pulex	6669	anml:crustaceans	7016	6895	540	|	35525	anml:crustaceans	7016	6274	334	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000484l	38343	32417,122,0,0,0,0,0	1762	|	Daphnia magna	35525	anml:crustaceans	1762	1762	73	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000485l	56461	49313,0,0,0,0,0,0	11827	|	Daphnia magna	35525	anml:crustaceans	11784	11496	423	|	6669	anml:crustaceans	11784	3604	135	|	8030	anml:fishes	230	230	16	|						|	n/a	repeat	anml:crustaceans	21
+ptg000486l	24973	15478,1526,0,0,0,0,0	9877	|	Daphnia magna	35525	anml:crustaceans	9790	9682	637	|	6669	anml:crustaceans	9790	7348	191	|	447254	fung:ascomycetes	1300	586	27	|	2033813	fung:ascomycetes	1300	472	24	|	n/a	repeat	anml:crustaceans	39
+ptg000487l	55491	55212,0,0,0,0,0,0	1756	|	Daphnia magna	35525	anml:crustaceans	1756	1756	139	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000488l	63185	63185,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000489l	211812	211704,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000490l	108167	101690,70,0,0,0,0,0	6262	|	Daphnia magna	35525	anml:crustaceans	6262	6262	361	|						|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000491l	151710	119595,220,0,0,0,0,0	24074	|	Daphnia magna	35525	anml:crustaceans	23963	23217	591	|	6669	anml:crustaceans	23963	8516	270	|	65129	prst:alveolates	838	838	32	|						|	n/a	repeat	anml:crustaceans	16
+ptg000492l	29768	29768,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000493l	35493	34287,71,0,0,0,0,0	1320	|	Daphnia magna	35525	anml:crustaceans	1117	1117	214	|	114398	anml:insects	308	308	20	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000494l	52755	51187,1494,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000495l	50119	43313,229,300,0,0,0,0	7159	|	Daphnia magna	35525	anml:crustaceans	6759	6701	339	|	13397	anml:fishes	950	860	32	|	260995	anml:amphibians	800	800	29	|	95602	anml:crustaceans	6759	458	24	|	n/a	repeat	anml:crustaceans	13
+ptg000496l	78593	78330,263,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000497l	120297	120279,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000498l	116241	116111,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000499l	31364	30335,0,0,0,0,0,0	1420	|	Daphnia magna	35525	anml:crustaceans	1420	1420	137	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000500l	104596	90970,0,0,0,0,0,0	14587	|	Daphnia magna	35525	anml:crustaceans	14565	13900	383	|	6669	anml:crustaceans	14565	7282	373	|	3562	plnt:plants	474	396	22	|	3888	plnt:plants	474	254	19	|	n/a	repeat	anml:crustaceans	14
+ptg000501l	31854	23993,67,0,0,0,0,0	8714	|	Daphnia magna	35525	anml:crustaceans	8334	8334	587	|	7515	anml:insects	918	918	33	|	9837	anml:mammals	473	473	23	|						|	n/a	repeat	anml:crustaceans	26
+ptg000502l	109679	104585,0,0,0,0,0,0	5396	|	Daphnia magna	35525	anml:crustaceans	5396	5202	429	|	6669	anml:crustaceans	5396	4542	128	|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000503l	51223	44900,0,0,0,0,0,0	6424	|	Daphnia magna	35525	anml:crustaceans	6424	6424	308	|						|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000504l	28182	23477,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000505l	65606	60536,0,0,0,0,0,0	6745	|	Daphnia magna	35525	anml:crustaceans	6296	6170	385	|	6669	anml:crustaceans	6296	4984	288	|	4556	plnt:plants	541	541	26	|	941824	prok:firmicutes	206	206	15	|	n/a	repeat	anml:crustaceans	10
+ptg000506l	37490	36985,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000507l	27626	19889,0,0,0,0,0,0	5963	|	Daphnia magna	35525	anml:crustaceans	5963	5963	364	|						|						|						|	n/a	repeat	anml:crustaceans	22
+ptg000508l	113957	112332,216,0,0,0,0,0	2689	|	Daphnia magna	35525	anml:crustaceans	2689	2689	104	|	1868482	anml:primates	319	319	20	|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000509l	45699	42371,0,0,0,0,0,0	3530	|	Daphnia magna	35525	anml:crustaceans	3530	3530	195	|						|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000510l	96370	88715,0,0,0,0,0,0	7213	|	Daphnia magna	35525	anml:crustaceans	7213	6820	402	|	6669	anml:crustaceans	7213	5414	255	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000511l	60871	60871,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000512l	129481	129481,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000513l	22368	22368,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000514l	71271	71271,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000515l	36263	36263,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000516l	57600	57600,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000517l	23519	23204,315,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000518l	36969	36937,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000519l	51375	51375,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000520l	33005	33005,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000521l	103648	103243,0,0,0,0,0,0	8967	|	Daphnia magna	35525	anml:crustaceans	8967	8967	401	|						|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000522l	57190	57190,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000523l	60800	60800,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000524l	38770	38770,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000525l	74966	74966,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000526l	17097	17097,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000527l	94582	94364,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000528l	82940	82637,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000529l	162217	157632,0,0,0,0,0,0	5028	|	Daphnia magna	35525	anml:crustaceans	4511	4511	233	|	3818	plnt:plants	620	620	27	|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000530l	99777	99777,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000531l	68686	64046,0,0,0,0,0,0	5167	|	Daphnia pulex	6669	anml:crustaceans	5050	4754	482	|	35525	anml:crustaceans	5050	4980	474	|	64791	anml:insects	278	278	17	|						|	n/a	repeat	anml:crustaceans	7
+ptg000532l	37083	37083,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000533l	24906	24906,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000534l	25431	25431,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000535l	41148	41148,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000536l	52095	52095,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000537l	78967	71101,60,0,0,0,0,0	7541	|	Daphnia magna	35525	anml:crustaceans	7541	7522	451	|	6669	anml:crustaceans	7541	5769	172	|	87284	fung:ascomycetes	529	529	25	|						|	n/a	repeat	anml:crustaceans	10
+ptg000538l	56597	55942,0,0,0,0,0,0	820	|	Daphnia magna	35525	anml:crustaceans	820	787	101	|	6669	anml:crustaceans	820	480	64	|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000539l	39242	39242,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000540l	41330	41330,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000541l	46961	46836,125,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000542l	38376	38349,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000543l	41053	41053,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000544l	66330	66248,82,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000545l	26511	26511,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000546l	49014	49013,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000547l	84199	84135,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000548l	109599	106223,164,0,0,0,0,0	1186	|	Daphnia magna	35525	anml:crustaceans	1186	1186	66	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000549l	43915	43915,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000550l	32285	32285,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000551l	43744	43538,0,0,0,0,0,0	800	|	Daphnia magna	35525	anml:crustaceans	800	800	97	|						|						|						|	n/a	repeat	anml:crustaceans	2
+ptg000552l	20386	20386,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000553l	39527	39527,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000554l	58257	58257,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000555l	54056	54056,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000556l	43260	43260,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000557l	51359	51168,191,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000558l	16157	16157,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000559l	34194	34194,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000560l	49443	49379,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000561l	42447	33648,89,0,0,0,0,0	8782	|	Daphnia magna	35525	anml:crustaceans	8258	8021	435	|	6669	anml:crustaceans	8258	2027	64	|	106335	plnt:plants	895	895	34	|						|	n/a	repeat	anml:crustaceans	19
+ptg000562l	52281	49481,73,0,0,0,0,0	2591	|	Daphnia magna	35525	anml:crustaceans	2591	2591	210	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000563l	35784	35783,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000564l	41692	39845,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000565l	60024	60024,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000566l	50060	50060,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000567l	50144	50000,144,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000568l	25547	25547,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000569l	32021	31939,63,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000570l	30435	30435,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000571l	27856	27791,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000572l	19006	19004,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000573l	42934	42800,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000574l	14293	12722,0,0,0,0,0,0	2389	|	Daphnia magna	35525	anml:crustaceans	2389	2389	270	|						|						|						|	n/a	repeat	anml:crustaceans	17
+ptg000575l	78580	78580,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000576l	24836	24774,62,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000577l	29857	29857,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000578l	53995	53995,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000579l	33397	33394,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000580l	20204	20076,128,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000581l	38322	38322,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000582l	27792	27792,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000583l	18981	13728,65,0,0,0,0,0	5060	|	Daphnia magna	35525	anml:crustaceans	5060	5060	272	|	104688	anml:insects	425	425	30	|						|						|	n/a	repeat	anml:crustaceans	27
+ptg000584l	273215	273215,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000585l	55903	55903,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000586l	23390	23390,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000587l	28330	28330,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000588l	24261	24059,202,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000589l	35835	35834,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000590l	44548	44548,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000591l	47901	46328,1071,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000592l	33001	33001,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000593l	49009	48946,63,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000594l	27301	27301,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000595l	43674	43674,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000596l	40874	40810,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000597l	30588	30588,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000598l	36702	36702,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000599l	84092	84091,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000600l	54440	54440,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000601l	42965	42965,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000602l	31900	25165,0,0,0,0,0,0	6720	|	Daphnia magna	35525	anml:crustaceans	6720	6419	297	|	6669	anml:crustaceans	6720	4196	104	|						|						|	n/a	repeat	anml:crustaceans	21
+ptg000603l	114364	100031,64,0,0,0,0,0	17350	|	Daphnia magna	35525	anml:crustaceans	17350	16600	689	|	6669	anml:crustaceans	17350	11538	334	|						|						|	n/a	repeat	anml:crustaceans	15
+ptg000604l	38327	38327,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000605l	28172	28172,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000606l	14945	14945,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000607l	34160	34096,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000608l	42979	42979,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000609l	78465	72408,0,0,0,0,0,0	6166	|	Daphnia magna	35525	anml:crustaceans	6166	6166	406	|						|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000610l	45490	45490,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000611l	44481	44481,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000612l	30400	30400,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000613l	44317	39780,0,0,0,0,0,0	2951	|	Daphnia magna	35525	anml:crustaceans	2951	2951	173	|						|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000614l	33608	33544,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000615l	77846	77835,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000616l	27928	27920,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000617l	32679	32082,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000618l	65039	58183,0,0,0,0,0,0	8510	|	Daphnia magna	35525	anml:crustaceans	8510	8510	492	|						|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000619l	42263	42263,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000620l	27844	27844,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000621l	34171	33670,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000622l	27518	25919,0,0,0,0,0,0	1501	|	Daphnia magna	35525	anml:crustaceans	1501	1501	163	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000623l	35391	35391,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000624l	23669	23667,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000625l	57967	57966,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000626l	27176	27173,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000627l	77276	72238,0,0,0,0,0,0	5194	|	Daphnia magna	35525	anml:crustaceans	5194	5124	403	|	6669	anml:crustaceans	5194	4469	144	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000628l	38212	37921,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000629l	21896	21896,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000630l	21057	21057,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000631l	25346	25346,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000632l	34017	30832,3185,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000633l	30730	30730,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000634l	51297	51010,75,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000635l	33569	33569,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000636l	92902	92901,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000637l	54500	54499,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000638l	37016	37016,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000639l	73193	66430,133,0,0,0,0,0	7304	|	Daphnia magna	35525	anml:crustaceans	7304	6509	549	|	6669	anml:crustaceans	7304	6198	293	|	1894971	prok:high GC Gram+	203	175	22	|	1896	prok:high GC Gram+	203	156	22	|	n/a	repeat	anml:crustaceans	10
+ptg000640l	28199	28199,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000641l	87343	87343,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000642l	15843	15843,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000643l	30803	30803,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000644l	41748	41748,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000645l	28707	28707,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000646l	34288	33721,0,0,0,0,0,0	411	|	Daphnia magna	35525	anml:crustaceans	411	411	64	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000647l	23475	23440,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000648l	27553	27553,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000649l	76288	76288,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000650l	23132	23094,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000651l	44586	44586,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000652l	40747	40747,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000653l	60992	60992,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000654l	46398	46398,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000655l	40671	39563,496,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000656l	54765	54765,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000657l	87367	87175,192,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000658l	25926	25926,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000659l	94631	91514,130,0,0,0,0,0	3512	|	Daphnia magna	35525	anml:crustaceans	3512	3512	222	|						|						|						|	n/a	repeat	anml:crustaceans	4
+ptg000660l	32809	32809,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000661l	28907	28907,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000662l	28748	28747,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000663l	37850	37452,0,0,0,0,0,0	6491	|	Daphnia magna	35525	anml:crustaceans	6491	6491	350	|						|						|						|	n/a	repeat	anml:crustaceans	17
+ptg000664l	28303	28303,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000665l	62871	62871,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000666l	66640	66640,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000667l	43852	43852,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000668l	26256	26256,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000669l	45816	45752,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000670l	57478	52321,63,0,0,0,0,0	5496	|	Daphnia magna	35525	anml:crustaceans	5496	5496	289	|						|						|						|	n/a	repeat	anml:crustaceans	10
+ptg000671l	100897	100897,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000672l	48161	48161,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000673l	47348	47348,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000674l	38419	4320,985,11140,0,0,0,0	24777	|	Daphnia magna	35525	anml:crustaceans	22795	21919	975	|	7137	anml:insects	19954	16458	756	|	362088	anml:insects	19954	15007	575	|	45954	anml:molluscs	16541	15024	484	|	n/a	primary-div	anml:crustaceans	59
+ptg000675l	44988	6998,903,16560,0,0,0,0	27135	|	Daphnia magna	35525	anml:crustaceans	24023	23237	992	|	7137	anml:insects	19955	16961	767	|	370036	anml:insects	19955	16380	555	|	6579	anml:molluscs	17857	15839	545	|	n/a	primary-div	anml:crustaceans	53
+ptg000676l	46394	0,0,0,0,0,0,0	34223	|	Hydromonas sp.	1910925	prok:b-proteobacteria	30084	15179	849	|	1527608	prok:b-proteobacteria	30084	9715	201	|	1945958	prok:g-proteobacteria	19435	8400	163	|	39765	prok:g-proteobacteria	19435	7925	162	|	n/a	contaminant(div)	prok:b-proteobacteria	65
+ptg000677l	69491	64421,0,0,0,0,0,0	5759	|	Daphnia magna	35525	anml:crustaceans	5759	5248	388	|	6669	anml:crustaceans	5759	5232	253	|						|						|	n/a	repeat	anml:crustaceans	8
+ptg000678l	25725	25725,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000679l	17396	17396,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000680l	76375	75683,0,0,0,0,0,0	718	|	Daphnia magna	35525	anml:crustaceans	718	718	124	|						|						|						|	n/a	repeat	anml:crustaceans	1
+ptg000681l	72938	64178,0,0,0,0,0,0	6811	|	Daphnia magna	35525	anml:crustaceans	6811	5958	243	|	6669	anml:crustaceans	6811	4508	170	|						|						|	n/a	repeat	anml:crustaceans	9
+ptg000682l	17850	16366,0,0,0,0,0,0	1999	|	Daphnia pulex	6669	anml:crustaceans	1999	1872	207	|	35525	anml:crustaceans	1999	1196	189	|						|						|	n/a	repeat	anml:crustaceans	11
+ptg000683l	42433	37769,0,0,0,0,0,0	5315	|	Daphnia magna	35525	anml:crustaceans	5315	5035	479	|	6669	anml:crustaceans	5315	4854	455	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000684l	40688	40688,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000685l	27777	23034,0,0,0,0,0,0	3317	|	Daphnia magna	35525	anml:crustaceans	3317	3317	204	|						|						|						|	n/a	repeat	anml:crustaceans	12
+ptg000686l	29777	3417,780,8660,0,0,0,0	17687	|	Daphnia magna	35525	anml:crustaceans	17301	16735	846	|	7137	anml:insects	14420	12119	641	|	362088	anml:insects	14420	11101	499	|	45954	anml:molluscs	11734	11073	415	|	n/a	primary-div	anml:crustaceans	58
+ptg000687l	20401	14594,0,0,0,0,0,0	6085	|	Daphnia magna	35525	anml:crustaceans	6085	6085	533	|	6669	anml:crustaceans	6085	5743	377	|						|						|	n/a	repeat	anml:crustaceans	30
+ptg000688l	23899	23899,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000689l	41807	35353,70,0,0,0,0,0	7405	|	Daphnia magna	35525	anml:crustaceans	7405	7163	385	|	6669	anml:crustaceans	7405	6523	301	|	48579	fung:basidiomycetes	135	135	14	|	1943633	prok:a-proteobacteria	189	189	14	|	n/a	repeat	anml:crustaceans	18
+ptg000690l	51557	51377,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000691l	42213	42086,127,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000692l	40165	40165,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000693l	31861	29985,310,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000694l	29860	29860,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000695l	24863	24858,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000696l	60821	60821,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000697l	55750	55746,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000698l	95205	84332,382,0,0,0,0,0	11612	|	Daphnia magna	35525	anml:crustaceans	11612	11576	700	|	6669	anml:crustaceans	11612	2790	160	|						|						|	n/a	repeat	anml:crustaceans	12
+ptg000699l	73089	67911,0,0,0,0,0,0	5404	|	Daphnia magna	35525	anml:crustaceans	5404	5294	494	|	6669	anml:crustaceans	5404	1675	128	|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000700l	41132	41132,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000701l	42070	42070,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000702l	39346	39346,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000703l	18874	18874,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000704l	39951	36859,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000705l	24581	24581,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000706l	42927	42927,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000707l	24292	24292,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000708l	84176	84176,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000709l	50886	48313,64,0,0,0,0,0	3547	|	Daphnia magna	35525	anml:crustaceans	3547	3547	206	|						|						|						|	n/a	repeat	anml:crustaceans	7
+ptg000710l	15920	15918,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000711l	36763	32822,64,0,0,0,0,0	4621	|	Daphnia magna	35525	anml:crustaceans	4621	4497	351	|	6669	anml:crustaceans	4621	3025	109	|						|						|	n/a	repeat	anml:crustaceans	13
+ptg000712l	27016	27016,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000713l	22742	22742,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000714l	29660	29660,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000715l	18188	18188,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000716l	26745	21476,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000717l	65482	65482,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000718l	49005	49004,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000719l	14503	14503,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000720l	51208	50965,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000721l	48469	48469,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000722l	36522	36521,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000723l	49350	49350,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000724l	32100	32100,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000725l	59555	59363,192,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000726l	57488	57424,64,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000727l	31947	30461,0,0,0,0,0,0	1921	|	Daphnia magna	35525	anml:crustaceans	1921	1789	133	|	6669	anml:crustaceans	1921	1921	115	|						|						|	n/a	repeat	anml:crustaceans	6
+ptg000728l	34016	34016,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000729l	59145	56812,206,0,0,0,0,0	12155	|	Daphnia magna	35525	anml:crustaceans	12155	12155	303	|						|						|						|	n/a	repeat	anml:crustaceans	21
+ptg000730l	30151	30151,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000731l	44353	44353,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000732l	47789	47789,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000733l	32237	32237,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000734l	30199	30199,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000735l	33010	33010,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000736l	16182	16182,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000737l	22436	22436,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000738l	23126	23126,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000739l	33249	32265,0,0,0,0,0,0	922	|	Daphnia magna	35525	anml:crustaceans	922	922	91	|						|						|						|	n/a	repeat	anml:crustaceans	3
+ptg000740l	25738	25610,128,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000741l	31896	31722,174,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000742l	38494	5127,1199,9740,0,0,0,0	21734	|	Daphnia magna	35525	anml:crustaceans	20478	19617	899	|	7137	anml:insects	16682	13278	695	|	441921	anml:insects	16682	12867	545	|	6579	anml:molluscs	14649	12894	494	|	n/a	primary-div	anml:crustaceans	53
+ptg000743l	35183	29853,0,0,0,0,0,0	7003	|	Daphnia magna	35525	anml:crustaceans	7003	6691	495	|	6669	anml:crustaceans	7003	4454	164	|						|						|	n/a	repeat	anml:crustaceans	20
+ptg000744l	17731	3424,482,3760,0,0,0,0	9880	|	Daphnia magna	35525	anml:crustaceans	8950	8666	600	|	7137	anml:insects	7924	5829	455	|	362088	anml:insects	7924	5607	353	|	6573	anml:molluscs	4516	3021	260	|	n/a	primary-div	anml:crustaceans	50
+ptg000745l	26040	20660,0,0,0,0,0,0	5656	|	Daphnia magna	35525	anml:crustaceans	5656	5656	305	|	6669	anml:crustaceans	5656	4046	108	|						|						|	n/a	repeat	anml:crustaceans	22
+ptg000746l	40384	40384,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000747l	16800	15853,0,0,0,0,0,0	916	|	Daphnia magna	35525	anml:crustaceans	916	916	114	|						|						|						|	n/a	repeat	anml:crustaceans	5
+ptg000748l	33714	33649,65,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000749l	28456	28456,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000750l	19252	19252,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000751l	20867	20867,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000752l	26855	26855,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
+ptg000753l	22283	22283,0,0,0,0,0,0	0	|							|						|						|						|	n/a	repeat	none	0
