@@ -1,4 +1,4 @@
-## assembly
+## assembly (Host: D. pulex)
 
 ### Potential outgroup: Berwaldia schaefernai
 
